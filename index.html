@@ -24,24 +24,24 @@ src="https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2FdawningOfANew
 src="https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2Fexo2Black.typeface.json?1490305922150"></a-asset-item>
         <a-asset-item id="exoItalicFont"
 src="https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2Fexo2BlackItalic.typeface.json?1490305922725"></a-asset-item>
-        <a-asset-item id="bed-obj" src="static/apart.obj">
+        <!-- <a-asset-item id="bed-obj" src="static/apart.obj">
                     </a-asset-item>
         <a-asset-item id="bed-mtl" src="static/apart.mtl">
-                    </a-asset-item>
+                    </a-asset-item> -->
       </a-assets>
 
       <a-entity scale="2 2 2" geometry="primitive: torusKnot" position="0 6 -10" material="color: magenta;
 metalness:1; roughness: 0.1; sphericalEnvMap: #sky;">
         <a-animation easing="linear" attribute="rotation" dur="10000" to="0 0 360" repeat="indefinite"></a-animation>
       </a-entity>
-      <a-entity obj-model="obj: #bed-obj; mtl: #bed-mtl;"
+      <!-- <a-entity obj-model="obj: #bed-obj; mtl: #bed-mtl;"
                   position="-2 5 -7" rotation="0 -180 0">
-              </a-entity>
+              </a-entity> -->
       <a-entity position="-3 1 -6" rotation="5 0 0">
         <a-entity
           rotation="0 0 5"
-          position="0 2 0.2"
-          text-geometry="value: Selamat Datang; font: #dawningFont; bevelEnabled: true; bevelSize: 0.05;
+          position="-1 2 0.2"
+          text-geometry="value: Coming soon; font: #dawningFont; bevelEnabled: true; bevelSize: 0.05;
 bevelThickness: 0.05; curveSegments: 12; size: 1; height: 0;"
           material="color:lavenderblush; metalness:1; roughness: 0; sphericalEnvMap: #pink;"
         ></a-entity>
@@ -50,7 +50,7 @@ bevelThickness: 0.05; curveSegments: 12; size: 1; height: 0;"
 bevelEnabled: true; bevelSize: 0.1; bevelThickness: 0.1; curveSegments: 1; size: 1.5; height: 0.5;"
 material="color:pink; metalness:0.9; roughness: 0.05; sphericalEnvMap: #chrome;"></a-entity>
 
-        <a-entity position="1 0 0.3" text-geometry="value: Gazandi; font: #exoItalicFont; style: italic; size: 0.8;
+        <a-entity position="1 0 0.3" text-geometry="value: WargaIRK; font: #exoItalicFont; style: italic; size: 0.8;
 weight: bold; height: 0;"
                   material="shader: flat; color: white"></a-entity>
         <a-entity position="1 0 0.3" text-geometry="value: Gazandi; font: #exoItalicFont; style: italic; size: 0.8;
