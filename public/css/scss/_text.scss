@@ -1,0 +1,17 @@
+$headings: $h1, $h2, $h3, $h4, $h5, $h6, $h7, $h8, $h9, $h10, $h11, $h12;
+
+@for $i from 1 through length($headings) {
+  .heading-#{$i}{
+    font-size: nth($headings, $i);
+    margin: 0;
+    font-weight: $hreg;
+    color: $text-color-dark;
+  }
+
+  .heading-light-#{$i}{
+    font-size: nth($headings, $i);
+    margin: 0;
+    font-weight: $hreg;
+    color: $text-color-light;
+  }
+}

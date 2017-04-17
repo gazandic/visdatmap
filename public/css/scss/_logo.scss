@@ -1,0 +1,17 @@
+.logo {
+  @include heading-color($h8, $hthin, $logo-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: $logo-margin-top;
+  margin-left: $logo-margin-left;
+  padding: $logo-padding;
+  z-index: 1;
+  background-color: $logo-accent-color;
+  opacity: $logo-opacity;
+  border-radius: $logo-border-radius;
+}
+
+.logo span{
+  font-weight: 700;
+}
