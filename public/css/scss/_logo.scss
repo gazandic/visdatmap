@@ -1,9 +1,9 @@
 .logo {
   @include heading-color($h8, $hthin, $logo-color);
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
-  margin-bottom: $logo-margin-top;
+  margin-top: $logo-margin-top;
   margin-left: $logo-margin-left;
   padding: $logo-padding;
   z-index: 1;

@@ -1,4 +1,6 @@
-var map = L.map('map').setView([-1, 127], 5);
+var map = L.map('map',{
+  zoomControl:false
+}).setView([-1, 117], 5);
   var maptoken = 'pk.eyJ1IjoiZ2F6YW5kaWMiLCJhIjoiY2oxZjZzc2w2MDA5dzMzb2R3dThtaXlodSJ9.sef3PR-AHDUuzJ9jgVy1WQ';
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token='+maptoken, {
     maxZoom: 18,
@@ -6,6 +8,11 @@ var map = L.map('map').setView([-1, 127], 5);
       '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
       'Imagery © <a href="http://mapbox.com">Mapbox</a>',
     id: 'mapbox.light'
+  }).addTo(map);
+
+  // Add zoom control
+  L.control.zoom({
+    position:'bottomleft'
   }).addTo(map);
 
 
@@ -24,7 +31,7 @@ var map = L.map('map').setView([-1, 127], 5);
       : 'Hover over a state');
   };
 
-  info.addTo(map);
+  // info.addTo(map);
 
 
   // get color depending on population density value
@@ -116,4 +123,4 @@ var map = L.map('map').setView([-1, 127], 5);
     return div;
   };
 
-  legend.addTo(map);
+  // legend.addTo(map);
