@@ -1,5 +1,5 @@
 .logo {
-  @include heading-color($h6, $hthin, $logo-color);
+  @include heading-color($h5, $hthin, $logo-color);
   position: absolute;
   top: 0;
   left: 0;
@@ -7,9 +7,15 @@
   margin-left: $logo-margin-left;
   padding: $logo-padding;
   z-index: 1;
-  background-color: $logo-accent-color;
+  // background-color: $logo-accent-color;
   opacity: $logo-opacity;
-  border-radius: $logo-border-radius;
+  // border-radius: $logo-border-radius;
+  background: url(../image/clearwater.jpg) no-repeat;
+  background-size: 170px; 
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $black;    
 }
 
 .logo span{
