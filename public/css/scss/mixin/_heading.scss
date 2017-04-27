@@ -1,18 +1,18 @@
-@mixin heading-light($heading:$h10, $weight:hreg){
+@mixin heading-light($heading:$h8, $weight:hreg){
   font-size: $heading;
   font-weight: $weight;
   color: $text-color-light;
   margin: 0;
 }
 
-@mixin heading-dark($heading:$h10, $weight:hreg){
+@mixin heading-dark($heading:$h8, $weight:hreg){
   font-size: $heading;
   font-weight: $weight;
   color: $text-color-dark;
   margin: 0;
 }
 
-@mixin heading-color($heading:$h10, $weight:hreg, $color:$text-color-dark){
+@mixin heading-color($heading:$h8, $weight:hreg, $color:$text-color-dark){
   font-size: $heading;
   font-weight: $weight;
   color: $color;

@@ -7,15 +7,15 @@
   margin-left: $logo-margin-left;
   padding: $logo-padding;
   z-index: 1;
-  // background-color: $logo-accent-color;
+  background-color: $logo-accent-color;
   opacity: $logo-opacity;
-  // border-radius: $logo-border-radius;
-  background: url(../image/clearwater.jpg) no-repeat;
-  background-size: 170px; 
+  border-radius: $logo-border-radius;
+  // background: url(../image/colorsky.gif) no-repeat;
+  // background-size: 170px; 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: $black;    
+  // -webkit-text-stroke-width: 1px;
+  // -webkit-text-stroke-color: $white;    
 }
 
 .logo span{

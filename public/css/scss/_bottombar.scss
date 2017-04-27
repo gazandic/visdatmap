@@ -1,0 +1,30 @@
+.bottombar{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 120px;
+  background-color: rgba(255,255,255,0.95);
+
+  &__title{
+    @include heading-color($h6, $hthin, $black);
+    padding: $logo-padding;
+    margin-left: $logo-margin-left;
+    margin-top: $logo-margin-top;
+  }
+}
+
+.bahasabox{
+  margin-top: 10px;
+  text-align: center;
+
+  &__img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+  &__title{
+    @include heading-color($h6, $hthin, $black);
+  }
+}

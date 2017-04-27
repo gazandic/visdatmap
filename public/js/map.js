@@ -33,7 +33,7 @@ var map = L.map('map',{
       : 'Hover over a state');
   };
 
-  // info.addTo(map);
+  info.addTo(map);
 
 
   // get color depending on population density value

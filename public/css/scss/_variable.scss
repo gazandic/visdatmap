@@ -1,16 +1,15 @@
 // Web Typography Definition
-$h1: 80px;
-$h2: 64px;
-$h3: 48px;
-$h4: 36px;
-$h5: 28px;
-$h6: 24px;
-$h7: 18px;
-$h8: 16px;
-$h9: 14px;
-$h10: 12px;
-$h11: 10px;
-$h12: 8px;
+
+$h1: 48px;
+$h2: 36px;
+$h3: 28px;
+$h4: 24px;
+$h5: 18px;
+$h6: 16px;
+$h7: 14px;
+$h8: 12px;
+$h9: 10px;
+$h10: 8px;
 
 $hthin: 300;
 $hreg: 400;
@@ -28,7 +27,7 @@ $logo-border-radius: 3px;
 $sidebar-width: 30%;
 $sidebar-opacity: 0.9;
 
-  $sidebar-top-height: 64px;
+  $sidebar-top-height: 45px;
   $sidebar-top-button-width: 20%;
   $sidebar-top-radius: 10px;
   $sidebar-top-margin-bottom: 12px;
@@ -40,8 +39,8 @@ $sidebar-opacity: 0.9;
   $sidebar-activeicon-font-size: $h6;
   $sidebar-activeicon-font-weight: 700;
 
-  $sidebar-content-head-padding-top: 32px;
-  $sidebar-content-head-padding-left: 32px;
+  $sidebar-content-head-padding-top: 24px;
+  $sidebar-content-head-padding-left: 24px;
   $sidebar-content-head-height: 300px;
 
   $sidebar-padding: 12px;

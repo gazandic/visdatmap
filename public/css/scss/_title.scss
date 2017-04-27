@@ -1,0 +1,21 @@
+.title-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 100px;  
+  margin-left: $logo-margin-left;
+  z-index: 1;
+}
+
+.title{
+  @include heading-color($h4, $hreg, $amber);
+  padding: $logo-padding;
+  text-shadow: 0px 0px 10px $deep-orange;
+}
+
+.subtitle{
+  @include heading-color($h6, $hreg, $black);
+  padding: $logo-padding;
+  text-shadow: 0 0 10px $black;
+  max-width: 25%;
+}
