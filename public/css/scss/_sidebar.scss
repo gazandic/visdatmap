@@ -16,6 +16,7 @@ body {
   height: 100%;
   width: $sidebar-width;
   z-index: 2;
+  padding: $sidebar-padding;
 
   &__background{
     background-color: $background-color;
@@ -27,7 +28,10 @@ body {
     position: relative;
     width: 100%;
     height: $sidebar-top-height;
-    border-bottom: 1px solid $border-color-light;
+    background-color: $white;
+    border-radius: $sidebar-top-radius;
+    margin-bottom: $sidebar-top-margin-bottom;
+    opacity: 0.9;
 
     &__button{
       display: inline-block;
@@ -63,12 +67,16 @@ body {
   }
 
   &__content{
+    background-color: $white;
+    border-radius: $sidebar-top-radius;
+    opacity: 0.9;
 
     &__head{
       padding-top: $sidebar-content-head-padding-top;
       padding-left: $sidebar-content-head-padding-left;
       width: 100%;
       min-height: $sidebar-content-head-height;
+      text-align: center;
 
       &__title{
         @include heading-dark($h5, $hreg);

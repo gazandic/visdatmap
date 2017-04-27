@@ -10,6 +10,8 @@ var map = L.map('map',{
     id: 'mapbox.light'
   }).addTo(map);
 
+  L.tileLayer.provider('Esri.NatGeoWorldMap').addTo(map);
+
   // Add zoom control
   L.control.zoom({
     position:'bottomleft'

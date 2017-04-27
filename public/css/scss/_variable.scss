@@ -22,7 +22,7 @@ $map-width: 100%;
 $logo-margin-top: 10px;
 $logo-margin-left: 10px;
 $logo-padding: 1px 10px 4px 10px;
-$logo-opacity: 0.75;
+$logo-opacity: 0.9;
 $logo-border-radius: 3px;
 
 $sidebar-width: 30%;
@@ -30,6 +30,8 @@ $sidebar-opacity: 0.9;
 
   $sidebar-top-height: 64px;
   $sidebar-top-button-width: 20%;
+  $sidebar-top-radius: 10px;
+  $sidebar-top-margin-bottom: 12px;
 
   $sidebar-icon-font-size: $h6;
   $sidebar-icon-color: $icon-color-light;
@@ -38,6 +40,8 @@ $sidebar-opacity: 0.9;
   $sidebar-activeicon-font-size: $h6;
   $sidebar-activeicon-font-weight: 700;
 
-  $sidebar-content-head-padding-top: 16px;
+  $sidebar-content-head-padding-top: 32px;
   $sidebar-content-head-padding-left: 32px;
   $sidebar-content-head-height: 300px;
+
+  $sidebar-padding: 12px;
