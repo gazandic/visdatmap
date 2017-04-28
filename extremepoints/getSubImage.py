@@ -3,7 +3,10 @@ import numpy as np
 import argparse
 import imutils
 import cv2
+import json
 from random import randint
+from ImageProcessor import ImageProcessor
+from PIL import Image
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
@@ -109,7 +112,11 @@ boundaries = [
 # loop over the boundaries
 i = 0
 lirow = []
+with open('bahasaindexed.json') as json_data:
+    databahasa = json.load(json_data)
+features = []
 allstart = "var statesData = {\"type\":\"FeatureCollection\",\"features\":"
+IP = ImageProcessor()
 for (lower, upper) in boundaries:
 	i = i + 1
 	# creat e NumPy arrays from the boundaries
@@ -148,24 +155,68 @@ for (lower, upper) in boundaries:
 	li = []
 	idx = str(i)
 	density = str(randint(0,100))
-	start = "{\"type\":\"Feature\",\"id\":"+idx+",\"properties\":{\"name\":"+idx+",\"hexa\":\""+hexa+"\",\"density\":"+density+"},\"geometry\":{\"type\":\"MultiPolygon\",\"coordinates\":["
 	for shape in cnts:
 		j += 1
+		ji = str(j)
+		name = idx+" "+ji
+		start = "{\"type\":\"Feature\",\"id\":\""+name+"\",\"properties\":{\"name\":\""+name+"\",\"hexa\":\""+hexa+"\",\"density\":"+density+"},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":["
 		lis = []
 		# print(j)
+		maxleft = width
+		maxright = 0
+		maxbot = 0
+		maxtop = height
 		for point in shape:
 			if point[0][0] > width-650 and point[0][1] < 600:
 				continue
-			latitude =  minLat + (float(point[0][1]) * latRange / height)
-			longitude = minLong + (float(point[0][0]) * longRange / width)
+			lati = point[0][1]
+			longi = point[0][0]
+			if (longi < maxleft): maxleft = longi
+			if (longi > maxright): maxright = longi
+			if (lati < maxtop): maxtop = lati
+			if (lati > maxbot): maxbot = lati
+			lati = (float(point[0][1]))
+			longi = (float(point[0][0]))
+			latitude =  minLat + (lati * latRange / height)
+			longitude = minLong + (longi * longRange / width)
 			xy = [longitude, latitude]
 			lis.append(xy)
-		li.append(lis)
+
+		# li.append(lis)
+		row = str(start+str(lis)+"]}}")
+		coordinates = lis
+		lirow.append(row)
+		data = {}
+		# if (maxtop < height or maxbot > 0) and (maxleft < width or maxright > 0):
+		# 	cropped = output[maxtop-30:maxbot+30,maxleft-30:maxright+30]
+		# 	crop = Image.fromarray(cropped.astype('uint8'), 'RGB')
+		# 	crop.save('lol'+name+'.png')
+		# 	i = 3
+		# 	found = False
+		# 	while i < 3.18 and not found:
+		# 		i+=0.01
+		# 		s = IP.process_image(crop,i)
+		# 		listofstr = s.split()
+		# 		print(s)
+		# 		if listofstr == []:
+		# 			break
+		# 		for stri in listofstr:
+		# 			st = ' '.join(word[0].upper() + word[1:] for word in stri.split())
+		# 			if (s in databahasa):
+		# 			    name = str(databahasa[s]['name'])
+		# 			    data = databahasa[s]
+		# 			    found = True
+		# 			    break
+		startjson = {"type" : "Feature", "id":name, "properties":{"name": name, "hexa":hexa, "density":density},"geometry":{"type":"Polygon","coordinates":coordinates}}
+		features.append(startjson)
 #
-	row = str(start+str(li)+"]}}")
-	lirow.append(row)
 lir = str(lirow).replace('\'','')
 files = allstart+lir+"};"
 file = open("indonesianstate.js", 'w')
 file.write(files)
 file.close()
+
+# allstart2 = {"type":"FeatureCollection","features":features}
+# with open('indonesianstate2.js', 'w') as outfile:
+# 	outfile.write("var statesData = ")
+# 	json.dump(allstart2, outfile)
