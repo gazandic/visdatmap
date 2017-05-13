@@ -1,13 +1,12 @@
 import json
 
-with open('bahasaindexed.json') as json_data2:
-    jsond = json.load(json_data2)
-with open('indonesianstate2.js') as json_data:
-    data = json.load(json_data)
-for feature in data['features']:
-    s = feature['id']
-    s = ' '.join(word[0].upper() + word[1:] for word in s.split())
-    print(s)
-    if (s in jsond):
-        print(data[s])
+finaldata = {}
+with open('bahasa.json') as json_data:
+    database = json.load(json_data)
+    for data in database:
+        s = data['code']
+        finaldata[s] = data
+
+    with open('bahasaindexed.json', 'w') as bahasajson:
+        json.dump(finaldata, bahasajson)
 # s = 'putoh'

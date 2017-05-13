@@ -28,8 +28,19 @@ var map = L.map('map',{
   };
 
   info.update = function (props) {
+    var name = ''
+    if (props) {
+      name = props.name;
+      if (props.name in indexmalukuPapua) {
+        var liname = indexmalukuPapua[props.name]['data'];
+        name = '';
+        for (var i in liname) {
+          name += bahasa[liname[i]]['name'] + ' - ';
+        }
+      }
+    }
     this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
-      '<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>'
+      '<b>' + name + '</b><br />' + props.density + ' people / mi<sup>2</sup>'
       : 'Hover over a state');
   };
 
