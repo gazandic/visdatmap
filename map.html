@@ -193,8 +193,8 @@
     </div>
   </div> -->
 
-	<script type="text/javascript" src="js/hasilmalukuPapua.js"></script>
-	<script type="text/javascript" src="js/hasilReversemalukuPapua.js"></script>
+	<script type="text/javascript" src="js/indexCode.js"></script>
+	<script type="text/javascript" src="js/indexReverse.js"></script>
 	<script type="text/javascript" src="js/leaflet-search.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easy-autocomplete.min.js"></script>
 	<script type="text/javascript" src="js/bahasaindexed.js"></script>
@@ -203,6 +203,15 @@
   <script type="text/javascript" src="js/ui.js"></script>
 	<script type="text/javascript" src="js/map.js"></script>
 	<script>
+	  var treeJson;
+		$.getJSON("js/treebahasa.json", function(json) {
+			treeJson = json;
+			var keys = Object.keys(treeJson);
+			var count = keys.length;
+
+			alert(count);
+			alert(keys);
+		});
 		$(".leaflet-control-search").hide();
 		var options = {
 			url: "js/bahasa.json",
@@ -212,7 +221,7 @@
 				sort: {enabled: true},
 				onSelectItemEvent: function() {
 					var value = $("#provider-file").getSelectedItemData().code;
-					var name = indexReversemalukuPapua[value]['_id'];
+					var name = indexReverse[value]['_id'];
 					searchControl.searchText(name);
 					setTimeout(searchControl._handleKeypress({ keyCode: 13 }), 500);
 					searchControl.searchText("");
@@ -221,6 +230,7 @@
 		};
 
 		$("#provider-file").easyAutocomplete(options);
+
 	</script>
 
 

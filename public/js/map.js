@@ -78,8 +78,8 @@ var map = L.map('map',{
     var location = ''
     if (props) {
       name = props.name;
-      if (props.name in indexmalukuPapua) {
-        var liname = indexmalukuPapua[props.name]['data'];
+      if (props.name in indexCode) {
+        var liname = indexCode[props.name]['data'];
         name = '';
         population = '';
         location = ''
