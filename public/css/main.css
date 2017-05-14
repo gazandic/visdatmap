@@ -1080,6 +1080,9 @@ body {
   bottom: 0;
   width: 100%; }
 
+.langbox {
+  margin: 15px 0; }
+
 .sidebar {
   position: absolute;
   right: 0;
@@ -1096,7 +1099,6 @@ body {
     width: 100%;
     height: 45px;
     background-color: #FFFFFF;
-    border-radius: 10px;
     margin-bottom: 12px;
     opacity: 0.9; }
     .sidebar__top__button {
@@ -1108,6 +1110,9 @@ body {
     display: table;
     height: 100%;
     width: 100%; }
+    .sidebar__icon :hover {
+      cursor: pointer;
+      background-color: #EEE; }
     .sidebar__icon__inner {
       display: table-cell;
       vertical-align: middle;
@@ -1131,6 +1136,7 @@ body {
     .sidebar__content__head {
       padding-top: 24px;
       padding-left: 24px;
+      padding-right: 24px;
       width: 100%;
       min-height: 300px;
       text-align: center; }
@@ -1217,8 +1223,5 @@ body {
 
 .leaflet-map-pane {
   z-index: 0; }
-
-.leaflet-bottom {
-  bottom: 120px; }
 
 /*# sourceMappingURL=main.css.map */

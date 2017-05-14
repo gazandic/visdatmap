@@ -4,10 +4,14 @@ body {
 }
 
 #map {
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
+  position: absolute;
+  top: 0;
+  bottom: 0;
   width: $map-width;
+}
+
+.langbox{
+  margin: 15px 0;
 }
 
 .sidebar{
@@ -29,7 +33,6 @@ body {
     width: 100%;
     height: $sidebar-top-height;
     background-color: $white;
-    border-radius: $sidebar-top-radius;
     margin-bottom: $sidebar-top-margin-bottom;
     opacity: 0.9;
 
@@ -45,6 +48,11 @@ body {
     display: table;
     height: 100%;
     width: 100%;
+
+    :hover{
+      cursor: pointer;
+      background-color: #EEE;
+    }
 
     &__inner{
       display: table-cell;
@@ -74,6 +82,7 @@ body {
     &__head{
       padding-top: $sidebar-content-head-padding-top;
       padding-left: $sidebar-content-head-padding-left;
+      padding-right: $sidebar-content-head-padding-left;
       width: 100%;
       min-height: $sidebar-content-head-height;
       text-align: center;
@@ -81,6 +90,6 @@ body {
       &__title{
         @include heading-dark($h5, $hreg);
       }
-    } 
+    }
   }
 }
