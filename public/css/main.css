@@ -1097,6 +1097,28 @@ body {
     background-color: #FFFFFF;
     opacity: 0.9;
     z-index: 1; }
+  .sidebar__info {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    margin-bottom: 12px;
+    opacity: 0.9; }
+    .sidebar__info__title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #333333;
+      margin: 0; }
+    .sidebar__info__subtitle {
+      font-size: 12px;
+      font-weight: 400;
+      color: #999;
+      margin: 0; }
+    .sidebar__info__text {
+      font-size: 12px;
+      font-weight: 400;
+      color: #333333;
+      margin: 0; }
   .sidebar__top {
     position: relative;
     width: 100%;
