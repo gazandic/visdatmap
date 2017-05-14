@@ -13,4 +13,8 @@ app.get('/vr', function (req, res) {
   res.sendFile(path.join(__dirname+'/index.html'));
 })
 
+app.get('/tree', function (req, res) {
+  res.sendFile(path.join(__dirname+'/cobatree.html'));
+})
+
 app.listen(process.env.PORT || 3000);
