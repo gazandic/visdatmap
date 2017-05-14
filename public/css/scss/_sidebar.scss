@@ -14,6 +14,10 @@ body {
   margin: 15px 0;
 }
 
+#langbar{
+  display: none;
+}
+
 .sidebar{
   position: absolute;
   right: 0;
@@ -28,19 +32,88 @@ body {
     z-index: 1;
   }
 
+  &__info{
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    background-color: $white;
+    margin-bottom: $sidebar-top-margin-bottom;
+    opacity: 0.95;
+
+    &__title{
+      @include heading-dark($h6, $hbold);
+    }
+    &__subtitle{
+      display: flex;
+      align-items: center;
+
+      @include heading-color($h8, $hreg, #999);
+
+      i {
+        font-size: 18px;
+      }
+    }
+    &__text{
+      display: flex;
+      align-items: flex-start;
+
+      @include heading-dark($h8, $hreg);
+      i {
+        font-size: 18px;
+      }
+    }
+  }
+
   &__top{
     position: relative;
     width: 100%;
     height: $sidebar-top-height;
     background-color: $white;
-    margin-bottom: $sidebar-top-margin-bottom;
-    opacity: 0.9;
+    opacity: 0.95;
+    z-index: 3;
 
     &__button{
       display: inline-block;
       width: $sidebar-top-button-width;
       height: 100%;
       margin-right: -4px;
+    }
+  }
+
+  &__search{
+    display: none;
+    position: relative;
+    width: 100%;
+    background-color: $white;
+    opacity: 0.95;
+    padding: 5px 15px;
+    padding-bottom: 10px;
+    z-index: 2;
+
+    &.active{
+      display: block;
+    }
+
+    .easy-autocomplete{
+      width: 100% !important;
+      display: inline;
+
+      input{
+        width: 100%;
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: #ddd;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+          color: #ddd;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+          color: #ddd;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+          color: #ddd;
+        }
+      }
     }
   }
 
@@ -76,8 +149,14 @@ body {
 
   &__content{
     background-color: $white;
-    border-radius: $sidebar-top-radius;
-    opacity: 0.9;
+    // border-radius: $sidebar-top-radius;
+    opacity: 0.95;
+    display: none;
+    margin-top: $sidebar-top-margin-bottom;
+
+    &.active{
+      display: block !important;
+    }
 
     &__head{
       padding-top: $sidebar-content-head-padding-top;

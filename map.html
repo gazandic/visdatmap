@@ -32,6 +32,15 @@
     <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime in, sit, id dicta quas doloribus consequuntur. Facilis, necessitatibus vitae veniam modi, sit corporis unde, quasi eum a repellendus sint suscipit!</div>
   </div> -->
 	<div class="sidebar">
+    <div id="sidebarInfo" class="sidebar__info">
+      <div class="sidebar__info__title">
+      </div>
+      <div class="sidebar__info__subtitle">
+        <i class="material-icons">info</i> &nbsp Hover map to get information.
+      </div>
+      <div class="sidebar__info__text">
+      </div>
+    </div>
     <div class="sidebar__top">
      <div class="sidebar__top__button">
       <div id="homebtn" class="sidebar__icon">
@@ -61,12 +70,36 @@
         </div>
       </div>
      </div>
+     <div class="sidebar__top__button">
+      <div id="searchbtn" class="sidebar__icon">
+        <div class="sidebar__icon__inner">
+          <i class="material-icons">search</i>
+        </div>
+      </div>
+     </div>
     </div>
-    <div class="sidebar__content bg"></div>
-    <div class="sidebar__content">
+    <div id="searchbar" class="sidebar__search">
+      <input id="provider-file" placeholder="Search Bahasa"/>
+    </div>
+    <!-- <div class="sidebar__content bg"></div> -->
+    <div id="homebar" class="sidebar__content active">
+      <div class="sidebar__content__head">
+        <h1 class="sidebar__content__head__title">Home</h1>
+      </div>
+    </div>
+    <div id="langbar" class="sidebar__content">
       <div class="sidebar__content__head">
         <h1 class="sidebar__content__head__title">Bahasa Sunda</h1>
-				<input id="provider-file" />
+      </div>
+    </div>
+    <div id="statbar" class="sidebar__content">
+      <div class="sidebar__content__head">
+        <h1 class="sidebar__content__head__title">Statistics</h1>
+      </div>
+    </div>
+    <div id="setbar" class="sidebar__content">
+      <div class="sidebar__content__head">
+        <h1 class="sidebar__content__head__title">Settings</h1>
       </div>
     </div>
   </div>

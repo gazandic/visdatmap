@@ -1,3 +1,12 @@
+$.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+    }
+});
+
 var map = L.map('map',{
   zoomControl:false
 }).setView([-1, 117], 5);
@@ -29,22 +38,39 @@ var map = L.map('map',{
 
   info.update = function (props) {
     var name = ''
+    var population = ''
+    var location = ''
     if (props) {
       name = props.name;
       if (props.name in indexmalukuPapua) {
         var liname = indexmalukuPapua[props.name]['data'];
         name = '';
+        population = '';
+        location = ''
         for (var i in liname) {
-          name += bahasa[liname[i]]['name'] + ' - ';
+          name += bahasa[liname[i]]['name'];
+          population += bahasa[liname[i]]['population'];
+          location += bahasa[liname[i]]['location'];
+          break;
         }
       }
     }
-    this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
-      '<b>' + name + '</b><br />' + props.density + ' people / mi<sup>2</sup>'
-      : 'Hover over a state');
+    if (name!=''){
+      $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location).animateCss('fadeIn');
+      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population).animateCss('fadeIn');
+      $('#sidebarInfo').find('.sidebar__info__title').html(name).animateCss('fadeIn');
+    }else{
+      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">info &nbsp</i>Hover map to get information.').animateCss('fadeIn');
+      $('#sidebarInfo').find('.sidebar__info__text').html('');
+      $('#sidebarInfo').find('.sidebar__info__title').html('');
+    }
+
+    // this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
+    //   '<b>' + name + '</b><br />' + props.density + ' people / mi<sup>2</sup>'
+    //   : 'Hover over a state');
   };
 
-  info.addTo(map);
+  // info.addTo(map);
 
 
   // get color depending on population density value
