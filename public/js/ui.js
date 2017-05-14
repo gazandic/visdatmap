@@ -3,10 +3,15 @@ function hideAllBar(){
   $('#langbar').removeClass('active');
   $('#statbar').removeClass('active');
   $('#setbar').removeClass('active');
+  hideActiveButton();
+}
+
+function hideActiveButton(){
   $('#homebtn').children().removeClass('active');
   $('#langbtn').children().removeClass('active');
   $('#statbtn').children().removeClass('active');
   $('#setbtn').children().removeClass('active');
+  $('#searchbtn').children().removeClass('active');
 }
 
 $('#homebtn').click(function(){
@@ -30,5 +35,10 @@ $('#statbtn').click(function(){
 $('#setbtn').click(function(){
   hideAllBar();
   $('#setbar').addClass('active');
+  $(this).children().addClass('active');
+});
+
+$('#searchbtn').click(function(){
+  hideActiveButton();
   $(this).children().addClass('active');
 });

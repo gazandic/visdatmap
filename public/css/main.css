@@ -2095,13 +2095,22 @@ body {
     width: 100%;
     height: 45px;
     background-color: #FFFFFF;
-    margin-bottom: 12px;
     opacity: 0.9; }
     .sidebar__top__button {
       display: inline-block;
       width: 20%;
       height: 100%;
       margin-right: -4px; }
+  .sidebar__search {
+    position: relative;
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    padding: 5px 15px;
+    z-index: 2; }
+    .sidebar__search input {
+      width: 100%; }
   .sidebar__icon {
     display: table;
     height: 100%;
