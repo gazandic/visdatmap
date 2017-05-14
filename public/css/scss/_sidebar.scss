@@ -21,7 +21,6 @@ body {
 .sidebar{
   position: absolute;
   right: 0;
-  height: 100%;
   width: $sidebar-width;
   z-index: 2;
   padding: $sidebar-padding;
@@ -162,13 +161,65 @@ body {
       padding-top: $sidebar-content-head-padding-top;
       padding-left: $sidebar-content-head-padding-left;
       padding-right: $sidebar-content-head-padding-left;
+      padding-bottom: $sidebar-content-head-padding-top;
       width: 100%;
-      min-height: $sidebar-content-head-height;
       text-align: center;
+      background-color: #3F51B5;
 
       &__title{
-        @include heading-dark($h5, $hreg);
+        @include heading-color($h5, $hreg, $white);
       }
+    }
+
+    &__subtitle{
+      padding-top: $sidebar-content-head-padding-top;
+      padding-left: $sidebar-content-head-padding-left;
+      padding-right: $sidebar-content-head-padding-left;
+
+      @include heading-color($h8, $hreg, #999);
+
+      i{
+        font-size: 18px;
+      }
+
+      &__population{
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+      }
+
+      &__location{
+        padding: 5px 0;
+        display: flex;
+        align-items: flex-start;
+      }
+    }
+
+    &__text{
+      padding-top: $sidebar-content-head-padding-top;
+      padding-left: $sidebar-content-head-padding-left;
+      padding-right: $sidebar-content-head-padding-left;
+      padding-bottom: $sidebar-content-head-padding-top;
+
+      @include heading-color($h8, $hreg, #999);
+
+      i{
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__closebar{
+    position: relative;
+    width: 100%;
+    background-color: $white;
+    text-align: center;
+    border-top: 1px solid #F5F5F5;
+    opacity: 0.95;
+
+    &:hover{
+      cursor: pointer;
+      background-color: #F5F5F5;
     }
   }
 }

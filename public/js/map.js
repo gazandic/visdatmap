@@ -1,3 +1,6 @@
+var clickedBorderColor = '#3F51B5';
+var hoverBorderColor = '#0091EA'
+
 $.fn.extend({
     animateCss: function (animationName) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -26,7 +29,6 @@ var map = L.map('map',{
     position:'bottomleft'
   }).addTo(map);
 
-
   // control that shows state info on hover
   var info = L.control();
 
@@ -35,6 +37,40 @@ var map = L.map('map',{
     this.update();
     return this._div;
   };
+
+  info.onclick = function(target){
+    var props = target.feature.properties;
+
+    target.setStyle({
+      weight: 5,
+      color: clickedBorderColor,
+      fillColor: clickedBorderColor,
+      dashArray: '',
+      fillOpacity: 1
+    });
+
+    var name = '';
+    var population = '';
+    var location = '';
+    if (props) {
+      name = props.name;
+      if (props.name in indexmalukuPapua) {
+        var liname = indexmalukuPapua[props.name]['data'];
+        name = '';
+        population = '';
+        location = ''
+        for (var i in liname) {
+          name += bahasa[liname[i]]['name'];
+          population += bahasa[liname[i]]['population'];
+          location += bahasa[liname[i]]['location'];
+          break;
+        }
+      }
+    }
+    $('#homebar').find('.sidebar__content__head__title').html(name);
+    $('#homebar').find('.sidebar__content__subtitle__population').html('<i class="material-icons">person &nbsp</i>'+population);
+    $('#homebar').find('.sidebar__content__subtitle__location').html('<i class="material-icons">location_on &nbsp</i>'+location);
+  }
 
   info.update = function (props) {
     var name = ''
@@ -97,17 +133,20 @@ var map = L.map('map',{
   }
 
   function highlightFromLayer(layer) {
+    if(layer.options.color!=clickedBorderColor){
       layer.setStyle({
         weight: 2,
-        color: '#666',
+        color: hoverBorderColor,
         dashArray: '',
-        fillOpacity: 0.7
+        fillOpacity: 1
       });
+    }
 
-      if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-        layer.bringToFront();
-      }
-      info.update(layer.feature.properties);
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+      layer.bringToFront();
+    }
+
+    info.update(layer.feature.properties);
   }
 
   function highlightFeature(e) {
@@ -118,12 +157,21 @@ var map = L.map('map',{
   var geojson;
 
   function resetHighlight(e) {
-    geojson.resetStyle(e.target);
+    // console.log(e.target.options.color);
+    if(e.target.options.color!=clickedBorderColor){
+      geojson.resetStyle(e.target);
+    }
     info.update();
   }
 
+  var selected;
   function zoomToFeature(e) {
     map.fitBounds(e.target.getBounds());
+    if(selected){
+      geojson.resetStyle(selected);
+    }
+    info.onclick(e.target, selected);
+    selected = e.target;
   }
 
   function onEachFeature(feature, layer) {
@@ -159,27 +207,3 @@ var map = L.map('map',{
 	});
 
   map.addControl(searchControl);
-
-  var legend = L.control({position: 'bottomright'});
-
-  legend.onAdd = function (map) {
-
-    var div = L.DomUtil.create('div', 'info legend'),
-      grades = [0, 10, 20, 50, 100, 200, 500, 1000],
-      labels = [],
-      from, to;
-
-    for (var i = 0; i < grades.length; i++) {
-      from = grades[i];
-      to = grades[i + 1];
-
-      labels.push(
-        '<i style="background:' + getColor(from + 1) + '"></i> ' +
-        from + (to ? '&ndash;' + to : '+'));
-    }
-
-    div.innerHTML = labels.join('<br>');
-    return div;
-  };
-
-  // legend.addTo(map);
