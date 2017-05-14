@@ -1,3 +1,12 @@
+$.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+    }
+});
+
 var map = L.map('map',{
   zoomControl:false
 }).setView([-1, 117], 5);
@@ -47,11 +56,11 @@ var map = L.map('map',{
       }
     }
     if (name!=''){
-      $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location);
-      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population);
-      $('#sidebarInfo').find('.sidebar__info__title').html(name);
+      $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location).animateCss('fadeIn');
+      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population).animateCss('fadeIn');
+      $('#sidebarInfo').find('.sidebar__info__title').html(name).animateCss('fadeIn');
     }else{
-      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">info &nbsp</i>Hover map to get information.');
+      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">info &nbsp</i>Hover map to get information.').animateCss('fadeIn');
       $('#sidebarInfo').find('.sidebar__info__text').html('');
       $('#sidebarInfo').find('.sidebar__info__title').html('');
     }
