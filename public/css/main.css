@@ -1083,6 +1083,9 @@ body {
 .langbox {
   margin: 15px 0; }
 
+#langbar {
+  display: none; }
+
 .sidebar {
   position: absolute;
   right: 0;
@@ -1131,8 +1134,10 @@ body {
       margin: 0; }
   .sidebar__content {
     background-color: #FFFFFF;
-    border-radius: 10px;
-    opacity: 0.9; }
+    opacity: 0.9;
+    display: none; }
+    .sidebar__content.active {
+      display: block !important; }
     .sidebar__content__head {
       padding-top: 24px;
       padding-left: 24px;

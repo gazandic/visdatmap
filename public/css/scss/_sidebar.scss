@@ -14,6 +14,10 @@ body {
   margin: 15px 0;
 }
 
+#langbar{
+  display: none;
+}
+
 .sidebar{
   position: absolute;
   right: 0;
@@ -76,8 +80,13 @@ body {
 
   &__content{
     background-color: $white;
-    border-radius: $sidebar-top-radius;
+    // border-radius: $sidebar-top-radius;
     opacity: 0.9;
+    display: none;
+
+    &.active{
+      display: block !important;
+    }
 
     &__head{
       padding-top: $sidebar-content-head-padding-top;
