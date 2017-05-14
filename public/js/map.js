@@ -47,9 +47,13 @@ var map = L.map('map',{
       }
     }
     if (name!=''){
-      $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on</i> '+location);
-      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person</i> '+population);
+      $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location);
+      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population);
       $('#sidebarInfo').find('.sidebar__info__title').html(name);
+    }else{
+      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">info &nbsp</i>Hover map to get information.');
+      $('#sidebarInfo').find('.sidebar__info__text').html('');
+      $('#sidebarInfo').find('.sidebar__info__title').html('');
     }
 
     // this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
