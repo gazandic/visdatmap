@@ -38,7 +38,7 @@ body {
     padding: 15px;
     background-color: $white;
     margin-bottom: $sidebar-top-margin-bottom;
-    opacity: 0.9;
+    opacity: 0.95;
 
     &__title{
       @include heading-dark($h6, $hbold);
@@ -69,7 +69,8 @@ body {
     width: 100%;
     height: $sidebar-top-height;
     background-color: $white;
-    opacity: 0.9;
+    opacity: 0.95;
+    z-index: 3;
 
     &__button{
       display: inline-block;
@@ -80,16 +81,39 @@ body {
   }
 
   &__search{
+    display: none;
     position: relative;
     width: 100%;
-    margin-bottom: $sidebar-top-margin-bottom;
     background-color: $white;
-    opacity: 0.9;
+    opacity: 0.95;
     padding: 5px 15px;
+    padding-bottom: 10px;
     z-index: 2;
 
-    input{
-      width: 100%;
+    &.active{
+      display: block;
+    }
+
+    .easy-autocomplete{
+      width: 100% !important;
+      display: inline;
+
+      input{
+        width: 100%;
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: #ddd;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+          color: #ddd;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+          color: #ddd;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+          color: #ddd;
+        }
+      }
     }
   }
 
@@ -126,8 +150,9 @@ body {
   &__content{
     background-color: $white;
     // border-radius: $sidebar-top-radius;
-    opacity: 0.9;
+    opacity: 0.95;
     display: none;
+    margin-top: $sidebar-top-margin-bottom;
 
     &.active{
       display: block !important;

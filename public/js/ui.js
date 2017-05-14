@@ -3,6 +3,7 @@ function hideAllBar(){
   $('#langbar').removeClass('active');
   $('#statbar').removeClass('active');
   $('#setbar').removeClass('active');
+  $('#searchbar').removeClass('active');
   hideActiveButton();
 }
 
@@ -41,4 +42,5 @@ $('#setbtn').click(function(){
 $('#searchbtn').click(function(){
   hideActiveButton();
   $(this).children().addClass('active');
+  $('#searchbar').addClass('active').find('#provider-file').focus();
 });

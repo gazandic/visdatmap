@@ -2066,7 +2066,7 @@ body {
     padding: 15px;
     background-color: #FFFFFF;
     margin-bottom: 12px;
-    opacity: 0.9; }
+    opacity: 0.95; }
     .sidebar__info__title {
       font-size: 16px;
       font-weight: 700;
@@ -2095,22 +2095,41 @@ body {
     width: 100%;
     height: 45px;
     background-color: #FFFFFF;
-    opacity: 0.9; }
+    opacity: 0.95;
+    z-index: 3; }
     .sidebar__top__button {
       display: inline-block;
       width: 20%;
       height: 100%;
       margin-right: -4px; }
   .sidebar__search {
+    display: none;
     position: relative;
     width: 100%;
-    margin-bottom: 12px;
     background-color: #FFFFFF;
-    opacity: 0.9;
+    opacity: 0.95;
     padding: 5px 15px;
+    padding-bottom: 10px;
     z-index: 2; }
-    .sidebar__search input {
-      width: 100%; }
+    .sidebar__search.active {
+      display: block; }
+    .sidebar__search .easy-autocomplete {
+      width: 100% !important;
+      display: inline; }
+      .sidebar__search .easy-autocomplete input {
+        width: 100%; }
+        .sidebar__search .easy-autocomplete input::-webkit-input-placeholder {
+          /* Chrome/Opera/Safari */
+          color: #ddd; }
+        .sidebar__search .easy-autocomplete input::-moz-placeholder {
+          /* Firefox 19+ */
+          color: #ddd; }
+        .sidebar__search .easy-autocomplete input:-ms-input-placeholder {
+          /* IE 10+ */
+          color: #ddd; }
+        .sidebar__search .easy-autocomplete input:-moz-placeholder {
+          /* Firefox 18- */
+          color: #ddd; }
   .sidebar__icon {
     display: table;
     height: 100%;
@@ -2136,8 +2155,9 @@ body {
       margin: 0; }
   .sidebar__content {
     background-color: #FFFFFF;
-    opacity: 0.9;
-    display: none; }
+    opacity: 0.95;
+    display: none;
+    margin-top: 12px; }
     .sidebar__content.active {
       display: block !important; }
     .sidebar__content__head {
