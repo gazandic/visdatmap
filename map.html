@@ -185,6 +185,7 @@
   </div> -->
 
 	<script type="text/javascript" src="js/hasilmalukuPapua.js"></script>
+	<script type="text/javascript" src="js/hasilReversemalukuPapua.js"></script>
 	<script type="text/javascript" src="js/leaflet-search.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easy-autocomplete.min.js"></script>
 	<script type="text/javascript" src="js/bahasaindexed.js"></script>
@@ -192,12 +193,19 @@
 	<script type="text/javascript" src="js/map.js"></script>
   <script type="text/javascript" src="js/ui.js"></script>
 	<script>
+		$(".leaflet-control-search").hide();
 		var options = {
 			url: "js/bahasa.json",
 			getValue: "name",
 			list: {
-				match: {
-					enabled: true
+				match:{enabled: true},
+				sort: {enabled: true},
+				onSelectItemEvent: function() {
+					var value = $("#provider-file").getSelectedItemData().code;
+					var name = indexReversemalukuPapua[value]['_id'];
+					searchControl.searchText(name);
+					setTimeout(searchControl._handleKeypress({ keyCode: 13 }), 500);
+					searchControl.searchText("");
 				}
 			}
 		};
