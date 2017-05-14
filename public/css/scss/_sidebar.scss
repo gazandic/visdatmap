@@ -4,10 +4,18 @@ body {
 }
 
 #map {
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
+  position: absolute;
+  top: 0;
+  bottom: 0;
   width: $map-width;
+}
+
+.langbox{
+  margin: 15px 0;
+}
+
+#langbar{
+  display: none;
 }
 
 .sidebar{
@@ -24,12 +32,30 @@ body {
     z-index: 1;
   }
 
+  &__info{
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    background-color: $white;
+    margin-bottom: $sidebar-top-margin-bottom;
+    opacity: 0.9;
+
+    &__title{
+      @include heading-dark($h6, $hbold);
+    }
+    &__subtitle{
+      @include heading-color($h8, $hreg, #999);
+    }
+    &__text{
+      @include heading-dark($h8, $hreg);
+    }
+  }
+
   &__top{
     position: relative;
     width: 100%;
     height: $sidebar-top-height;
     background-color: $white;
-    border-radius: $sidebar-top-radius;
     margin-bottom: $sidebar-top-margin-bottom;
     opacity: 0.9;
 
@@ -45,6 +71,11 @@ body {
     display: table;
     height: 100%;
     width: 100%;
+
+    :hover{
+      cursor: pointer;
+      background-color: #EEE;
+    }
 
     &__inner{
       display: table-cell;
@@ -68,12 +99,18 @@ body {
 
   &__content{
     background-color: $white;
-    border-radius: $sidebar-top-radius;
+    // border-radius: $sidebar-top-radius;
     opacity: 0.9;
+    display: none;
+
+    &.active{
+      display: block !important;
+    }
 
     &__head{
       padding-top: $sidebar-content-head-padding-top;
       padding-left: $sidebar-content-head-padding-left;
+      padding-right: $sidebar-content-head-padding-left;
       width: 100%;
       min-height: $sidebar-content-head-height;
       text-align: center;
@@ -81,6 +118,6 @@ body {
       &__title{
         @include heading-dark($h5, $hreg);
       }
-    } 
+    }
   }
 }

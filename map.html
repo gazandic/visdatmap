@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
   <script type="text/javascript" src="js/leaflet-providers.js"></script>
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/main.css">
 
 
@@ -28,34 +29,67 @@
     <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime in, sit, id dicta quas doloribus consequuntur. Facilis, necessitatibus vitae veniam modi, sit corporis unde, quasi eum a repellendus sint suscipit!</div>
   </div> -->
 	<div class="sidebar">
+    <div id="sidebarInfo" class="sidebar__info">
+      <div class="sidebar__info__title">
+        Daerah
+      </div>
+      <div class="sidebar__info__subtitle">
+        Bahasa bahasa bahasa
+      </div>
+      <div class="sidebar__info__text">
+        100 People
+      </div>
+    </div>
     <div class="sidebar__top">
      <div class="sidebar__top__button">
-      <div class="sidebar__icon">
+      <div id="homebtn" class="sidebar__icon">
         <div class="sidebar__icon__inner active">
           <i class="material-icons">details</i>
         </div>
       </div>
      </div>
      <div class="sidebar__top__button">
-      <div class="sidebar__icon">
+      <div id="langbtn" class="sidebar__icon">
+        <div class="sidebar__icon__inner">
+          <i class="material-icons">view_module</i>
+        </div>
+      </div>
+     </div>
+     <div class="sidebar__top__button">
+      <div id="statbtn" class="sidebar__icon">
         <div class="sidebar__icon__inner">
           <i class="material-icons">equalizer</i>
         </div>
       </div>
      </div>
      <div class="sidebar__top__button">
-      <div class="sidebar__icon">
+      <div id="setbtn" class="sidebar__icon">
         <div class="sidebar__icon__inner">
           <i class="material-icons">settings</i>
         </div>
       </div>
      </div>
     </div>
-    <div class="sidebar__content bg"></div>
-    <div class="sidebar__content">
+    <!-- <div class="sidebar__content bg"></div> -->
+    <div id="homebar" class="sidebar__content active">
+      <div class="sidebar__content__head">
+        <h1 class="sidebar__content__head__title">Home</h1>
+      </div>
+    </div>
+    <div id="langbar" class="sidebar__content">
       <div class="sidebar__content__head">
         <h1 class="sidebar__content__head__title">Bahasa Sunda</h1>
 
+      </div>
+    </div>
+    <div id="statbar" class="sidebar__content">
+      <div class="sidebar__content__head">
+        <h1 class="sidebar__content__head__title">Statistics</h1>
+      </div>
+    </div>
+    <div id="setbar" class="sidebar__content">
+      <div class="sidebar__content__head">
+        <h1 class="sidebar__content__head__title">Settings</h1>
       </div>
     </div>
   </div>
@@ -140,8 +174,11 @@
     </div>
   </div> -->
 
+	<script type="text/javascript" src="js/hasilmalukuPapua.js"></script>
+	<script type="text/javascript" src="js/bahasaindexed.js"></script>
 	<script type="text/javascript" src="js/indonesianstate.js"></script>
 	<script type="text/javascript" src="js/map.js"></script>
+  <script type="text/javascript" src="js/ui.js"></script>
 
 
 

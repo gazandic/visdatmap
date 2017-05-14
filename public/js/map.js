@@ -28,12 +28,34 @@ var map = L.map('map',{
   };
 
   info.update = function (props) {
-    this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
-      '<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>'
-      : 'Hover over a state');
+    var name = ''
+    var population = ''
+    var location = ''
+    if (props) {
+      name = props.name;
+      if (props.name in indexmalukuPapua) {
+        var liname = indexmalukuPapua[props.name]['data'];
+        name = '';
+        population = '';
+        location = ''
+        for (var i in liname) {
+          name += bahasa[liname[i]]['name'];
+          population += bahasa[liname[i]]['population'];
+          location += bahasa[liname[i]]['location'];
+          break;
+        }
+      }
+    }
+    $('#sidebarInfo').find('.sidebar__info__text').html('Location: '+location);
+    $('#sidebarInfo').find('.sidebar__info__subtitle').html('Population: '+population);
+    $('#sidebarInfo').find('.sidebar__info__title').html(name);
+
+    // this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
+    //   '<b>' + name + '</b><br />' + props.density + ' people / mi<sup>2</sup>'
+    //   : 'Hover over a state');
   };
 
-  info.addTo(map);
+  // info.addTo(map);
 
 
   // get color depending on population density value
