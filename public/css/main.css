@@ -1110,15 +1110,23 @@ body {
       color: #333333;
       margin: 0; }
     .sidebar__info__subtitle {
+      display: flex;
+      align-items: center;
       font-size: 12px;
       font-weight: 400;
       color: #999;
       margin: 0; }
+      .sidebar__info__subtitle i {
+        font-size: 18px; }
     .sidebar__info__text {
+      display: flex;
+      align-items: flex-start;
       font-size: 12px;
       font-weight: 400;
       color: #333333;
       margin: 0; }
+      .sidebar__info__text i {
+        font-size: 18px; }
   .sidebar__top {
     position: relative;
     width: 100%;

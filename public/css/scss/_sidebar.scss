@@ -44,10 +44,23 @@ body {
       @include heading-dark($h6, $hbold);
     }
     &__subtitle{
+      display: flex;
+      align-items: center;
+
       @include heading-color($h8, $hreg, #999);
+
+      i {
+        font-size: 18px;
+      }
     }
     &__text{
+      display: flex;
+      align-items: flex-start;
+
       @include heading-dark($h8, $hreg);
+      i {
+        font-size: 18px;
+      }
     }
   }
 

@@ -46,8 +46,8 @@ var map = L.map('map',{
         }
       }
     }
-    $('#sidebarInfo').find('.sidebar__info__text').html('Location: '+location);
-    $('#sidebarInfo').find('.sidebar__info__subtitle').html('Population: '+population);
+    $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on</i> '+location);
+    $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person</i> '+population);
     $('#sidebarInfo').find('.sidebar__info__title').html(name);
 
     // this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
