@@ -1,0 +1,4692 @@
+{
+ "classification": "Language isolate",
+ "lang": [
+  "bsa",
+  "kgr",
+  "mrf",
+  "had",
+  "mvs",
+  "akc"
+ ]
+}{
+ "classification": "Trans-New Guinea",
+ "lang": [
+  "abz",
+  "adn",
+  "ahh",
+  "jbj",
+  "asc",
+  "cns",
+  "nks",
+  "asy",
+  "aqm",
+  "auu",
+  "psa",
+  "awu",
+  "awy",
+  "awv",
+  "yir",
+  "aws",
+  "bdw",
+  "beu",
+  "bfn",
+  "aip",
+  "asi",
+  "txt",
+  "tml",
+  "uhn",
+  "dni",
+  "dnt",
+  "dna",
+  "dnw",
+  "daz",
+  "dem",
+  "diy",
+  "dbn",
+  "ekg",
+  "hmu",
+  "hap",
+  "ihp",
+  "klz",
+  "uka",
+  "jka",
+  "kpu",
+  "kzm",
+  "woi",
+  "irx",
+  "kgq",
+  "kgv",
+  "kyt",
+  "bzp",
+  "xte",
+  "ktt",
+  "kig",
+  "kyo",
+  "xod",
+  "tyn",
+  "kzv",
+  "knd",
+  "kdw",
+  "opk",
+  "khe",
+  "kpq",
+  "kvd",
+  "tpg",
+  "kwr",
+  "eip",
+  "aax",
+  "bwp",
+  "mrz",
+  "bpv",
+  "mso",
+  "mnz",
+  "moq",
+  "iwo",
+  "mok",
+  "kti",
+  "kts",
+  "nkj",
+  "nlc",
+  "nqm",
+  "ndx",
+  "nec",
+  "szb",
+  "nbq",
+  "nxr",
+  "nps",
+  "oia",
+  "lev",
+  "pru",
+  "ret",
+  "ran",
+  "saw",
+  "swt",
+  "xse",
+  "wul",
+  "szp",
+  "tcg",
+  "tcm",
+  "tkx",
+  "twe",
+  "twg",
+  "kvz",
+  "mtg",
+  "wlw",
+  "wms",
+  "wng",
+  "wno",
+  "bgv",
+  "kvw",
+  "wod",
+  "ner",
+  "kkl",
+  "yli",
+  "nlk",
+  "yac",
+  "jaq"
+ ]
+}{
+ "classification": " West",
+ "lang": [
+  "abz",
+  "adn",
+  "asl",
+  "auu",
+  "bdw",
+  "bkr",
+  "beu",
+  "bzn",
+  "bfn",
+  "dni",
+  "dnt",
+  "dna",
+  "dnw",
+  "daz",
+  "ekg",
+  "fau",
+  "hmu",
+  "hap",
+  "ihp",
+  "klz",
+  "jka",
+  "kpu",
+  "woi",
+  "kgv",
+  "kiy",
+  "kyo",
+  "kkx",
+  "kvd",
+  "tpg",
+  "alo",
+  "mnz",
+  "ndx",
+  "nec",
+  "nij",
+  "nbq",
+  "oia",
+  "otd",
+  "lev",
+  "ret",
+  "swt",
+  "hik",
+  "sya",
+  "wul",
+  "tad",
+  "twe",
+  "twg",
+  "wlw",
+  "wno",
+  "kvw",
+  "wod",
+  "yli",
+  "nlk",
+  "yac"
+ ]
+}{
+ "classification": " Timor-Alor-Pantar",
+ "lang": [
+  "abz",
+  "adn",
+  "beu",
+  "bfn",
+  "hmu",
+  "klz",
+  "jka",
+  "kpu",
+  "woi",
+  "kyo",
+  "kvd",
+  "tpg",
+  "nec",
+  "oia",
+  "lev",
+  "ret",
+  "swt",
+  "twe",
+  "twg",
+  "kvw"
+ ]
+}{
+ "classification": " Alor-Pantar",
+ "lang": [
+  "abz",
+  "adn",
+  "beu",
+  "hmu",
+  "klz",
+  "jka",
+  "kpu",
+  "woi",
+  "kyo",
+  "kvd",
+  "nec",
+  "lev",
+  "ret",
+  "twe",
+  "twg"
+ ]
+}{
+ "classification": " Alor",
+ "lang": [
+  "abz",
+  "adn",
+  "hmu",
+  "klz",
+  "kpu",
+  "woi",
+  "kyo",
+  "kvd"
+ ]
+}{
+ "classification": "Austronesian",
+ "lang": [
+  "ace",
+  "adr",
+  "aol",
+  "alp",
+  "amq",
+  "aaz",
+  "amk",
+  "wgo",
+  "amv",
+  "apg",
+  "akg",
+  "bzb",
+  "and",
+  "auq",
+  "pni",
+  "apx",
+  "atq",
+  "agf",
+  "asz",
+  "asl",
+  "bcd",
+  "vbb",
+  "bhz",
+  "bac",
+  "bhv",
+  "bsu",
+  "bdl",
+  "bei",
+  "lra",
+  "sre",
+  "bkr",
+  "bls",
+  "blz",
+  "ban",
+  "ptu",
+  "bnd",
+  "bgz",
+  "mfb",
+  "bjn",
+  "bnq",
+  "baj",
+  "brs",
+  "bdb",
+  "btz",
+  "akb",
+  "btd",
+  "btx",
+  "btm",
+  "bts",
+  "bbc",
+  "bvt",
+  "zbt",
+  "bay",
+  "bed",
+  "bep",
+  "bgy",
+  "bnu",
+  "byd",
+  "bhw",
+  "bth",
+  "sdo",
+  "bhc",
+  "bpz",
+  "bhp",
+  "bne",
+  "bzl",
+  "bzn",
+  "bty",
+  "bgb",
+  "bld",
+  "bna",
+  "bpg",
+  "bdx",
+  "bug",
+  "bvk",
+  "bkn",
+  "bzq",
+  "blj",
+  "bkz",
+  "blf",
+  "mhs",
+  "bqr",
+  "bsm",
+  "bup",
+  "cml",
+  "cia",
+  "liw",
+  "dij",
+  "dkk",
+  "dmr",
+  "drn",
+  "dms",
+  "ddw",
+  "row",
+  "dnk",
+  "nfa",
+  "kvo",
+  "dok",
+  "dup",
+  "mvp",
+  "dsn",
+  "dun",
+  "duq",
+  "duw",
+  "emb",
+  "emw",
+  "end",
+  "ptt",
+  "erw",
+  "pdn",
+  "frd",
+  "gal",
+  "gzn",
+  "gay",
+  "gei",
+  "ges",
+  "goq",
+  "gor",
+  "hji",
+  "hrk",
+  "hvn",
+  "heg",
+  "htu",
+  "hti",
+  "hov",
+  "hud",
+  "huw",
+  "huk",
+  "iba",
+  "ila",
+  "ilu",
+  "imr",
+  "ind",
+  "irh",
+  "djo",
+  "jav",
+  "kzd",
+  "kzb",
+  "kzp",
+  "kzf",
+  "lew",
+  "unz",
+  "zka",
+  "kly",
+  "kli",
+  "kzx",
+  "kgx",
+  "xbr",
+  "kkv",
+  "kbi",
+  "kyd",
+  "vkk",
+  "kgb",
+  "xay",
+  "bfg",
+  "xkn",
+  "xkd",
+  "whu",
+  "kzl",
+  "kzu",
+  "ksx",
+  "kei",
+  "kzi",
+  "kem",
+  "xem",
+  "knx",
+  "knl",
+  "xkl",
+  "whk",
+  "xxk",
+  "kuk",
+  "xke",
+  "kvr",
+  "ues",
+  "kje",
+  "kpd",
+  "vko",
+  "kod",
+  "kkx",
+  "kvv",
+  "kge",
+  "kvh",
+  "kvp",
+  "kjc",
+  "kjk",
+  "xkq",
+  "kwh",
+  "kvb",
+  "vkl",
+  "xks",
+  "kuv",
+  "nbn",
+  "kjr",
+  "lhh",
+  "lji",
+  "slp",
+  "lmr",
+  "lmq",
+  "lmy",
+  "ljp",
+  "abl",
+  "alo",
+  "llm",
+  "ltu",
+  "law",
+  "lur",
+  "lbx",
+  "lcc",
+  "lmf",
+  "lmj",
+  "ley",
+  "lgi",
+  "lti",
+  "lvu",
+  "lwe",
+  "lwt",
+  "lix",
+  "ste",
+  "lio",
+  "ljl",
+  "lcs",
+  "lcl",
+  "lcd",
+  "llq",
+  "llg",
+  "lrn",
+  "lox",
+  "lex",
+  "lcf",
+  "lcq",
+  "lnd",
+  "mhy",
+  "mqa",
+  "xmx",
+  "mad",
+  "wmm",
+  "mak",
+  "mky",
+  "zlm",
+  "btj",
+  "bve",
+  "bvu",
+  "pse",
+  "jax",
+  "mqg",
+  "mfp",
+  "vkt",
+  "xdy",
+  "mli",
+  "mqj",
+  "mvd",
+  "mqx",
+  "mdr",
+  "mqy",
+  "mqc",
+  "mqp",
+  "woo",
+  "mpy",
+  "mvr",
+  "mqi",
+  "mxz",
+  "vme",
+  "mss",
+  "ism",
+  "bnf",
+  "xmt",
+  "slz",
+  "mwv",
+  "mvx",
+  "min",
+  "wkd",
+  "mxd",
+  "vms",
+  "myl",
+  "mog",
+  "mhz",
+  "mzq",
+  "xmz",
+  "mqn",
+  "mtd",
+  "mnb",
+  "mth",
+  "slg",
+  "sbr",
+  "mvv",
+  "mui",
+  "nxe",
+  "nae",
+  "npy",
+  "nsy",
+  "nxg",
+  "nea",
+  "nij",
+  "nia",
+  "nil",
+  "nni",
+  "nxl",
+  "nul",
+  "kqv",
+  "oni",
+  "orz",
+  "osi",
+  "otd",
+  "pdo",
+  "pku",
+  "ple",
+  "pmf",
+  "psn",
+  "pnp",
+  "pnc",
+  "ppm",
+  "ptn",
+  "plh",
+  "pel",
+  "ums",
+  "wet",
+  "pmo",
+  "pns",
+  "pud",
+  "puf",
+  "puc",
+  "puj",
+  "put",
+  "raz",
+  "rjg",
+  "lje",
+  "rth",
+  "rej",
+  "reb",
+  "rir",
+  "rgu",
+  "riu",
+  "rmm",
+  "ror",
+  "rnn",
+  "snv",
+  "sjb",
+  "sgu",
+  "sau",
+  "loe",
+  "scg",
+  "sxn",
+  "spr",
+  "sdu",
+  "sas",
+  "szw",
+  "sbx",
+  "tvw",
+  "sge",
+  "hik",
+  "lce",
+  "skz",
+  "skx",
+  "sko",
+  "slu",
+  "sly",
+  "sws",
+  "sdm",
+  "spb",
+  "sve",
+  "srw",
+  "seu",
+  "sya",
+  "ski",
+  "skh",
+  "smr",
+  "ssq",
+  "sob",
+  "tlt",
+  "wha",
+  "szn",
+  "smw",
+  "sun",
+  "ymn",
+  "swu",
+  "klw",
+  "rob",
+  "pee",
+  "tdj",
+  "tld",
+  "tlv",
+  "tlk",
+  "tln",
+  "tmn",
+  "tni",
+  "tre",
+  "txn",
+  "tpf",
+  "tsg",
+  "twy",
+  "tvm",
+  "tes",
+  "tev",
+  "twu",
+  "tet",
+  "tve",
+  "itd",
+  "txq",
+  "tti",
+  "lbw",
+  "tdi",
+  "ttp",
+  "tom",
+  "txm",
+  "tdn",
+  "tnw",
+  "txs",
+  "tnt",
+  "toy",
+  "sda",
+  "txe",
+  "tzn",
+  "khc",
+  "bhq",
+  "tlu",
+  "tjg",
+  "aoz",
+  "udj",
+  "ulm",
+  "ppk",
+  "xky",
+  "ulu",
+  "urn",
+  "wbb",
+  "wrx",
+  "wad",
+  "wnk",
+  "wrp",
+  "wru",
+  "wah",
+  "wuy",
+  "wow",
+  "wew",
+  "weo",
+  "wbw",
+  "wlo",
+  "wtw",
+  "jal",
+  "jmd",
+  "yrs",
+  "jau",
+  "ire",
+  "gop"
+ ]
+}{
+ "classification": " Malayo-Polynesian",
+ "lang": [
+  "ace",
+  "adr",
+  "aol",
+  "alp",
+  "amq",
+  "aaz",
+  "amk",
+  "wgo",
+  "amv",
+  "apg",
+  "akg",
+  "bzb",
+  "and",
+  "auq",
+  "pni",
+  "apx",
+  "atq",
+  "agf",
+  "asz",
+  "asl",
+  "bcd",
+  "vbb",
+  "bhz",
+  "bac",
+  "bhv",
+  "bsu",
+  "bdl",
+  "bei",
+  "lra",
+  "sre",
+  "bkr",
+  "bls",
+  "blz",
+  "ban",
+  "ptu",
+  "bnd",
+  "bgz",
+  "mfb",
+  "bjn",
+  "bnq",
+  "baj",
+  "brs",
+  "bdb",
+  "btz",
+  "akb",
+  "btd",
+  "btx",
+  "btm",
+  "bts",
+  "bbc",
+  "bvt",
+  "zbt",
+  "bay",
+  "bed",
+  "bep",
+  "bgy",
+  "bnu",
+  "byd",
+  "bhw",
+  "bth",
+  "sdo",
+  "bhc",
+  "bpz",
+  "bhp",
+  "bne",
+  "bzl",
+  "bzn",
+  "bty",
+  "bgb",
+  "bld",
+  "bna",
+  "bpg",
+  "bdx",
+  "bug",
+  "bvk",
+  "bkn",
+  "bzq",
+  "blj",
+  "bkz",
+  "blf",
+  "mhs",
+  "bqr",
+  "bsm",
+  "bup",
+  "cml",
+  "cia",
+  "liw",
+  "dij",
+  "dkk",
+  "dmr",
+  "drn",
+  "dms",
+  "ddw",
+  "row",
+  "dnk",
+  "nfa",
+  "kvo",
+  "dok",
+  "dup",
+  "mvp",
+  "dsn",
+  "dun",
+  "duq",
+  "duw",
+  "emb",
+  "emw",
+  "end",
+  "ptt",
+  "erw",
+  "pdn",
+  "frd",
+  "gal",
+  "gzn",
+  "gay",
+  "gei",
+  "ges",
+  "goq",
+  "gor",
+  "hji",
+  "hrk",
+  "hvn",
+  "heg",
+  "htu",
+  "hti",
+  "hov",
+  "hud",
+  "huw",
+  "huk",
+  "iba",
+  "ila",
+  "ilu",
+  "imr",
+  "ind",
+  "irh",
+  "djo",
+  "jav",
+  "kzd",
+  "kzb",
+  "kzp",
+  "kzf",
+  "lew",
+  "unz",
+  "zka",
+  "kly",
+  "kli",
+  "kzx",
+  "kgx",
+  "xbr",
+  "kkv",
+  "kbi",
+  "kyd",
+  "vkk",
+  "kgb",
+  "xay",
+  "bfg",
+  "xkn",
+  "xkd",
+  "whu",
+  "kzl",
+  "kzu",
+  "ksx",
+  "kei",
+  "kzi",
+  "kem",
+  "xem",
+  "knx",
+  "knl",
+  "xkl",
+  "whk",
+  "xxk",
+  "kuk",
+  "xke",
+  "kvr",
+  "ues",
+  "kje",
+  "kpd",
+  "vko",
+  "kod",
+  "kkx",
+  "kvv",
+  "kge",
+  "kvh",
+  "kvp",
+  "kjc",
+  "kjk",
+  "xkq",
+  "kwh",
+  "kvb",
+  "vkl",
+  "xks",
+  "kuv",
+  "nbn",
+  "kjr",
+  "lhh",
+  "lji",
+  "slp",
+  "lmr",
+  "lmq",
+  "lmy",
+  "ljp",
+  "abl",
+  "alo",
+  "llm",
+  "ltu",
+  "law",
+  "lur",
+  "lbx",
+  "lcc",
+  "lmf",
+  "lmj",
+  "ley",
+  "lgi",
+  "lti",
+  "lvu",
+  "lwe",
+  "lwt",
+  "lix",
+  "ste",
+  "lio",
+  "ljl",
+  "lcs",
+  "lcl",
+  "lcd",
+  "llq",
+  "llg",
+  "lrn",
+  "lox",
+  "lex",
+  "lcf",
+  "lcq",
+  "lnd",
+  "mhy",
+  "mqa",
+  "xmx",
+  "mad",
+  "wmm",
+  "mak",
+  "mky",
+  "zlm",
+  "btj",
+  "bve",
+  "bvu",
+  "pse",
+  "jax",
+  "mqg",
+  "mfp",
+  "vkt",
+  "xdy",
+  "mli",
+  "mqj",
+  "mvd",
+  "mqx",
+  "mdr",
+  "mqy",
+  "mqc",
+  "mqp",
+  "woo",
+  "mpy",
+  "mvr",
+  "mqi",
+  "mxz",
+  "vme",
+  "mss",
+  "ism",
+  "bnf",
+  "xmt",
+  "slz",
+  "mwv",
+  "mvx",
+  "min",
+  "wkd",
+  "mxd",
+  "vms",
+  "myl",
+  "mog",
+  "mhz",
+  "mzq",
+  "xmz",
+  "mqn",
+  "mtd",
+  "mnb",
+  "mth",
+  "slg",
+  "sbr",
+  "mvv",
+  "mui",
+  "nxe",
+  "nae",
+  "npy",
+  "nsy",
+  "nxg",
+  "nea",
+  "nij",
+  "nia",
+  "nil",
+  "nni",
+  "nxl",
+  "nul",
+  "kqv",
+  "oni",
+  "orz",
+  "osi",
+  "otd",
+  "pdo",
+  "pku",
+  "ple",
+  "pmf",
+  "psn",
+  "pnp",
+  "pnc",
+  "ppm",
+  "ptn",
+  "plh",
+  "pel",
+  "ums",
+  "wet",
+  "pmo",
+  "pns",
+  "pud",
+  "puf",
+  "puc",
+  "puj",
+  "put",
+  "raz",
+  "rjg",
+  "lje",
+  "rth",
+  "rej",
+  "reb",
+  "rir",
+  "rgu",
+  "riu",
+  "rmm",
+  "ror",
+  "rnn",
+  "snv",
+  "sjb",
+  "sgu",
+  "sau",
+  "loe",
+  "scg",
+  "sxn",
+  "spr",
+  "sdu",
+  "sas",
+  "szw",
+  "sbx",
+  "tvw",
+  "sge",
+  "hik",
+  "lce",
+  "skz",
+  "skx",
+  "sko",
+  "slu",
+  "sly",
+  "sws",
+  "sdm",
+  "spb",
+  "sve",
+  "srw",
+  "seu",
+  "sya",
+  "ski",
+  "skh",
+  "smr",
+  "ssq",
+  "sob",
+  "tlt",
+  "wha",
+  "szn",
+  "smw",
+  "sun",
+  "ymn",
+  "swu",
+  "klw",
+  "rob",
+  "pee",
+  "tdj",
+  "tld",
+  "tlv",
+  "tlk",
+  "tln",
+  "tmn",
+  "tni",
+  "tre",
+  "txn",
+  "tpf",
+  "tsg",
+  "twy",
+  "tvm",
+  "tes",
+  "tev",
+  "twu",
+  "tet",
+  "tve",
+  "itd",
+  "txq",
+  "tti",
+  "lbw",
+  "tdi",
+  "ttp",
+  "tom",
+  "txm",
+  "tdn",
+  "tnw",
+  "txs",
+  "tnt",
+  "toy",
+  "sda",
+  "txe",
+  "tzn",
+  "khc",
+  "bhq",
+  "tlu",
+  "tjg",
+  "aoz",
+  "udj",
+  "ulm",
+  "ppk",
+  "xky",
+  "ulu",
+  "urn",
+  "wbb",
+  "wrx",
+  "wad",
+  "wnk",
+  "wrp",
+  "wru",
+  "wah",
+  "wuy",
+  "wow",
+  "wew",
+  "weo",
+  "wbw",
+  "wlo",
+  "wtw",
+  "jal",
+  "jmd",
+  "yrs",
+  "jau",
+  "ire",
+  "gop"
+ ]
+}{
+ "classification": " Malayo-Chamic",
+ "lang": [
+  "ace",
+  "mfb",
+  "bjn",
+  "liw",
+  "dup",
+  "hji",
+  "iba",
+  "ind",
+  "vkk",
+  "knx",
+  "knl",
+  "kvr",
+  "kvb",
+  "lcf",
+  "zlm",
+  "btj",
+  "bve",
+  "bvu",
+  "pse",
+  "jax",
+  "mqg",
+  "mfp",
+  "vkt",
+  "xdy",
+  "min",
+  "mtd",
+  "mui",
+  "pel",
+  "sbx",
+  "lce"
+ ]
+}{
+ "classification": " Chamic",
+ "lang": [
+  "ace"
+ ]
+}{
+ "classification": " Acehnese",
+ "lang": [
+  "ace"
+ ]
+}{
+ "classification": " Central-Eastern Malayo-Polynesian",
+ "lang": [
+  "adr",
+  "aol",
+  "alp",
+  "amq",
+  "aaz",
+  "amk",
+  "wgo",
+  "amv",
+  "akg",
+  "and",
+  "auq",
+  "apx",
+  "agf",
+  "asz",
+  "asl",
+  "bcd",
+  "vbb",
+  "bnd",
+  "baj",
+  "bvt",
+  "bay",
+  "bed",
+  "bgy",
+  "bhw",
+  "bhc",
+  "bpz",
+  "bhp",
+  "bzn",
+  "bty",
+  "bpg",
+  "bzq",
+  "mhs",
+  "bsm",
+  "dij",
+  "dmr",
+  "drn",
+  "ddw",
+  "row",
+  "dnk",
+  "nfa",
+  "kvo",
+  "dsn",
+  "emw",
+  "end",
+  "erw",
+  "pdn",
+  "frd",
+  "gal",
+  "gzn",
+  "gei",
+  "ges",
+  "hrk",
+  "hvn",
+  "heg",
+  "htu",
+  "hti",
+  "hud",
+  "huw",
+  "huk",
+  "ila",
+  "ilu",
+  "imr",
+  "irh",
+  "kzd",
+  "kzb",
+  "kzx",
+  "xbr",
+  "kbi",
+  "kyd",
+  "kgb",
+  "kzl",
+  "kzu",
+  "ksx",
+  "kei",
+  "kem",
+  "xxk",
+  "kuk",
+  "kje",
+  "kpd",
+  "kod",
+  "kvv",
+  "kvh",
+  "kvp",
+  "kwh",
+  "kuv",
+  "nbn",
+  "kjr",
+  "lhh",
+  "slp",
+  "lmr",
+  "lmq",
+  "lmy",
+  "alo",
+  "ltu",
+  "lur",
+  "lcc",
+  "lmf",
+  "lmj",
+  "lti",
+  "lvu",
+  "lwe",
+  "lwt",
+  "ste",
+  "lio",
+  "ljl",
+  "lcs",
+  "lcl",
+  "lcd",
+  "llg",
+  "lrn",
+  "lox",
+  "lex",
+  "lcq",
+  "mqa",
+  "xmx",
+  "mky",
+  "mvd",
+  "mqy",
+  "mqc",
+  "mqp",
+  "woo",
+  "mpy",
+  "mvr",
+  "mqi",
+  "mxz",
+  "vme",
+  "mss",
+  "ism",
+  "bnf",
+  "xmt",
+  "slz",
+  "mvx",
+  "wkd",
+  "vms",
+  "mhz",
+  "mth",
+  "nxe",
+  "nae",
+  "nxg",
+  "nea",
+  "nil",
+  "nni",
+  "nxl",
+  "nul",
+  "oni",
+  "orz",
+  "ple",
+  "ppm",
+  "ptn",
+  "plh",
+  "wet",
+  "pmo",
+  "rjg",
+  "reb",
+  "rgu",
+  "riu",
+  "rmm",
+  "ror",
+  "rnn",
+  "sgu",
+  "sau",
+  "spr",
+  "szw",
+  "hik",
+  "skz",
+  "slu",
+  "sws",
+  "spb",
+  "sve",
+  "srw",
+  "seu",
+  "ski",
+  "ssq",
+  "sob",
+  "tlt",
+  "wha",
+  "szn",
+  "ymn",
+  "tlv",
+  "tni",
+  "tre",
+  "txn",
+  "tpf",
+  "tvm",
+  "tev",
+  "twu",
+  "tet",
+  "tve",
+  "txq",
+  "tti",
+  "tzn",
+  "tlu",
+  "aoz",
+  "udj",
+  "urn",
+  "wbb",
+  "wrx",
+  "wad",
+  "wnk",
+  "wrp",
+  "wah",
+  "wuy",
+  "wew",
+  "weo",
+  "wbw",
+  "jal",
+  "jmd",
+  "yrs",
+  "jau",
+  "ire",
+  "gop"
+ ]
+}{
+ "classification": " Bima-Lembata",
+ "lang": [
+  "adr",
+  "aol",
+  "bhp",
+  "end",
+  "ila",
+  "ksx",
+  "xxk",
+  "kuk",
+  "kvh",
+  "slp",
+  "lmr",
+  "lmq",
+  "lmf",
+  "lmj",
+  "lvu",
+  "lwe",
+  "lwt",
+  "ljl",
+  "mqy",
+  "nxe",
+  "nxg",
+  "nea",
+  "ple",
+  "rjg",
+  "reb",
+  "riu",
+  "ror",
+  "ski",
+  "ssq",
+  "wrx"
+ ]
+}{
+ "classification": " Ok-Awyu",
+ "lang": [
+  "ahh",
+  "psa",
+  "awu",
+  "awy",
+  "awv",
+  "yir",
+  "aws",
+  "aip",
+  "ktt",
+  "tyn",
+  "kzv",
+  "opk",
+  "khe",
+  "kwr",
+  "aax",
+  "bwp",
+  "iwo",
+  "kti",
+  "kts",
+  "nkj",
+  "szb",
+  "nxr",
+  "saw",
+  "tkx",
+  "kvz",
+  "wms",
+  "wng"
+ ]
+}{
+ "classification": " Awyu-Dumut",
+ "lang": [
+  "ahh",
+  "psa",
+  "awu",
+  "awy",
+  "awv",
+  "yir",
+  "aws",
+  "ktt",
+  "tyn",
+  "khe",
+  "aax",
+  "bwp",
+  "saw",
+  "wms",
+  "wng"
+ ]
+}{
+ "classification": " Awyu",
+ "lang": [
+  "ahh",
+  "psa",
+  "awu",
+  "awy",
+  "awv",
+  "yir",
+  "aws"
+ ]
+}{
+ "classification": "Tor-Kwerba",
+ "lang": [
+  "air",
+  "bqb",
+  "bnv",
+  "bkl",
+  "bfe",
+  "dbe",
+  "mrx",
+  "srl",
+  "itx",
+  "jbr",
+  "xau",
+  "kdy",
+  "kwe",
+  "xwr",
+  "kwt",
+  "kuc",
+  "mqr",
+  "mgk",
+  "ury",
+  "tmj",
+  "sao",
+  "tip",
+  "vto",
+  "wai"
+ ]
+}{
+ "classification": " Greater Kwerba",
+ "lang": [
+  "air",
+  "bqb",
+  "srl",
+  "xau",
+  "kwe",
+  "xwr",
+  "mgk",
+  "tmj",
+  "tip"
+ ]
+}{
+ "classification": " Kwerba",
+ "lang": [
+  "air",
+  "bqb",
+  "xau",
+  "kwe",
+  "xwr",
+  "tmj",
+  "tip"
+ ]
+}{
+ "classification": " West Coast",
+ "lang": [
+  "air",
+  "vko",
+  "raz",
+  "tmj",
+  "lbw",
+  "wru"
+ ]
+}{
+ "classification": " Central Maluku",
+ "lang": [
+  "alp",
+  "amq",
+  "amv",
+  "asl",
+  "bnd",
+  "bvt",
+  "bgy",
+  "bzn",
+  "bty",
+  "mhs",
+  "ges",
+  "hrk",
+  "htu",
+  "hti",
+  "hud",
+  "huk",
+  "kzd",
+  "kzb",
+  "kzx",
+  "kzl",
+  "lhh",
+  "alo",
+  "ltu",
+  "ste",
+  "lcs",
+  "lcl",
+  "lox",
+  "lcq",
+  "mqc",
+  "mqp",
+  "bnf",
+  "vms",
+  "nae",
+  "nni",
+  "nxl",
+  "nul",
+  "plh",
+  "sgu",
+  "sau",
+  "spr",
+  "hik",
+  "spb",
+  "tlt",
+  "wha",
+  "szn",
+  "tlv",
+  "tlu",
+  "wah",
+  "weo",
+  "jal"
+ ]
+}{
+ "classification": " East",
+ "lang": [
+  "alp",
+  "amq",
+  "amq",
+  "asl",
+  "bnd",
+  "bvt",
+  "bgy",
+  "bqq",
+  "bzn",
+  "bty",
+  "tbp",
+  "tds",
+  "dun",
+  "duq",
+  "duw",
+  "ert",
+  "flh",
+  "ges",
+  "hrk",
+  "htu",
+  "htu",
+  "hti",
+  "hud",
+  "huk",
+  "kzb",
+  "kzb",
+  "tcq",
+  "kzx",
+  "kzx",
+  "kzl",
+  "kjr",
+  "kkb",
+  "lhh",
+  "lhh",
+  "alo",
+  "ltu",
+  "ltu",
+  "lbx",
+  "ste",
+  "lcs",
+  "lox",
+  "lcq",
+  "mhy",
+  "mqp",
+  "bnf",
+  "nae",
+  "nni",
+  "nxl",
+  "nul",
+  "nul",
+  "afz",
+  "pku",
+  "pas",
+  "plh",
+  "plh",
+  "sgu",
+  "sau",
+  "spr",
+  "spr",
+  "hik",
+  "spb",
+  "spb",
+  "tty",
+  "tlt",
+  "tlt",
+  "wha",
+  "twy",
+  "tlu",
+  "tlu",
+  "wbb",
+  "wbe",
+  "wah",
+  "weo",
+  "jal"
+ ]
+}{
+ "classification": " Seram",
+ "lang": [
+  "alp",
+  "amq",
+  "asl",
+  "bgy",
+  "bzn",
+  "bty",
+  "hrk",
+  "htu",
+  "hti",
+  "hud",
+  "huk",
+  "kzb",
+  "kzx",
+  "kzl",
+  "lhh",
+  "alo",
+  "ltu",
+  "ste",
+  "lcs",
+  "lox",
+  "lcq",
+  "bnf",
+  "nae",
+  "nni",
+  "nxl",
+  "nul",
+  "plh",
+  "sgu",
+  "sau",
+  "spr",
+  "hik",
+  "spb",
+  "tlt",
+  "wha",
+  "tlu",
+  "weo",
+  "jal"
+ ]
+}{
+ "classification": " Nunusaku",
+ "lang": [
+  "alp",
+  "amq",
+  "asl",
+  "bzn",
+  "hrk",
+  "htu",
+  "huk",
+  "kzb",
+  "kzx",
+  "kzl",
+  "lhh",
+  "alo",
+  "ltu",
+  "lcs",
+  "lox",
+  "lcq",
+  "nae",
+  "nul",
+  "plh",
+  "spr",
+  "hik",
+  "spb",
+  "tlt",
+  "tlu",
+  "weo",
+  "jal"
+ ]
+}{
+ "classification": " Three Rivers",
+ "lang": [
+  "alp",
+  "huk",
+  "lcs",
+  "lox",
+  "lcq",
+  "nae",
+  "weo",
+  "jal"
+ ]
+}{
+ "classification": " Amalumute",
+ "lang": [
+  "alp",
+  "huk",
+  "lcs",
+  "lox",
+  "lcq",
+  "nae"
+ ]
+}{
+ "classification": " Northwest Seram",
+ "lang": [
+  "alp",
+  "huk",
+  "lcs",
+  "lox",
+  "lcq",
+  "nae"
+ ]
+}{
+ "classification": " Ulat Inai",
+ "lang": [
+  "alp",
+  "nae"
+ ]
+}{
+ "classification": " Piru Bay",
+ "lang": [
+  "amq",
+  "asl",
+  "bzn",
+  "hrk",
+  "htu",
+  "kzb",
+  "kzx",
+  "lhh",
+  "alo",
+  "ltu",
+  "nul",
+  "plh",
+  "spr",
+  "hik",
+  "spb",
+  "tlt",
+  "tlu"
+ ]
+}{
+ "classification": " Seram Straits",
+ "lang": [
+  "amq",
+  "htu",
+  "kzx",
+  "lhh",
+  "ltu",
+  "nul",
+  "plh",
+  "spr",
+  "tlu"
+ ]
+}{
+ "classification": " Uliase",
+ "lang": [
+  "amq",
+  "kzx",
+  "ltu",
+  "nul",
+  "spr"
+ ]
+}{
+ "classification": " Hatuhaha",
+ "lang": [
+  "amq",
+  "ltu",
+  "nul",
+  "spr"
+ ]
+}{
+ "classification": " Elpaputi",
+ "lang": [
+  "amq",
+  "nul"
+ ]
+}{
+ "classification": " Timor-Babar",
+ "lang": [
+  "aaz",
+  "apx",
+  "bpz",
+  "dmr",
+  "row",
+  "dnk",
+  "gal",
+  "heg",
+  "ilu",
+  "kem",
+  "kje",
+  "lti",
+  "llg",
+  "lex",
+  "nil",
+  "wet",
+  "rgu",
+  "rmm",
+  "srw",
+  "twu",
+  "tet",
+  "tve",
+  "txq",
+  "tzn",
+  "aoz"
+ ]
+}{
+ "classification": " Nuclear Timor",
+ "lang": [
+  "aaz",
+  "bpz",
+  "row",
+  "dnk",
+  "gal",
+  "heg",
+  "kem",
+  "llg",
+  "rgu",
+  "twu",
+  "tet",
+  "txq",
+  "aoz"
+ ]
+}{
+ "classification": " Uab Meto",
+ "lang": [
+  "aaz",
+  "aoz"
+ ]
+}{
+ "classification": " Eastern Malayo-Polynesian",
+ "lang": [
+  "amk",
+  "wgo",
+  "and",
+  "auq",
+  "asz",
+  "bed",
+  "bhw",
+  "bhc",
+  "bpg",
+  "bzq",
+  "bsm",
+  "dsn",
+  "erw",
+  "pdn",
+  "gzn",
+  "gei",
+  "irh",
+  "kbi",
+  "kgb",
+  "kzu",
+  "kjr",
+  "lcc",
+  "lio",
+  "mqa",
+  "xmx",
+  "mky",
+  "mpy",
+  "mvr",
+  "ism",
+  "xmt",
+  "slz",
+  "mvx",
+  "wkd",
+  "mhz",
+  "mth",
+  "orz",
+  "ppm",
+  "ptn",
+  "pmo",
+  "rnn",
+  "szw",
+  "seu",
+  "sob",
+  "ymn",
+  "tni",
+  "tpf",
+  "tti",
+  "wbb",
+  "wad",
+  "wrp",
+  "wuy",
+  "wbw",
+  "yrs",
+  "jau",
+  "ire",
+  "gop"
+ ]
+}{
+ "classification": " South Halmahera-West New Guinea",
+ "lang": [
+  "amk",
+  "wgo",
+  "and",
+  "asz",
+  "bed",
+  "bhw",
+  "bhc",
+  "bzq",
+  "bsm",
+  "dsn",
+  "erw",
+  "gzn",
+  "gei",
+  "irh",
+  "kgb",
+  "kjr",
+  "lcc",
+  "mqa",
+  "xmx",
+  "mky",
+  "mvr",
+  "xmt",
+  "slz",
+  "mvx",
+  "mhz",
+  "mth",
+  "ppm",
+  "ptn",
+  "pmo",
+  "rnn",
+  "szw",
+  "seu",
+  "tni",
+  "wbb",
+  "wad",
+  "wrp",
+  "wuy",
+  "wbw",
+  "jau",
+  "ire",
+  "gop"
+ ]
+}{
+ "classification": " West New Guinea",
+ "lang": [
+  "amk",
+  "wgo",
+  "and",
+  "asz",
+  "bed",
+  "bhw",
+  "bhc",
+  "bsm",
+  "dsn",
+  "erw",
+  "gei",
+  "kgb",
+  "kjr",
+  "lcc",
+  "xmx",
+  "mvr",
+  "xmt",
+  "slz",
+  "mvx",
+  "mhz",
+  "mth",
+  "ppm",
+  "pmo",
+  "rnn",
+  "seu",
+  "tni",
+  "wbb",
+  "wad",
+  "wrp",
+  "wuy",
+  "wbw",
+  "jau",
+  "ire",
+  "gop"
+ ]
+}{
+ "classification": " Cenderawasih Bay",
+ "lang": [
+  "amk",
+  "wgo",
+  "and",
+  "asz",
+  "bhw",
+  "bhc",
+  "bsm",
+  "dsn",
+  "gei",
+  "kgb",
+  "kjr",
+  "lcc",
+  "xmx",
+  "mvr",
+  "xmt",
+  "slz",
+  "mvx",
+  "mhz",
+  "mth",
+  "ppm",
+  "pmo",
+  "rnn",
+  "seu",
+  "tni",
+  "wbb",
+  "wad",
+  "wrp",
+  "wuy",
+  "wbw",
+  "jau",
+  "ire",
+  "gop"
+ ]
+}{
+ "classification": " Yapen",
+ "lang": [
+  "amk",
+  "and",
+  "bsm",
+  "kjr",
+  "mvr",
+  "mth",
+  "ppm",
+  "pmo",
+  "rnn",
+  "swr",
+  "seu",
+  "wbb",
+  "wad",
+  "wbw",
+  "yva"
+ ]
+}{
+ "classification": " Central-Western",
+ "lang": [
+  "amk",
+  "and",
+  "bsm",
+  "mvr",
+  "mth",
+  "ppm",
+  "pmo",
+  "rnn",
+  "seu",
+  "wad",
+  "wbw"
+ ]
+}{
+ "classification": " Raja Ampat",
+ "lang": [
+  "wgo",
+  "asz",
+  "bhc",
+  "gei",
+  "kgb",
+  "lcc",
+  "xmx",
+  "xmt",
+  "slz",
+  "wuy"
+ ]
+}{
+ "classification": " Ambelau",
+ "lang": [
+  "amv"
+ ]
+}{
+ "classification": " Greater Barito",
+ "lang": [
+  "apg",
+  "bdl",
+  "bkr",
+  "dun",
+  "duq",
+  "duw",
+  "kkx",
+  "lbx",
+  "mhy",
+  "nij",
+  "otd",
+  "pku",
+  "sya",
+  "twy",
+  "tjg"
+ ]
+}{
+ "classification": " Barito-Mahakam",
+ "lang": [
+  "apg",
+  "tjg"
+ ]
+}{
+ "classification": " Sumba-Hawu",
+ "lang": [
+  "akg",
+  "nfa",
+  "hvn",
+  "xbr",
+  "kod",
+  "lmy",
+  "lur",
+  "mvd",
+  "wnk",
+  "wew"
+ ]
+}{
+ "classification": " Sumba",
+ "lang": [
+  "akg",
+  "xbr",
+  "kod",
+  "lmy",
+  "lur",
+  "mvd",
+  "wnk",
+  "wew"
+ ]
+}{
+ "classification": "East Geelvink Bay",
+ "lang": [
+  "bpo",
+  "brp",
+  "bvz",
+  "bti",
+  "dei",
+  "khh",
+  "kpi",
+  "njs",
+  "srt",
+  "tfo",
+  "trt",
+  "wor"
+ ]
+}{
+ "classification": " Celebic",
+ "lang": [
+  "bzb",
+  "bhz",
+  "bsu",
+  "bls",
+  "blz",
+  "bgz",
+  "brs",
+  "zbt",
+  "bep",
+  "bzl",
+  "bgb",
+  "bna",
+  "bkz",
+  "bup",
+  "cia",
+  "dms",
+  "dok",
+  "kzf",
+  "lew",
+  "unz",
+  "zka",
+  "kly",
+  "kgx",
+  "ues",
+  "vko",
+  "xkq",
+  "vkl",
+  "xks",
+  "lji",
+  "llm",
+  "law",
+  "lix",
+  "myl",
+  "mzq",
+  "xmz",
+  "mqn",
+  "mnb",
+  "npy",
+  "pdo",
+  "pmf",
+  "pnp",
+  "ums",
+  "raz",
+  "lje",
+  "loe",
+  "sdu",
+  "tvw",
+  "klw",
+  "pee",
+  "tdj",
+  "tlk",
+  "lbw",
+  "tdi",
+  "ttp",
+  "txm",
+  "toy",
+  "txe",
+  "khc",
+  "bhq",
+  "ppk",
+  "wru",
+  "wow",
+  "wlo",
+  "wtw"
+ ]
+}{
+ "classification": " Eastern",
+ "lang": [
+  "bzb",
+  "jbj",
+  "bsu",
+  "bsu",
+  "blz",
+  "blz",
+  "bgz",
+  "bgz",
+  "zbt",
+  "sdo",
+  "bgb",
+  "bna",
+  "bkz",
+  "bkz",
+  "bup",
+  "cia",
+  "enr",
+  "zka",
+  "bzp",
+  "ues",
+  "vko",
+  "xkq",
+  "xkq",
+  "kpq",
+  "vkl",
+  "vkl",
+  "xks",
+  "llm",
+  "lix",
+  "eip",
+  "mzq",
+  "xmz",
+  "xmz",
+  "mqn",
+  "mqn",
+  "mnb",
+  "nlc",
+  "nps",
+  "pdo",
+  "pnp",
+  "raz",
+  "loe",
+  "tlk",
+  "tlk",
+  "lbw",
+  "tdi",
+  "khc",
+  "bhq",
+  "mtg",
+  "wru",
+  "wow",
+  "wow",
+  "kkl",
+  "wfg"
+ ]
+}{
+ "classification": " Saluan-Banggai",
+ "lang": [
+  "bzb",
+  "blz",
+  "bgz",
+  "zbt",
+  "bgb",
+  "loe"
+ ]
+}{
+ "classification": " Western",
+ "lang": [
+  "bzb",
+  "zbt",
+  "bgb",
+  "aip",
+  "uka",
+  "kzm",
+  "xte",
+  "ues",
+  "vko",
+  "opk",
+  "kwr",
+  "lix",
+  "mzq",
+  "mnb",
+  "pdo",
+  "pnp",
+  "pru",
+  "raz",
+  "loe",
+  "dmu",
+  "lbw",
+  "tdi",
+  "ttn",
+  "wru"
+ ]
+}{
+ "classification": " Oceanic",
+ "lang": [
+  "auq",
+  "bpg",
+  "pdn",
+  "kbi",
+  "kzu",
+  "lio",
+  "mpy",
+  "ism",
+  "wkd",
+  "orz",
+  "sob",
+  "ymn",
+  "tpf",
+  "tti",
+  "yrs"
+ ]
+}{
+ "classification": " Western Oceanic",
+ "lang": [
+  "auq",
+  "bpg",
+  "pdn",
+  "kbi",
+  "kzu",
+  "lio",
+  "ism",
+  "wkd",
+  "orz",
+  "sob",
+  "ymn",
+  "tpf",
+  "tti",
+  "yrs"
+ ]
+}{
+ "classification": " North New Guinea",
+ "lang": [
+  "auq",
+  "bpg",
+  "pdn",
+  "kbi",
+  "kzu",
+  "lio",
+  "ism",
+  "wkd",
+  "orz",
+  "sob",
+  "ymn",
+  "tpf",
+  "tti",
+  "yrs"
+ ]
+}{
+ "classification": " Sarmi-Jayapura Bay",
+ "lang": [
+  "auq",
+  "bpg",
+  "pdn",
+  "kbi",
+  "kzu",
+  "lio",
+  "ism",
+  "wkd",
+  "orz",
+  "sob",
+  "ymn",
+  "tpf",
+  "tti",
+  "yrs"
+ ]
+}{
+ "classification": " Sarmi",
+ "lang": [
+  "auq",
+  "bpg",
+  "pdn",
+  "kbi",
+  "lio",
+  "ism",
+  "wkd",
+  "sob",
+  "ymn",
+  "tpf",
+  "yrs"
+ ]
+}{
+ "classification": " North Borneo",
+ "lang": [
+  "pni",
+  "bhv",
+  "bdb",
+  "bvk",
+  "bkn",
+  "bqr",
+  "hov",
+  "xay",
+  "bfg",
+  "xkn",
+  "xkd",
+  "whu",
+  "kzi",
+  "xkl",
+  "whk",
+  "xke",
+  "lgi",
+  "lnd",
+  "mxd",
+  "slg",
+  "sbr",
+  "mvv",
+  "kqv",
+  "pud",
+  "puf",
+  "puc",
+  "puj",
+  "put",
+  "snv",
+  "sjb",
+  "sge",
+  "itd",
+  "xky",
+  "ulu"
+ ]
+}{
+ "classification": " North Sarawakan",
+ "lang": [
+  "pni",
+  "bhv",
+  "bvk",
+  "hov",
+  "xay",
+  "bfg",
+  "xkn",
+  "xkd",
+  "whu",
+  "kzi",
+  "xkl",
+  "whk",
+  "xke",
+  "lgi",
+  "lnd",
+  "mxd",
+  "pud",
+  "puf",
+  "puj",
+  "put",
+  "snv",
+  "sge",
+  "xky",
+  "ulu"
+ ]
+}{
+ "classification": " Kayan-Kenyah",
+ "lang": [
+  "pni",
+  "bhv",
+  "bvk",
+  "hov",
+  "xay",
+  "bfg",
+  "xkn",
+  "xkd",
+  "whu",
+  "xkl",
+  "whk",
+  "xke",
+  "mxd",
+  "pud",
+  "puf",
+  "sge",
+  "xky",
+  "ulu"
+ ]
+}{
+ "classification": " Kayanic",
+ "lang": [
+  "pni",
+  "bhv",
+  "bvk",
+  "hov",
+  "xay",
+  "bfg",
+  "xkn",
+  "xkd",
+  "whu",
+  "xke",
+  "mxd",
+  "pud",
+  "puf",
+  "sge"
+ ]
+}{
+ "classification": " Muller-Schwaner \u2018Punan\u2019",
+ "lang": [
+  "pni",
+  "bvk",
+  "hov",
+  "xke",
+  "pud",
+  "puf"
+ ]
+}{
+ "classification": " Southwest Maluku",
+ "lang": [
+  "apx",
+  "dmr",
+  "ilu",
+  "kje",
+  "lti",
+  "lex",
+  "nil",
+  "wet",
+  "rmm",
+  "srw",
+  "tve",
+  "tzn"
+ ]
+}{
+ "classification": " Wetar",
+ "lang": [
+  "apx",
+  "ilu",
+  "wet",
+  "tzn"
+ ]
+}{
+ "classification": " South Sulawesi",
+ "lang": [
+  "atq",
+  "ptu",
+  "bnu",
+  "bdx",
+  "bug",
+  "cml",
+  "dkk",
+  "mvp",
+  "emb",
+  "ptt",
+  "kli",
+  "kjc",
+  "kjk",
+  "ley",
+  "wmm",
+  "mak",
+  "mli",
+  "mqj",
+  "mqx",
+  "mdr",
+  "psn",
+  "pnc",
+  "skx",
+  "sko",
+  "sly",
+  "rob",
+  "tln",
+  "tmn",
+  "sda",
+  "ulm"
+ ]
+}{
+ "classification": " Northern",
+ "lang": [
+  "atq",
+  "ptu",
+  "brs",
+  "btz",
+  "btd",
+  "btx",
+  "dkk",
+  "dok",
+  "mvp",
+  "ptt",
+  "kzf",
+  "lew",
+  "unz",
+  "kli",
+  "law",
+  "wmm",
+  "mli",
+  "mqj",
+  "mqx",
+  "mdr",
+  "myl",
+  "pmf",
+  "pnc",
+  "sxn",
+  "tvw",
+  "klw",
+  "rob",
+  "tld",
+  "tln",
+  "ttp",
+  "txm",
+  "toy",
+  "sda",
+  "ulm"
+ ]
+}{
+ "classification": " Pitu Ulunna Salu",
+ "lang": [
+  "atq",
+  "ptu",
+  "dkk",
+  "pnc",
+  "ulm"
+ ]
+}{
+ "classification": " South Bird\u2019s Head",
+ "lang": [
+  "jbj",
+  "dbn",
+  "uka",
+  "kzm",
+  "bzp",
+  "xod",
+  "knd",
+  "pru",
+  "szp",
+  "ner"
+ ]
+}{
+ "classification": " South Bird\u2019s Head Proper",
+ "lang": [
+  "jbj",
+  "uka",
+  "kzm",
+  "bzp",
+  "xod",
+  "pru"
+ ]
+}{
+ "classification": " North Bomberai",
+ "lang": [
+  "agf",
+  "oni",
+  "skz",
+  "urn"
+ ]
+}{
+ "classification": " Asilulu",
+ "lang": [
+  "asl",
+  "hik"
+ ]
+}{
+ "classification": " Asmat-Kamoro",
+ "lang": [
+  "asc",
+  "cns",
+  "nks",
+  "asy",
+  "asi",
+  "txt",
+  "tml",
+  "diy",
+  "irx",
+  "kgq",
+  "xse"
+ ]
+}{
+ "classification": " Asmat",
+ "lang": [
+  "asc",
+  "cns",
+  "nks",
+  "asy",
+  "txt",
+  "tml"
+ ]
+}{
+ "classification": " Kayagar",
+ "lang": [
+  "aqm",
+  "kyt",
+  "tcg"
+ ]
+}{
+ "classification": " Wissel Lakes",
+ "lang": [
+  "auu",
+  "daz",
+  "ekg",
+  "mnz",
+  "wod"
+ ]
+}{
+ "classification": "Bayono-Awbono",
+ "lang": [
+  "awh",
+  "byl"
+ ]
+}{
+ "classification": "Lakes Plain",
+ "lang": [
+  "awr",
+  "bqq",
+  "tbp",
+  "tds",
+  "duv",
+  "dbf",
+  "ert",
+  "fau",
+  "flh",
+  "tmu",
+  "tcq",
+  "kiy",
+  "kkb",
+  "afz",
+  "pas",
+  "rac",
+  "spi",
+  "tty",
+  "tad",
+  "wbe"
+ ]
+}{
+ "classification": " Awera",
+ "lang": [
+  "awr"
+ ]
+}{
+ "classification": "Border",
+ "lang": [
+  "auw",
+  "jet",
+  "sow",
+  "aos",
+  "snu",
+  "wrs"
+ ]
+}{
+ "classification": " Taikat",
+ "lang": [
+  "auw",
+  "aos"
+ ]
+}{
+ "classification": " Babar",
+ "lang": [
+  "bcd",
+  "vbb",
+  "dij",
+  "ddw",
+  "emw",
+  "imr",
+  "mxz",
+  "vme",
+  "mss",
+  "sve",
+  "tvm"
+ ]
+}{
+ "classification": " North",
+ "lang": [
+  "bcd",
+  "dij",
+  "ddw",
+  "kkx",
+  "lbx",
+  "otd",
+  "sya",
+  "twy",
+  "tom",
+  "tdn",
+  "txs",
+  "tnt"
+ ]
+}{
+ "classification": " South",
+ "lang": [
+  "vbb",
+  "bkr",
+  "duq",
+  "duw",
+  "emw",
+  "imr",
+  "mhy",
+  "mxz",
+  "vme",
+  "mss",
+  "nij",
+  "pku",
+  "sve",
+  "tsg",
+  "tvm"
+ ]
+}{
+ "classification": " Masela-South Babar",
+ "lang": [
+  "vbb",
+  "mxz",
+  "vme",
+  "mss",
+  "sve"
+ ]
+}{
+ "classification": " Kaili-Pamona",
+ "lang": [
+  "bhz",
+  "brs",
+  "bep",
+  "kzf",
+  "lew",
+  "unz",
+  "myl",
+  "npy",
+  "pmf",
+  "lje",
+  "sdu",
+  "tvw",
+  "klw",
+  "ttp",
+  "toy",
+  "ppk"
+ ]
+}{
+ "classification": " Southern",
+ "lang": [
+  "bhz",
+  "bls",
+  "bnq",
+  "akb",
+  "btm",
+  "bbc",
+  "bep",
+  "dms",
+  "djo",
+  "xem",
+  "sbr",
+  "npy",
+  "ums",
+  "lje",
+  "rth",
+  "rir",
+  "sdu",
+  "slu",
+  "sws",
+  "sdm",
+  "pee",
+  "tdj",
+  "ppk"
+ ]
+}{
+ "classification": " Badaic",
+ "lang": [
+  "bhz",
+  "bep",
+  "npy"
+ ]
+}{
+ "classification": " Sundanese",
+ "lang": [
+  "bac",
+  "sun"
+ ]
+}{
+ "classification": " Nuclear",
+ "lang": [
+  "bqb",
+  "xau",
+  "kwe",
+  "xwr",
+  "tip"
+ ]
+}{
+ "classification": " West Bomberai",
+ "lang": [
+  "bdw",
+  "ihp",
+  "kgv"
+ ]
+}{
+ "classification": " West Bomberai Proper",
+ "lang": [
+  "bdw",
+  "ihp"
+ ]
+}{
+ "classification": " Kayan Proper",
+ "lang": [
+  "bhv",
+  "xay",
+  "bfg",
+  "xkn",
+  "xkd",
+  "whu"
+ ]
+}{
+ "classification": " Southeastern",
+ "lang": [
+  "bsu",
+  "bna",
+  "bkz",
+  "bup",
+  "cia",
+  "zka",
+  "ues",
+  "vko",
+  "xkq",
+  "vkl",
+  "xks",
+  "llm",
+  "lix",
+  "mzq",
+  "xmz",
+  "mqn",
+  "mnb",
+  "pdo",
+  "pnp",
+  "raz",
+  "tlk",
+  "lbw",
+  "tdi",
+  "khc",
+  "bhq",
+  "wru",
+  "wow"
+ ]
+}{
+ "classification": " Bungku-Tolaki",
+ "lang": [
+  "bsu",
+  "bkz",
+  "vko",
+  "xkq",
+  "vkl",
+  "mzq",
+  "xmz",
+  "mqn",
+  "pdo",
+  "raz",
+  "tlk",
+  "lbw",
+  "tdi",
+  "wru",
+  "wow"
+ ]
+}{
+ "classification": " East Coast",
+ "lang": [
+  "bsu",
+  "bkz",
+  "xkq",
+  "vkl",
+  "xmz",
+  "tlk",
+  "wow"
+ ]
+}{
+ "classification": " Sama-Bajaw",
+ "lang": [
+  "bdl"
+ ]
+}{
+ "classification": " Sulu-Borneo",
+ "lang": [
+  "bdl"
+ ]
+}{
+ "classification": " Borneo Coast Bajaw",
+ "lang": [
+  "bdl"
+ ]
+}{
+ "classification": " Land Dayak",
+ "lang": [
+  "bei",
+  "lra",
+  "sre",
+  "byd",
+  "bth",
+  "sdo",
+  "djo",
+  "xem",
+  "rir",
+  "scg",
+  "sdm"
+ ]
+}{
+ "classification": " Bakati\u2019",
+ "lang": [
+  "bei",
+  "lra",
+  "sre"
+ ]
+}{
+ "classification": " Tomini-Tolitoli",
+ "lang": [
+  "bls",
+  "bzl",
+  "dms",
+  "dok",
+  "law",
+  "ums",
+  "pee",
+  "tdj",
+  "txm",
+  "txe"
+ ]
+}{
+ "classification": " Tomini",
+ "lang": [
+  "bls",
+  "dms",
+  "dok",
+  "law",
+  "ums",
+  "pee",
+  "tdj",
+  "txm"
+ ]
+}{
+ "classification": " Bali-Sasak-Sumbawa",
+ "lang": [
+  "ban",
+  "sas",
+  "smw"
+ ]
+}{
+ "classification": " Banda-Geser",
+ "lang": [
+  "bnd",
+  "bvt",
+  "ges",
+  "wah"
+ ]
+}{
+ "classification": " Malayic",
+ "lang": [
+  "mfb",
+  "bjn",
+  "liw",
+  "dup",
+  "hji",
+  "iba",
+  "ind",
+  "vkk",
+  "knx",
+  "knl",
+  "kvr",
+  "kvb",
+  "lcf",
+  "zlm",
+  "btj",
+  "bve",
+  "bvu",
+  "pse",
+  "jax",
+  "mqg",
+  "mfp",
+  "vkt",
+  "xdy",
+  "min",
+  "mtd",
+  "mui",
+  "pel",
+  "sbx",
+  "lce"
+ ]
+}{
+ "classification": " Malay",
+ "lang": [
+  "mfb",
+  "bjn",
+  "liw",
+  "dup",
+  "hji",
+  "ind",
+  "vkk",
+  "kvr",
+  "kvb",
+  "lcf",
+  "zlm",
+  "btj",
+  "bve",
+  "bvu",
+  "pse",
+  "jax",
+  "mqg",
+  "mfp",
+  "vkt",
+  "min",
+  "mui",
+  "pel",
+  "lce"
+ ]
+}{
+ "classification": " Sangiric",
+ "lang": [
+  "bnq",
+  "rth",
+  "sxn",
+  "tld"
+ ]
+}{
+ "classification": " Aru",
+ "lang": [
+  "baj",
+  "bay",
+  "kvo",
+  "kyd",
+  "kpd",
+  "kvv",
+  "kvp",
+  "lcd",
+  "lrn",
+  "woo",
+  "mqi",
+  "tre",
+  "txn",
+  "udj"
+ ]
+}{
+ "classification": " Kaili",
+ "lang": [
+  "brs",
+  "kzf",
+  "lew",
+  "unz",
+  "myl",
+  "tvw",
+  "klw",
+  "toy"
+ ]
+}{
+ "classification": " Rejang-Sajau",
+ "lang": [
+  "bdb",
+  "bqr",
+  "puc",
+  "sjb"
+ ]
+}{
+ "classification": " Northwest Sumatra-Barrier Islands",
+ "lang": [
+  "btz",
+  "akb",
+  "btd",
+  "btx",
+  "btm",
+  "bts",
+  "bbc",
+  "gay",
+  "mwv",
+  "nia",
+  "skh",
+  "smr"
+ ]
+}{
+ "classification": " Batak",
+ "lang": [
+  "btz",
+  "akb",
+  "btd",
+  "btx",
+  "btm",
+  "bts",
+  "bbc"
+ ]
+}{
+ "classification": " Simalungan",
+ "lang": [
+  "bts"
+ ]
+}{
+ "classification": " Geser-Gorom",
+ "lang": [
+  "bvt",
+  "ges",
+  "wah"
+ ]
+}{
+ "classification": " Saluanic",
+ "lang": [
+  "zbt",
+  "bgb",
+  "loe"
+ ]
+}{
+ "classification": " Bauzi",
+ "lang": [
+  "bvz",
+  "dei"
+ ]
+}{
+ "classification": " Bomberai",
+ "lang": [
+  "bed",
+  "erw"
+ ]
+}{
+ "classification": " Orya-Tor",
+ "lang": [
+  "bnv",
+  "bkl",
+  "bfe",
+  "dbe",
+  "mrx",
+  "itx",
+  "jbr",
+  "kdy",
+  "kwt",
+  "kuc",
+  "mqr",
+  "ury",
+  "sao",
+  "vto",
+  "wai"
+ ]
+}{
+ "classification": " Tor",
+ "lang": [
+  "bnv",
+  "bkl",
+  "bfe",
+  "dbe",
+  "mrx",
+  "itx",
+  "jbr",
+  "kdy",
+  "kwt",
+  "kuc",
+  "mqr",
+  "vto",
+  "wai"
+ ]
+}{
+ "classification": " Manusela-Seti",
+ "lang": [
+  "bgy",
+  "hud",
+  "ste",
+  "sgu",
+  "wha"
+ ]
+}{
+ "classification": " Makassar",
+ "lang": [
+  "bnu",
+  "kjc",
+  "kjk",
+  "mak",
+  "sly"
+ ]
+}{
+ "classification": "Creole",
+ "lang": [
+  "bew",
+  "pea",
+  "jvd",
+  "abs",
+  "mhp",
+  "bpq",
+  "mkn",
+  "lrt",
+  "xmm",
+  "max",
+  "pmy",
+  "pey",
+  "tmg"
+ ]
+}{
+ "classification": " Malay based",
+ "lang": [
+  "bew",
+  "pea",
+  "abs",
+  "mhp",
+  "bpq",
+  "mkn",
+  "lrt",
+  "xmm",
+  "max",
+  "pmy"
+ ]
+}{
+ "classification": " Biakic",
+ "lang": [
+  "bhw",
+  "dsn",
+  "mvx"
+ ]
+}{
+ "classification": " Bidayuh",
+ "lang": [
+  "bth",
+  "sdo"
+ ]
+}{
+ "classification": " Core",
+ "lang": [
+  "bth"
+ ]
+}{
+ "classification": " Central",
+ "lang": [
+  "bth",
+  "dun",
+  "dbf",
+  "tmu",
+  "xod"
+ ]
+}{
+ "classification": " Rote",
+ "lang": [
+  "bpz",
+  "row",
+  "dnk",
+  "llg",
+  "rgu",
+  "twu",
+  "txq"
+ ]
+}{
+ "classification": " Greater Central Philippine",
+ "lang": [
+  "bne",
+  "bld",
+  "blf",
+  "gor",
+  "kzp",
+  "llq",
+  "mog",
+  "pns",
+  "swu",
+  "tsg"
+ ]
+}{
+ "classification": " Gorontalo-Mongondow",
+ "lang": [
+  "bne",
+  "bld",
+  "blf",
+  "gor",
+  "kzp",
+  "llq",
+  "mog",
+  "pns",
+  "swu"
+ ]
+}{
+ "classification": " Gorontalic",
+ "lang": [
+  "bne",
+  "bld",
+  "blf",
+  "gor",
+  "kzp",
+  "llq",
+  "swu"
+ ]
+}{
+ "classification": " Tariku",
+ "lang": [
+  "bqq",
+  "tds",
+  "duv",
+  "dbf",
+  "ert",
+  "fau",
+  "tmu",
+  "tcq",
+  "kiy",
+  "kkb",
+  "afz",
+  "pas",
+  "tty",
+  "tad",
+  "wbe"
+ ]
+}{
+ "classification": " Pantar",
+ "lang": [
+  "beu",
+  "jka",
+  "nec",
+  "lev",
+  "ret",
+  "twe",
+  "twg"
+ ]
+}{
+ "classification": " Tolitoli",
+ "lang": [
+  "bzl",
+  "txe"
+ ]
+}{
+ "classification": " Hoamoal",
+ "lang": [
+  "bzn",
+  "alo"
+ ]
+}{
+ "classification": " Bobot",
+ "lang": [
+  "bty"
+ ]
+}{
+ "classification": " Muna-Buton",
+ "lang": [
+  "bna",
+  "bup",
+  "cia",
+  "zka",
+  "ues",
+  "xks",
+  "llm",
+  "lix",
+  "mnb",
+  "pnp",
+  "khc",
+  "bhq"
+ ]
+}{
+ "classification": " Tukangbesi-Bonerate",
+ "lang": [
+  "bna",
+  "khc",
+  "bhq"
+ ]
+}{
+ "classification": " Seko",
+ "lang": [
+  "bdx",
+  "psn",
+  "skx",
+  "sko"
+ ]
+}{
+ "classification": " Panasuan",
+ "lang": [
+  "bdx",
+  "psn"
+ ]
+}{
+ "classification": " Bugis",
+ "lang": [
+  "bug",
+  "cml",
+  "emb",
+  "tmn"
+ ]
+}{
+ "classification": " Melanau-Kajang",
+ "lang": [
+  "bkn"
+ ]
+}{
+ "classification": " Kajang",
+ "lang": [
+  "bkn"
+ ]
+}{
+ "classification": " South Halmahera",
+ "lang": [
+  "bzq",
+  "gzn",
+  "irh",
+  "mqa",
+  "mky",
+  "ptn",
+  "szw"
+ ]
+}{
+ "classification": " Southeast",
+ "lang": [
+  "bzq",
+  "mqa",
+  "ptn",
+  "szw"
+ ]
+}{
+ "classification": " Unclassified",
+ "lang": [
+  "blj",
+  "goq",
+  "nbn"
+ ]
+}{
+ "classification": " Timor",
+ "lang": [
+  "bfn"
+ ]
+}{
+ "classification": "East Bird\u2019s Head-Sentani",
+ "lang": [
+  "bzu",
+  "mnx",
+  "mej",
+  "mtj",
+  "nxx",
+  "set",
+  "dmy",
+  "tnm"
+ ]
+}{
+ "classification": " Burmeso",
+ "lang": [
+  "bzu"
+ ]
+}{
+ "classification": " Buru",
+ "lang": [
+  "mhs",
+  "lcl",
+  "vms"
+ ]
+}{
+ "classification": " Ok",
+ "lang": [
+  "aip",
+  "kzv",
+  "opk",
+  "kwr",
+  "iwo",
+  "kti",
+  "kts",
+  "nkj",
+  "szb",
+  "nxr",
+  "tkx",
+  "kvz"
+ ]
+}{
+ "classification": " Sabakor",
+ "lang": [
+  "asi",
+  "irx"
+ ]
+}{
+ "classification": " Nuclear Muna-Buton",
+ "lang": [
+  "bup",
+  "cia",
+  "zka",
+  "ues",
+  "xks",
+  "llm",
+  "lix",
+  "mnb",
+  "pnp"
+ ]
+}{
+ "classification": " Munan",
+ "lang": [
+  "bup",
+  "zka",
+  "ues",
+  "lix",
+  "mnb",
+  "pnp"
+ ]
+}{
+ "classification": "Sino-Tibetan",
+ "lang": [
+  "hak",
+  "cmn",
+  "cdo",
+  "nan",
+  "yue"
+ ]
+}{
+ "classification": " Chinese",
+ "lang": [
+  "hak",
+  "cmn",
+  "cdo",
+  "nan",
+  "yue"
+ ]
+}{
+ "classification": " Buton",
+ "lang": [
+  "cia",
+  "xks",
+  "llm"
+ ]
+}{
+ "classification": " West Buton",
+ "lang": [
+  "cia"
+ ]
+}{
+ "classification": " Damal",
+ "lang": [
+  "uhn"
+ ]
+}{
+ "classification": " East Damar",
+ "lang": [
+  "dmr"
+ ]
+}{
+ "classification": " West Damar",
+ "lang": [
+  "drn"
+ ]
+}{
+ "classification": " Dani",
+ "lang": [
+  "dni",
+  "dnt",
+  "dna",
+  "dnw",
+  "hap",
+  "ndx",
+  "nbq",
+  "wul",
+  "wlw",
+  "wno",
+  "yli",
+  "nlk",
+  "yac"
+ ]
+}{
+ "classification": " Dani Proper",
+ "lang": [
+  "dni",
+  "dnt",
+  "dna",
+  "dnw",
+  "hap",
+  "nbq",
+  "wlw"
+ ]
+}{
+ "classification": " Dem",
+ "lang": [
+  "dem"
+ ]
+}{
+ "classification": "Senagi",
+ "lang": [
+  "kbv"
+ ]
+}{
+ "classification": " Hawu-Dhao",
+ "lang": [
+  "nfa",
+  "hvn"
+ ]
+}{
+ "classification": " Diuwe",
+ "lang": [
+  "diy"
+ ]
+}{
+ "classification": " Masenrempulu",
+ "lang": [
+  "mvp",
+  "ptt",
+  "wmm",
+  "mli"
+ ]
+}{
+ "classification": " Inanwatan",
+ "lang": [
+  "dbn",
+  "szp"
+ ]
+}{
+ "classification": " Central-South",
+ "lang": [
+  "dun",
+  "duq",
+  "duw",
+  "mhy",
+  "pku"
+ ]
+}{
+ "classification": " Duvle",
+ "lang": [
+  "duv"
+ ]
+}{
+ "classification": " Tamanic",
+ "lang": [
+  "emb",
+  "tmn"
+ ]
+}{
+ "classification": "Pauwasi",
+ "lang": [
+  "enr",
+  "dmu",
+  "ttn",
+  "wfg"
+ ]
+}{
+ "classification": " Southwest Babar",
+ "lang": [
+  "emw",
+  "imr",
+  "tvm"
+ ]
+}{
+ "classification": "Unclassified",
+ "lang": [
+  "eno",
+  "xkw",
+  "sbt",
+  "lpe",
+  "msl",
+  "rmh",
+  "naa",
+  "tlg",
+  "ulf",
+  "yet"
+ ]
+}{
+ "classification": " Southeast Maluku",
+ "lang": [
+  "frd",
+  "kei",
+  "slu",
+  "sws",
+  "jmd"
+ ]
+}{
+ "classification": " Kei-Tanimbar",
+ "lang": [
+  "frd",
+  "kei",
+  "jmd"
+ ]
+}{
+ "classification": " Kei-Fordata",
+ "lang": [
+  "frd",
+  "kei"
+ ]
+}{
+ "classification": "West Papuan",
+ "lang": [
+  "gbi",
+  "gak",
+  "ibu",
+  "kzz",
+  "kax",
+  "lau",
+  "loa",
+  "mqs",
+  "mqo",
+  "mxn",
+  "msg",
+  "pgu",
+  "saj",
+  "swr",
+  "sbg",
+  "tby",
+  "kps",
+  "tft",
+  "tvo",
+  "tlb",
+  "tuj",
+  "wli",
+  "yva"
+ ]
+}{
+ "classification": " North Halmahera",
+ "lang": [
+  "gbi",
+  "gak",
+  "ibu",
+  "kax",
+  "lau",
+  "loa",
+  "mqs",
+  "mqo",
+  "pgu",
+  "saj",
+  "tby",
+  "tft",
+  "tvo",
+  "tlb",
+  "tuj",
+  "wli"
+ ]
+}{
+ "classification": " Galela-Loloda",
+ "lang": [
+  "gbi",
+  "lau",
+  "loa",
+  "mqo",
+  "pgu",
+  "tby",
+  "tlb",
+  "tuj"
+ ]
+}{
+ "classification": " Sahu",
+ "lang": [
+  "gak",
+  "ibu",
+  "kax",
+  "saj",
+  "wli"
+ ]
+}{
+ "classification": " East Makian-Gane",
+ "lang": [
+  "gzn",
+  "mky"
+ ]
+}{
+ "classification": "Nimboran",
+ "lang": [
+  "grs",
+  "kmt",
+  "msf",
+  "kja",
+  "nir"
+ ]
+}{
+ "classification": " Ambon",
+ "lang": [
+  "htu",
+  "lhh",
+  "tlu"
+ ]
+}{
+ "classification": " East Seram",
+ "lang": [
+  "hti"
+ ]
+}{
+ "classification": " Hukumina",
+ "lang": [
+  "huw"
+ ]
+}{
+ "classification": " Hulung",
+ "lang": [
+  "huk"
+ ]
+}{
+ "classification": " Ibanic",
+ "lang": [
+  "iba",
+  "mtd",
+  "sbx"
+ ]
+}{
+ "classification": "Pidgin",
+ "lang": [
+  "ihb",
+  "onx"
+ ]
+}{
+ "classification": " Iha based",
+ "lang": [
+  "ihb"
+ ]
+}{
+ "classification": "Sign language",
+ "lang": [
+  "inl",
+  "bqy"
+ ]
+}{
+ "classification": " Isirawa",
+ "lang": [
+  "srl"
+ ]
+}{
+ "classification": " Javanese",
+ "lang": [
+  "jav",
+  "osi",
+  "tes"
+ ]
+}{
+ "classification": " Dutch based",
+ "lang": [
+  "jvd",
+  "pey"
+ ]
+}{
+ "classification": " Sula",
+ "lang": [
+  "kzd",
+  "mqc",
+  "szn",
+  "tlv"
+ ]
+}{
+ "classification": " Taliabo",
+ "lang": [
+  "kzd",
+  "tlv"
+ ]
+}{
+ "classification": " Munic",
+ "lang": [
+  "zka",
+  "ues",
+  "lix",
+  "mnb",
+  "pnp"
+ ]
+}{
+ "classification": " West Bird\u2019s Head",
+ "lang": [
+  "kzz",
+  "mxn",
+  "msg",
+  "sbg",
+  "kps"
+ ]
+}{
+ "classification": " Wotu-Wolio",
+ "lang": [
+  "kly",
+  "kgx",
+  "lji",
+  "wlo",
+  "wtw"
+ ]
+}{
+ "classification": " Kalao",
+ "lang": [
+  "kly",
+  "lji"
+ ]
+}{
+ "classification": " Toraja-Sa\u2019dan",
+ "lang": [
+  "kli",
+  "mqj",
+  "rob",
+  "tln",
+  "sda"
+ ]
+}{
+ "classification": " Kamarian",
+ "lang": [
+  "kzx"
+ ]
+}{
+ "classification": " Wolio-Kamaru",
+ "lang": [
+  "kgx",
+  "wlo"
+ ]
+}{
+ "classification": " Kamoro",
+ "lang": [
+  "kgq"
+ ]
+}{
+ "classification": " Madurese",
+ "lang": [
+  "kkv",
+  "mad"
+ ]
+}{
+ "classification": "South-Central Papuan",
+ "lang": [
+  "khd",
+  "kcd",
+  "kxq",
+  "krz",
+  "mgf",
+  "jei",
+  "jel"
+ ]
+}{
+ "classification": " Morehead-Upper Maro",
+ "lang": [
+  "khd",
+  "kcd",
+  "kxq",
+  "krz",
+  "jei"
+ ]
+}{
+ "classification": " Tonda",
+ "lang": [
+  "khd",
+  "kcd",
+  "kxq",
+  "krz"
+ ]
+}{
+ "classification": "Kaure",
+ "lang": [
+  "khp",
+  "bpp",
+  "kiq",
+  "nxu"
+ ]
+}{
+ "classification": " Kapore",
+ "lang": [
+  "khp"
+ ]
+}{
+ "classification": " Karas",
+ "lang": [
+  "kgv"
+ ]
+}{
+ "classification": "Maybrat",
+ "lang": [
+  "kgw",
+  "ayz"
+ ]
+}{
+ "classification": " Kaure Proper",
+ "lang": [
+  "bpp",
+  "kiq",
+  "nxu"
+ ]
+}{
+ "classification": " Kayeli",
+ "lang": [
+  "kzl"
+ ]
+}{
+ "classification": " Jayapura Bay",
+ "lang": [
+  "kzu",
+  "orz",
+  "tti"
+ ]
+}{
+ "classification": " Dayic",
+ "lang": [
+  "kzi",
+  "lgi",
+  "lnd",
+  "put",
+  "snv"
+ ]
+}{
+ "classification": " Kelabitic",
+ "lang": [
+  "kzi",
+  "lgi",
+  "lnd",
+  "put",
+  "snv"
+ ]
+}{
+ "classification": " Kenyah",
+ "lang": [
+  "xkl",
+  "whk",
+  "xky",
+  "ulu"
+ ]
+}{
+ "classification": " Kayanic Kenyah",
+ "lang": [
+  "whk"
+ ]
+}{
+ "classification": " Mek",
+ "lang": [
+  "xte",
+  "kpq",
+  "eip",
+  "nlc",
+  "nps",
+  "mtg",
+  "kkl"
+ ]
+}{
+ "classification": " Dumut",
+ "lang": [
+  "ktt",
+  "tyn",
+  "aax",
+  "bwp",
+  "wms",
+  "wng"
+ ]
+}{
+ "classification": " Kolopom",
+ "lang": [
+  "kig",
+  "nqm",
+  "ran"
+ ]
+}{
+ "classification": " Kisar-Roma",
+ "lang": [
+  "kje",
+  "rmm"
+ ]
+}{
+ "classification": " Lampung",
+ "lang": [
+  "kge",
+  "ljp",
+  "abl"
+ ]
+}{
+ "classification": " Ngalum",
+ "lang": [
+  "kzv",
+  "szb",
+  "kvz"
+ ]
+}{
+ "classification": " Konda-Yahadian",
+ "lang": [
+  "knd",
+  "ner"
+ ]
+}{
+ "classification": " Mombum",
+ "lang": [
+  "kdw",
+  "mso"
+ ]
+}{
+ "classification": " Kulisusu",
+ "lang": [
+  "xkq",
+  "vkl",
+  "tlk"
+ ]
+}{
+ "classification": " Korowai",
+ "lang": [
+  "khe"
+ ]
+}{
+ "classification": " South Bomberai",
+ "lang": [
+  "kwh"
+ ]
+}{
+ "classification": " Tanglapui",
+ "lang": [
+  "tpg",
+  "swt"
+ ]
+}{
+ "classification": " East Buton",
+ "lang": [
+  "xks",
+  "llm"
+ ]
+}{
+ "classification": " Teor-Kur",
+ "lang": [
+  "kuv",
+  "tev"
+ ]
+}{
+ "classification": " Saparua",
+ "lang": [
+  "ltu",
+  "spr"
+ ]
+}{
+ "classification": " Lemolang",
+ "lang": [
+  "ley"
+ ]
+}{
+ "classification": " Luang",
+ "lang": [
+  "lti",
+  "lex"
+ ]
+}{
+ "classification": " Loun",
+ "lang": [
+  "lox"
+ ]
+}{
+ "classification": "Mairasi",
+ "lang": [
+  "zrs",
+  "mnu",
+  "etz"
+ ]
+}{
+ "classification": " West Makian",
+ "lang": [
+  "mqs"
+ ]
+}{
+ "classification": " Yelmek-Maklew",
+ "lang": [
+  "mgf",
+  "jel"
+ ]
+}{
+ "classification": " Mamuju",
+ "lang": [
+  "mqx"
+ ]
+}{
+ "classification": " Mandar",
+ "lang": [
+  "mdr"
+ ]
+}{
+ "classification": " Waris",
+ "lang": [
+  "jet",
+  "sow",
+  "snu",
+  "wrs"
+ ]
+}{
+ "classification": " East Bird\u2019s Head",
+ "lang": [
+  "mnx",
+  "mej",
+  "mtj"
+ ]
+}{
+ "classification": " Mantion",
+ "lang": [
+  "mnx"
+ ]
+}{
+ "classification": " Central-Eastern Oceanic",
+ "lang": [
+  "mpy"
+ ]
+}{
+ "classification": " Remote Oceanic",
+ "lang": [
+  "mpy"
+ ]
+}{
+ "classification": " Micronesian",
+ "lang": [
+  "mpy"
+ ]
+}{
+ "classification": " Micronesian Proper",
+ "lang": [
+  "mpy"
+ ]
+}{
+ "classification": " Pohnpeic-Chuukic",
+ "lang": [
+  "mpy"
+ ]
+}{
+ "classification": " Chuukic",
+ "lang": [
+  "mpy"
+ ]
+}{
+ "classification": " Marind",
+ "lang": [
+  "mrz",
+  "bpv",
+  "bgv",
+  "jaq"
+ ]
+}{
+ "classification": " Nuclear Marind",
+ "lang": [
+  "mrz",
+  "bpv"
+ ]
+}{
+ "classification": " Masiwang",
+ "lang": [
+  "bnf"
+ ]
+}{
+ "classification": " Mawes",
+ "lang": [
+  "mgk"
+ ]
+}{
+ "classification": " Meax",
+ "lang": [
+  "mej",
+  "mtj"
+ ]
+}{
+ "classification": " Modang",
+ "lang": [
+  "mxd",
+  "sge"
+ ]
+}{
+ "classification": "Somahai",
+ "lang": [
+  "mmb",
+  "mqf"
+ ]
+}{
+ "classification": " Mongondowic",
+ "lang": [
+  "mog",
+  "pns"
+ ]
+}{
+ "classification": " Mor",
+ "lang": [
+  "mhz",
+  "moq"
+ ]
+}{
+ "classification": " Interior",
+ "lang": [
+  "mzq",
+  "pdo",
+  "tdi"
+ ]
+}{
+ "classification": " Southwest",
+ "lang": [
+  "mqn"
+ ]
+}{
+ "classification": " Lowland",
+ "lang": [
+  "iwo",
+  "kti",
+  "kts",
+  "nxr"
+ ]
+}{
+ "classification": " Moraori",
+ "lang": [
+  "mok"
+ ]
+}{
+ "classification": " Sabahan",
+ "lang": [
+  "slg",
+  "sbr",
+  "mvv",
+  "kqv",
+  "itd"
+ ]
+}{
+ "classification": " Murutic",
+ "lang": [
+  "slg",
+  "sbr",
+  "mvv",
+  "kqv",
+  "itd"
+ ]
+}{
+ "classification": " Murut",
+ "lang": [
+  "slg",
+  "mvv",
+  "kqv"
+ ]
+}{
+ "classification": " Sentani",
+ "lang": [
+  "nxx",
+  "set",
+  "dmy",
+  "tnm"
+ ]
+}{
+ "classification": " Sentani Proper",
+ "lang": [
+  "nxx",
+  "set",
+  "tnm"
+ ]
+}{
+ "classification": " Mountain",
+ "lang": [
+  "nkj"
+ ]
+}{
+ "classification": " Nasal",
+ "lang": [
+  "nsy"
+ ]
+}{
+ "classification": " Ngalik",
+ "lang": [
+  "ndx",
+  "wul",
+  "yli",
+  "nlk",
+  "yac"
+ ]
+}{
+ "classification": " Nias",
+ "lang": [
+  "nia",
+  "skh"
+ ]
+}{
+ "classification": " Teun-Nila-Serua",
+ "lang": [
+  "nil",
+  "srw",
+  "tve"
+ ]
+}{
+ "classification": " Nila-Serua",
+ "lang": [
+  "nil",
+  "srw"
+ ]
+}{
+ "classification": " Sawai-Nuaulu",
+ "lang": [
+  "nni",
+  "nxl",
+  "sau"
+ ]
+}{
+ "classification": " Onin based",
+ "lang": [
+  "onx"
+ ]
+}{
+ "classification": " Orya",
+ "lang": [
+  "ury"
+ ]
+}{
+ "classification": " Pamona",
+ "lang": [
+  "pmf",
+  "ttp"
+ ]
+}{
+ "classification": " Solehua",
+ "lang": [
+  "plh"
+ ]
+}{
+ "classification": " Punan Tubu",
+ "lang": [
+  "puj"
+ ]
+}{
+ "classification": " Rasawa-Saponi",
+ "lang": [
+  "rac",
+  "spi"
+ ]
+}{
+ "classification": " Rejang",
+ "lang": [
+  "rej"
+ ]
+}{
+ "classification": " Sasak-Sumbawa",
+ "lang": [
+  "sas",
+  "smw"
+ ]
+}{
+ "classification": " Sause",
+ "lang": [
+  "sao"
+ ]
+}{
+ "classification": " Sawi",
+ "lang": [
+  "saw"
+ ]
+}{
+ "classification": " Sempan",
+ "lang": [
+  "xse"
+ ]
+}{
+ "classification": "Skou",
+ "lang": [
+  "skv"
+ ]
+}{
+ "classification": " Skou-Serra-Piore",
+ "lang": [
+  "skv"
+ ]
+}{
+ "classification": " Nuclear Skou",
+ "lang": [
+  "skv"
+ ]
+}{
+ "classification": " Skou",
+ "lang": [
+  "skv"
+ ]
+}{
+ "classification": " Demta",
+ "lang": [
+  "dmy"
+ ]
+}{
+ "classification": " Tanah Merah",
+ "lang": [
+  "tcm"
+ ]
+}{
+ "classification": " Tandia",
+ "lang": [
+  "tni"
+ ]
+}{
+ "classification": " Tangko",
+ "lang": [
+  "tkx"
+ ]
+}{
+ "classification": " Central Philippine",
+ "lang": [
+  "tsg"
+ ]
+}{
+ "classification": " Bisayan",
+ "lang": [
+  "tsg"
+ ]
+}{
+ "classification": " Butuan-Tausug",
+ "lang": [
+  "tsg"
+ ]
+}{
+ "classification": " Ternate-Tidore",
+ "lang": [
+  "tft",
+  "tvo"
+ ]
+}{
+ "classification": " Portuguese based",
+ "lang": [
+  "tmg"
+ ]
+}{
+ "classification": " Teun",
+ "lang": [
+  "tve"
+ ]
+}{
+ "classification": " Tidung",
+ "lang": [
+  "itd"
+ ]
+}{
+ "classification": " Minahasan",
+ "lang": [
+  "tom",
+  "tdn",
+  "tnw",
+  "txs",
+  "tnt"
+ ]
+}{
+ "classification": " Northeast",
+ "lang": [
+  "tom",
+  "tdn",
+  "txs"
+ ]
+}{
+ "classification": " Upper Pujungan",
+ "lang": [
+  "xky",
+  "ulu"
+ ]
+}{
+ "classification": " Wano",
+ "lang": [
+  "wno"
+ ]
+}{
+ "classification": "Lower Mamberamo",
+ "lang": [
+  "wsa",
+  "yki"
+ ]
+}{
+ "classification": " Yaqay",
+ "lang": [
+  "bgv",
+  "jaq"
+ ]
+}{
+ "classification": " Waropen",
+ "lang": [
+  "wrp"
+ ]
+}{
+ "classification": " Wemale",
+ "lang": [
+  "weo"
+ ]
+}{
+ "classification": " Yamdena",
+ "lang": [
+  "jmd"
+ ]
+}{
+ "classification": " Yaur",
+ "lang": [
+  "jau"
+ ]
+}{
+ "classification": " Yey",
+ "lang": [
+  "jei"
+ ]
+}{
+ "classification": " Iresim",
+ "lang": [
+  "ire"
+ ]
+}{
+ "classification": " Yeretuar",
+ "lang": [
+  "gop"
+ ]
+}
