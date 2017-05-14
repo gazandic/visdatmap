@@ -96,21 +96,23 @@ var map = L.map('map',{
     };
   }
 
+  function highlightFromLayer(layer) {
+      layer.setStyle({
+        weight: 2,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+      });
+
+      if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+      }
+      info.update(layer.feature.properties);
+  }
+
   function highlightFeature(e) {
     var layer = e.target;
-
-    layer.setStyle({
-      weight: 2,
-      color: '#666',
-      dashArray: '',
-      fillOpacity: 0.7
-    });
-
-    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-      layer.bringToFront();
-    }
-
-    info.update(layer.feature.properties);
+    highlightFromLayer(layer);
   }
 
   var geojson;
@@ -139,6 +141,24 @@ var map = L.map('map',{
 
   map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
 
+  var searchControl = new L.Control.Search({
+		layer: geojson,
+		propertyName: 'name',
+		marker: false,
+		moveToLocation: function(latlng, title, map) {
+			//map.fitBounds( latlng.layer.getBounds() );
+			var zoom = map.getBoundsZoom(latlng.layer.getBounds());
+  			map.setView(latlng, zoom); // access the zoom
+		}
+	});
+
+  searchControl.on('search:locationfound', function(e) {
+      highlightFromLayer(e.layer);
+	}).on('search:collapsed', function(e) {
+		  console.log("do nothing");
+	});
+
+  map.addControl(searchControl);
 
   var legend = L.control({position: 'bottomright'});
 
