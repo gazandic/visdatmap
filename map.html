@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
   <script type="text/javascript" src="js/leaflet-providers.js"></script>
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/main.css">
 
 
@@ -30,21 +31,28 @@
 	<div class="sidebar">
     <div class="sidebar__top">
      <div class="sidebar__top__button">
-      <div class="sidebar__icon">
+      <div id="homebtn" class="sidebar__icon">
         <div class="sidebar__icon__inner active">
           <i class="material-icons">details</i>
         </div>
       </div>
      </div>
      <div class="sidebar__top__button">
-      <div class="sidebar__icon">
+      <div id="langbtn" class="sidebar__icon">
+        <div class="sidebar__icon__inner">
+          <i class="material-icons">view_module</i>
+        </div>
+      </div>
+     </div>
+     <div class="sidebar__top__button">
+      <div id="statbtn" class="sidebar__icon">
         <div class="sidebar__icon__inner">
           <i class="material-icons">equalizer</i>
         </div>
       </div>
      </div>
      <div class="sidebar__top__button">
-      <div class="sidebar__icon">
+      <div id="setbtn" class="sidebar__icon">
         <div class="sidebar__icon__inner">
           <i class="material-icons">settings</i>
         </div>
@@ -55,7 +63,44 @@
     <div class="sidebar__content">
       <div class="sidebar__content__head">
         <h1 class="sidebar__content__head__title">Bahasa Sunda</h1>
-
+        <div class="row">
+          <div class="col-md-4 langbox">
+            <div class="bahasabox">
+              <img src="image/colorsky.gif" class="bahasabox__img">
+              <h1 class="bahasabox__title">Sunda</h1>
+            </div>
+          </div>
+          <div class="col-md-4 langbox">
+            <div class="bahasabox">
+              <img src="image/colorsky.gif" class="bahasabox__img">
+              <h1 class="bahasabox__title">Jawa</h1>
+            </div>
+          </div>
+          <div class="col-md-4 langbox">
+            <div class="bahasabox">
+              <img src="image/colorsky.gif" class="bahasabox__img">
+              <h1 class="bahasabox__title">Batak</h1>
+            </div>
+          </div>
+          <div class="col-md-4 langbox">
+            <div class="bahasabox">
+              <img src="image/colorsky.gif" class="bahasabox__img">
+              <h1 class="bahasabox__title">Madura</h1>
+            </div>
+          </div>
+          <div class="col-md-4 langbox">
+            <div class="bahasabox">
+              <img src="image/colorsky.gif" class="bahasabox__img">
+              <h1 class="bahasabox__title">Jambi</h1>
+            </div>
+          </div>
+          <div class="col-md-4 langbox">
+            <div class="bahasabox">
+              <img src="image/colorsky.gif" class="bahasabox__img">
+              <h1 class="bahasabox__title">Aceh</h1>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -142,6 +187,7 @@
 
 	<script type="text/javascript" src="js/indonesianstate.js"></script>
 	<script type="text/javascript" src="js/map.js"></script>
+  <script type="text/javascript" src="js/ui.js"></script>
 
 
 
