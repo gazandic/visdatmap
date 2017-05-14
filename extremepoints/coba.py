@@ -25,8 +25,8 @@ def openingText(txtFile):
                 finaldata[str(_id)] = pulaudata
             else:
                 regionString = str(region[0])
-        with open('hasil'+txtFile+'.js','w') as json_data:
-            json_data.write('var index'+txtFile+' = ')
+        with open('indexCode.js','w') as json_data:
+            json_data.write('var indexCode = ')
             json.dump(finaldata, json_data)
 
 openingText('malukuPapua')
