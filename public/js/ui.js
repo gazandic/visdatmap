@@ -1,7 +1,7 @@
 var tooltips = document.querySelectorAll('#tooltip');
 
 window.onmousemove = function(e){
-  var x = (e.clientX + 10) + 'px',
+  var x = (e.clientX - 200) + 'px',
   y = (e.clientY + 10) + 'px';
   for (var i = 0; i < tooltips.length; i++) {
       tooltips[i].style.top = y;
@@ -14,8 +14,10 @@ function hideAllBar(){
   $('#langbar').removeClass('active');
   $('#statbar').removeClass('active');
   $('#setbar').removeClass('active');
-  $('#searchbar').removeClass('active');
   hideActiveButton();
+  if($('.sidebar__content').hasClass('hide')){
+    toggleBar();
+  }
 }
 
 function hideActiveButton(){
@@ -23,18 +25,15 @@ function hideActiveButton(){
   $('#langbtn').children().removeClass('active');
   $('#statbtn').children().removeClass('active');
   $('#setbtn').children().removeClass('active');
-  $('#searchbtn').children().removeClass('active');
 }
 
 function toggleBar(){
   var target = $('#setMinSidebar');
-  $('.sidebar__top').toggleClass('hide');
-  $('.sidebar__search').toggleClass('hide');
   $('.sidebar__content').toggleClass('hide');
   if($(target).find('i').html().includes('up')){
-    $(target).find('i').html('keyboard_arrow_down');
+    $(target).find('i').html('keyboard_arrow_down').parent().hide();
   }else{
-    $(target).find('i').html('keyboard_arrow_up');
+    $(target).find('i').html('keyboard_arrow_up').parent().show();
   }
 }
 
@@ -63,9 +62,11 @@ $('#setbtn').click(function(){
 });
 
 $('#searchbtn').click(function(){
-  hideActiveButton();
-  $(this).children().addClass('active');
-  $('#searchbar').addClass('active').find('#provider-file').focus();
+  $('#searchbtn').children().toggleClass('active');
+  $('#searchbar').toggleClass('active');
+  if($(this).children().hasClass('active')){
+    $('#searchbar').find('#provider-file').focus();
+  }
 });
 
 $('#setCityLabel').click(function(){
@@ -79,4 +80,16 @@ $('#setCityLabel').click(function(){
 
 $('#setMinSidebar').click(function(){
   toggleBar();
+});
+
+$('#setTooltip').click(function(){
+  if($(this).is(':checked')){
+    $('#tooltip').removeClass('hide');
+    $('.sidebar__info').hide();
+    $('.sidebar__info__footer').hide();
+  }else{
+    $('#tooltip').addClass('hide');
+    $('.sidebar__info').show();
+    $('.sidebar__info__footer').show();
+  }
 });

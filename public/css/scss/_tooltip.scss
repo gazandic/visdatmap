@@ -1,18 +1,16 @@
-#tooltip{
+.tooltip{
   display: none;
   background-color: $white;
   opacity: 0.95;
   padding: 5px;
-  color: #999;
-  height: 40px;
-  width: 40px;
-  border-radius: 40px;
-  text-align: center;
-  color: $white;
-  background-color: $indigo;
-  border: 1px solid $white;
-
-  @include heading-color($h8, $hreg, $white);
+  text-align: left;
+  width: 250px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: column;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
 
   i{
     font-size: 12px;
@@ -20,10 +18,49 @@
 
   &.active{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    overflow: hidden;
-    z-index: 1;
+  }
+
+  &__info{
+    padding: 5px;
+
+    &__title{
+      margin-bottom: 5px;
+
+      @include heading-color($h8, $hbold, $black);
+    }
+
+    &__subtitle{
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 5px;
+
+      @include heading-color($h9, $hreg, #999);
+
+      i {
+        font-size: 18px;
+      }
+    }
+
+    &__text{
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+
+      @include heading-dark($h9, $hreg);
+
+      i {
+        font-size: 18px;
+      }
+    }
+
+    &__footer{
+      border-top: 1px solid #F5F5F5;
+      opacity: 0.95;
+      padding: 5px;
+      width: 100%;
+      text-align: center;
+
+      @include heading-color($h9, $hthin, #999);
+    }
   }
 }
