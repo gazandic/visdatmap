@@ -73,6 +73,9 @@ var map = L.map('map',{
     $('#homebar').find('.sidebar__content__head__title').html(name);
     $('#homebar').find('.sidebar__content__subtitle__population').html('<i class="material-icons">person &nbsp</i>'+population);
     $('#homebar').find('.sidebar__content__subtitle__location').html('<i class="material-icons">location_on &nbsp</i>'+location);
+    if($('.sidebar__content').hasClass('hide')){
+      toggleBar();
+    }
   }
 
   info.update = function (props) {

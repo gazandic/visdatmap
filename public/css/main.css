@@ -2049,13 +2049,10 @@ body {
   width: 100%; }
 
 .hide {
-  display: none; }
+  display: none !important; }
 
 .langbox {
   margin: 15px 0; }
-
-#langbar {
-  display: none; }
 
 .sidebar {
   position: absolute;
@@ -2167,7 +2164,7 @@ body {
     opacity: 0.95;
     display: none; }
     .sidebar__content.active {
-      display: block !important; }
+      display: block; }
     .sidebar__content__head {
       padding-top: 18px;
       padding-left: 18px;

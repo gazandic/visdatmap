@@ -1,10 +1,3 @@
-$(document).ready(function(){
-  $('input').iCheck({
-    checkboxClass: 'icheckbox_square',
-    radioClass: 'iradio_square'
-  });
-});
-
 var tooltips = document.querySelectorAll('#tooltip');
 
 window.onmousemove = function(e){
@@ -31,6 +24,18 @@ function hideActiveButton(){
   $('#statbtn').children().removeClass('active');
   $('#setbtn').children().removeClass('active');
   $('#searchbtn').children().removeClass('active');
+}
+
+function toggleBar(){
+  var target = $('#setMinSidebar');
+  $('.sidebar__top').toggleClass('hide');
+  $('.sidebar__search').toggleClass('hide');
+  $('.sidebar__content').toggleClass('hide');
+  if($(target).find('i').html().includes('up')){
+    $(target).find('i').html('keyboard_arrow_down');
+  }else{
+    $(target).find('i').html('keyboard_arrow_up');
+  }
 }
 
 $('#homebtn').click(function(){
@@ -70,4 +75,8 @@ $('#setCityLabel').click(function(){
     hydda = hyddaFull;
   }
   L.tileLayer.provider(hydda).addTo(map);
+});
+
+$('#setMinSidebar').click(function(){
+  toggleBar();
 });

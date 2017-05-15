@@ -11,15 +11,11 @@ body {
 }
 
 .hide{
-  display: none;
+  display: none !important;
 }
 
 .langbox{
   margin: 15px 0;
-}
-
-#langbar{
-  display: none;
 }
 
 .sidebar{
@@ -160,7 +156,7 @@ body {
     display: none;
 
     &.active{
-      display: block !important;
+      display: block;
     }
 
     &__head{
