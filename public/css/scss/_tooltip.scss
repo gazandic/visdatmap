@@ -1,0 +1,29 @@
+#tooltip{
+  display: none;
+  background-color: $white;
+  opacity: 0.95;
+  padding: 5px;
+  color: #999;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  text-align: center;
+  color: $white;
+  background-color: $indigo;
+  border: 1px solid $white;
+
+  @include heading-color($h8, $hreg, $white);
+
+  i{
+    font-size: 12px;
+  }
+
+  &.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+  }
+}

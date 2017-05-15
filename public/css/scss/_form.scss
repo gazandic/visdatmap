@@ -1,0 +1,9 @@
+.checkbox{
+  &:hover{
+    cursor: pointer;
+  }
+
+  &--right{
+    float: right;
+  }
+}

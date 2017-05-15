@@ -1,3 +1,21 @@
+$(document).ready(function(){
+  $('input').iCheck({
+    checkboxClass: 'icheckbox_square',
+    radioClass: 'iradio_square'
+  });
+});
+
+var tooltips = document.querySelectorAll('#tooltip');
+
+window.onmousemove = function(e){
+  var x = (e.clientX + 10) + 'px',
+  y = (e.clientY + 10) + 'px';
+  for (var i = 0; i < tooltips.length; i++) {
+      tooltips[i].style.top = y;
+      tooltips[i].style.left = x;
+  }
+};
+
 function hideAllBar(){
   $('#homebar').removeClass('active');
   $('#langbar').removeClass('active');
@@ -43,4 +61,13 @@ $('#searchbtn').click(function(){
   hideActiveButton();
   $(this).children().addClass('active');
   $('#searchbar').addClass('active').find('#provider-file').focus();
+});
+
+$('#setCityLabel').click(function(){
+  if(hydda==hyddaFull){
+    hydda = hyddaBase;
+  }else{
+    hydda = hyddaFull;
+  }
+  L.tileLayer.provider(hydda).addTo(map);
 });

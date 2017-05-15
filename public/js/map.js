@@ -1,5 +1,8 @@
 var clickedBorderColor = '#3F51B5';
-var hoverBorderColor = '#0091EA'
+var hoverBorderColor = '#0091EA';
+var hydda = 'Hydda.Base';
+var hyddaBase = 'Hydda.Base';
+var hyddaFull = 'Hydda.Full';
 
 $.fn.extend({
     animateCss: function (animationName) {
@@ -22,7 +25,7 @@ var map = L.map('map',{
     id: 'mapbox.light'
   }).addTo(map);
 
-  L.tileLayer.provider('Esri.NatGeoWorldMap').addTo(map);
+  L.tileLayer.provider('Hydda.Base').addTo(map);
 
   // Add zoom control
   L.control.zoom({
@@ -54,8 +57,8 @@ var map = L.map('map',{
     var location = '';
     if (props) {
       name = props.name;
-      if (props.name in indexmalukuPapua) {
-        var liname = indexmalukuPapua[props.name]['data'];
+      if (props.name in indexCode) {
+        var liname = indexCode[props.name]['data'];
         name = '';
         population = '';
         location = ''
@@ -76,6 +79,7 @@ var map = L.map('map',{
     var name = ''
     var population = ''
     var location = ''
+    var liname;
     if (props) {
       name = props.name;
       if (props.name in indexCode) {
@@ -92,6 +96,7 @@ var map = L.map('map',{
       }
     }
     if (name!=''){
+      $('#tooltip').html('<i class="material-icons">language</i>'+liname.length).addClass('active');
       $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location).animateCss('fadeIn');
       $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population).animateCss('fadeIn');
       $('#sidebarInfo').find('.sidebar__info__title').html(name).animateCss('fadeIn');
@@ -158,6 +163,7 @@ var map = L.map('map',{
 
   function resetHighlight(e) {
     // console.log(e.target.options.color);
+    $('#tooltip').removeClass('active');
     if(e.target.options.color!=clickedBorderColor){
       geojson.resetStyle(e.target);
     }

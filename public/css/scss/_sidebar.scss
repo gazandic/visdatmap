@@ -40,13 +40,13 @@ body {
     opacity: 0.95;
 
     &__title{
-      @include heading-dark($h6, $hbold);
+      @include heading-dark($h8, $hbold);
     }
     &__subtitle{
       display: flex;
       align-items: center;
 
-      @include heading-color($h8, $hreg, #999);
+      @include heading-color($h9, $hreg, #999);
 
       i {
         font-size: 18px;
@@ -55,8 +55,9 @@ body {
     &__text{
       display: flex;
       align-items: flex-start;
+      width: 100%;
 
-      @include heading-dark($h8, $hreg);
+      @include heading-dark($h9, $hreg);
       i {
         font-size: 18px;
       }
@@ -85,9 +86,9 @@ body {
     width: 100%;
     background-color: $white;
     opacity: 0.95;
-    padding: 5px 15px;
-    padding-bottom: 10px;
+    padding: 10px 15px;
     z-index: 2;
+    border-top: 1px solid #F5F5F5;
 
     &.active{
       display: block;
@@ -148,10 +149,9 @@ body {
 
   &__content{
     background-color: $white;
-    // border-radius: $sidebar-top-radius;
+    border-top: 1px solid #F5F5F5;
     opacity: 0.95;
     display: none;
-    margin-top: $sidebar-top-margin-bottom;
 
     &.active{
       display: block !important;
@@ -161,18 +161,18 @@ body {
       padding-top: $sidebar-content-head-padding-top;
       padding-left: $sidebar-content-head-padding-left;
       padding-right: $sidebar-content-head-padding-left;
-      padding-bottom: $sidebar-content-head-padding-top;
+      padding-bottom: 5px;
       width: 100%;
       text-align: center;
-      background-color: #3F51B5;
+      // background-color: #3F51B5;
 
       &__title{
-        @include heading-color($h5, $hreg, $white);
+        @include heading-color($h5, $hbold, $black);
       }
     }
 
     &__subtitle{
-      padding-top: $sidebar-content-head-padding-top;
+      padding-top: 5px;
       padding-left: $sidebar-content-head-padding-left;
       padding-right: $sidebar-content-head-padding-left;
 

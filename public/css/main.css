@@ -2033,6 +2033,11 @@ hr {
   font-weight: 400;
   color: #DDDDDD; }
 
+.checkbox:hover {
+  cursor: pointer; }
+.checkbox--right {
+  float: right; }
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0; }
@@ -2067,14 +2072,14 @@ body {
     margin-bottom: 12px;
     opacity: 0.95; }
     .sidebar__info__title {
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 700;
       color: #333333;
       margin: 0; }
     .sidebar__info__subtitle {
       display: flex;
       align-items: center;
-      font-size: 12px;
+      font-size: 10px;
       font-weight: 400;
       color: #999;
       margin: 0; }
@@ -2083,7 +2088,8 @@ body {
     .sidebar__info__text {
       display: flex;
       align-items: flex-start;
-      font-size: 12px;
+      width: 100%;
+      font-size: 10px;
       font-weight: 400;
       color: #333333;
       margin: 0; }
@@ -2107,9 +2113,9 @@ body {
     width: 100%;
     background-color: #FFFFFF;
     opacity: 0.95;
-    padding: 5px 15px;
-    padding-bottom: 10px;
-    z-index: 2; }
+    padding: 10px 15px;
+    z-index: 2;
+    border-top: 1px solid #F5F5F5; }
     .sidebar__search.active {
       display: block; }
     .sidebar__search .easy-autocomplete {
@@ -2154,26 +2160,25 @@ body {
       margin: 0; }
   .sidebar__content {
     background-color: #FFFFFF;
+    border-top: 1px solid #F5F5F5;
     opacity: 0.95;
-    display: none;
-    margin-top: 12px; }
+    display: none; }
     .sidebar__content.active {
       display: block !important; }
     .sidebar__content__head {
       padding-top: 18px;
       padding-left: 18px;
       padding-right: 18px;
-      padding-bottom: 18px;
+      padding-bottom: 5px;
       width: 100%;
-      text-align: center;
-      background-color: #3F51B5; }
+      text-align: center; }
       .sidebar__content__head__title {
         font-size: 18px;
-        font-weight: 400;
-        color: #FFFFFF;
+        font-weight: 700;
+        color: #000000;
         margin: 0; }
     .sidebar__content__subtitle {
-      padding-top: 18px;
+      padding-top: 5px;
       padding-left: 18px;
       padding-right: 18px;
       font-size: 12px;
@@ -2286,6 +2291,33 @@ body {
     font-weight: 300;
     color: #000000;
     margin: 0; }
+
+#tooltip {
+  display: none;
+  background-color: #FFFFFF;
+  opacity: 0.95;
+  padding: 5px;
+  color: #999;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #3F51B5;
+  border: 1px solid #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin: 0; }
+  #tooltip i {
+    font-size: 12px; }
+  #tooltip.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1; }
 
 .leaflet-map-pane {
   z-index: 0; }
