@@ -1,5 +1,6 @@
-var clickedBorderColor = '#3F51B5';
-var hoverBorderColor = '#0091EA';
+var clickedBorderColor = '#FFF';
+var clickedFillColor = '#3F51B5'
+var hoverBorderColor = '#F5F5F5';
 var hydda = 'Hydda.Base';
 var hyddaBase = 'Hydda.Base';
 var hyddaFull = 'Hydda.Full';
@@ -51,7 +52,7 @@ var map = L.map('map',{
     target.setStyle({
       weight: 5,
       color: clickedBorderColor,
-      fillColor: clickedBorderColor,
+      fillColor: clickedFillColor,
       dashArray: '',
       fillOpacity: 1
     });
