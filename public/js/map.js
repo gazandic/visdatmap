@@ -25,6 +25,10 @@ var map = L.map('map',{
     id: 'mapbox.light'
   }).addTo(map);
 
+  L.layerGroup().eachLayer(function (layer) {
+    layer.setStyle({fillColor :'#ffffff'});
+  });
+
   L.tileLayer.provider('Hydda.Base').addTo(map);
 
   // Add zoom control
@@ -139,7 +143,7 @@ var map = L.map('map',{
 
   function style(feature) {
     return {
-      weight: 2,
+      weight: 0,
       opacity: 1,
       color: 'white',
       dashArray: '3',
