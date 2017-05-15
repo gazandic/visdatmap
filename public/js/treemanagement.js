@@ -1,7 +1,7 @@
 // ************** Generate the tree diagram	 *****************
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-	width = 2000 - margin.right - margin.left,
-	height = 2000 - margin.top - margin.bottom;
+	width = 3000 - margin.right - margin.left,
+	height = 3000 - margin.top - margin.bottom;
 
 var i = 0,
 	duration = 750,
@@ -91,7 +91,7 @@ function update(source) {
 	  .attr("d", function(d) {
 		var o = {x: source.x0, y: source.y0};
 		return diagonal({source: o, target: o});
-	  });
+	});
 
   // Transition links to their new position.
   link.transition()
@@ -102,15 +102,15 @@ function update(source) {
   link.exit().transition()
 	  .duration(duration)
 	  .attr("d", function(d) {
-		var o = {x: source.x, y: source.y};
-		return diagonal({source: o, target: o});
-	  })
+			var o = {x: source.x, y: source.y};
+				return diagonal({source: o, target: o});
+		  })
 	  .remove();
 
   // Stash the old positions for transition.
   nodes.forEach(function(d) {
-	d.x0 = d.x;
-	d.y0 = d.y;
+		d.x0 = d.x;
+		d.y0 = d.y;
   });
 }
 

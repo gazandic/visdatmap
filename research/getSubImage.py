@@ -14,11 +14,11 @@ ap.add_argument("-i", "--image", help = "path to the image")
 args = vars(ap.parse_args())
 
 # 7.758906 Latitude,  -10.939120 Latitude, 94.876212 Longitude , 140.954585 Longitude
-minLong = 94.876212 + 0.06
-maxLong = 140.954585 + 0.06
+minLong = 94.876212 - 0.03
+maxLong = 140.954585 + 0.13
 longRange = maxLong - minLong
-minLat = 7.758906 - 0.12
-maxLat = -10.939120 - 0.12
+minLat = 7.758906 - 0.05
+maxLat = -10.939120 - 0.26
 latRange = maxLat - minLat
 # load the image
 image = cv2.imread(args["image"])
@@ -112,8 +112,6 @@ boundaries = [
 # loop over the boundaries
 i = 0
 lirow = []
-with open('bahasaindexed.json') as json_data:
-    databahasa = json.load(json_data)
 features = []
 allstart = "var statesData = {\"type\":\"FeatureCollection\",\"features\":"
 IP = ImageProcessor()
