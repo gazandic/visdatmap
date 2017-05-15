@@ -43,7 +43,7 @@
     <div class="sidebar__closebar sidebar__info__footer hide">
       and 3 more languages
     </div>
-    <div class="sidebar__top">
+    <div class="sidebar__top hide">
      <div class="sidebar__top__button">
       <div id="homebtn" class="sidebar__icon">
         <div class="sidebar__icon__inner active">
@@ -80,36 +80,73 @@
       </div>
      </div>
     </div>
-    <div id="searchbar" class="sidebar__search">
+    <div id="searchbar" class="sidebar__search hide">
       <input id="provider-file" placeholder="Search Bahasa"/>
     </div>
     <!-- <div class="sidebar__content bg"></div> -->
-    <div id="homebar" class="sidebar__content active">
+    <div id="homebar" class="sidebar__content active hide">
       <div class="sidebar__content__head">
         <h1 class="sidebar__content__head__title">Details</h1>
       </div>
       <div class="sidebar__content__subtitle">
         <div class="sidebar__content__subtitle__population">
-          <i class="material-icons">person &nbsp</i> 2000
+          <i class="material-icons">info</i> &nbsp Click region on maps to see details.
         </div>
         <div class="sidebar__content__subtitle__location">
-          <i class="material-icons">location_on &nbsp</i> Papua
         </div>
       </div>
       <div class="sidebar__content__text">
       </div>
     </div>
-    <div id="langbar" class="sidebar__content">
+    <div id="langbar" class="sidebar__content hide">
       <div class="sidebar__content__head">
-        <h1 class="sidebar__content__head__title">Bahasa Sunda</h1>
+        <h1 class="sidebar__content__head__title">Languages</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Sunda</h1>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Jawa</h1>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Batak</h1>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Madura</h1>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Jambi</h1>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Aceh</h1>
+          </div>
+        </div>
       </div>
     </div>
-    <div id="statbar" class="sidebar__content">
+    <div id="statbar" class="sidebar__content hide">
       <div class="sidebar__content__head">
         <h1 class="sidebar__content__head__title">Statistics</h1>
       </div>
     </div>
-    <div id="setbar" class="sidebar__content">
+    <div id="setbar" class="sidebar__content hide">
       <div class="sidebar__content__head">
         <h1 class="sidebar__content__head__title">Settings</h1>
       </div>
@@ -118,7 +155,7 @@
       </div>
     </div>
     <div id="setMinSidebar" class="sidebar__closebar">
-      <i class="material-icons">keyboard_arrow_up</i>
+      <i class="material-icons">keyboard_arrow_down</i>
     </div>
   </div>
 	<div id='map'></div>

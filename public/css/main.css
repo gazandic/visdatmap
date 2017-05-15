@@ -2069,7 +2069,12 @@ body {
     width: 100%;
     padding: 15px;
     background-color: #FFFFFF;
-    opacity: 0.95; }
+    opacity: 0.95;
+    -webkit-transition: max-height 1s ease-in-out;
+    -moz-transition: max-height 1s ease-in-out;
+    -ms-transition: max-height 1s ease-in-out;
+    -o-transition: max-height 1s ease-in-out;
+    transition: max-height 1s ease-in-out; }
     .sidebar__info__title {
       font-size: 12px;
       font-weight: 700;

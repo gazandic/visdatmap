@@ -103,11 +103,11 @@ var map = L.map('map',{
       if(liname.length>1){
         $('.sidebar__info__footer').html('and '+(liname.length-1)+' more languages').removeClass('hide');
       }
-      $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location).animateCss('fadeIn');
-      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population).animateCss('fadeIn');
-      $('#sidebarInfo').find('.sidebar__info__title').html(name).animateCss('fadeIn');
+      $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location);
+      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population);
+      $('#sidebarInfo').find('.sidebar__info__title').html(name);
     }else{
-      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">info &nbsp</i>Hover map to get information.').animateCss('fadeIn');
+      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">info &nbsp</i>Hover map to get information.');
       $('#sidebarInfo').find('.sidebar__info__text').html('');
       $('#sidebarInfo').find('.sidebar__info__title').html('');
     }
