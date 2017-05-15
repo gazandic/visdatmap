@@ -96,7 +96,10 @@ var map = L.map('map',{
       }
     }
     if (name!=''){
-      $('#tooltip').html('<i class="material-icons">language</i>'+liname.length).addClass('active');
+      // $('#tooltip').html('<i class="material-icons">language</i>'+liname.length).addClass('active');
+      if(liname.length>1){
+        $('.sidebar__info__footer').html('and '+(liname.length-1)+' more languages').removeClass('hide');
+      }
       $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location).animateCss('fadeIn');
       $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population).animateCss('fadeIn');
       $('#sidebarInfo').find('.sidebar__info__title').html(name).animateCss('fadeIn');
@@ -163,7 +166,8 @@ var map = L.map('map',{
 
   function resetHighlight(e) {
     // console.log(e.target.options.color);
-    $('#tooltip').removeClass('active');
+    // $('#tooltip').removeClass('active');
+    $('.sidebar__info__footer').addClass('hide');
     if(e.target.options.color!=clickedBorderColor){
       geojson.resetStyle(e.target);
     }

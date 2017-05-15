@@ -2048,6 +2048,9 @@ body {
   bottom: 0;
   width: 100%; }
 
+.hide {
+  display: none; }
+
 .langbox {
   margin: 15px 0; }
 
@@ -2069,7 +2072,6 @@ body {
     width: 100%;
     padding: 15px;
     background-color: #FFFFFF;
-    margin-bottom: 12px;
     opacity: 0.95; }
     .sidebar__info__title {
       font-size: 12px;
@@ -2099,6 +2101,7 @@ body {
     position: relative;
     width: 100%;
     height: 45px;
+    margin-top: 12px;
     background-color: #FFFFFF;
     opacity: 0.95;
     z-index: 3; }
@@ -2190,7 +2193,7 @@ body {
       .sidebar__content__subtitle__population {
         padding: 5px 0;
         display: flex;
-        align-items: center; }
+        align-items: flex-start; }
       .sidebar__content__subtitle__location {
         padding: 5px 0;
         display: flex;
@@ -2212,7 +2215,15 @@ body {
     background-color: #FFFFFF;
     text-align: center;
     border-top: 1px solid #F5F5F5;
-    opacity: 0.95; }
+    opacity: 0.95;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 300;
+    color: #999;
+    margin: 0; }
+    .sidebar__closebar i {
+      font-size: 24px;
+      color: #333; }
     .sidebar__closebar:hover {
       cursor: pointer;
       background-color: #F5F5F5; }
