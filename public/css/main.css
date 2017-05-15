@@ -2229,6 +2229,8 @@ body {
     .sidebar__closebar:hover {
       cursor: pointer;
       background-color: #F5F5F5; }
+  .sidebar__minbtn {
+    display: none; }
 
 .logo {
   font-size: 18px;
@@ -2311,17 +2313,17 @@ body {
   opacity: 0.95;
   padding: 5px;
   text-align: left;
-  width: 250px; }
+  width: 250px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: column;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1; }
   .tooltip i {
     font-size: 12px; }
   .tooltip.active {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-flow: column;
-    position: fixed;
-    overflow: hidden;
-    z-index: 1; }
+    display: flex; }
   .tooltip__info {
     padding: 5px; }
     .tooltip__info__title {

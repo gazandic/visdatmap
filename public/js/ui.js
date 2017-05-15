@@ -81,3 +81,15 @@ $('#setCityLabel').click(function(){
 $('#setMinSidebar').click(function(){
   toggleBar();
 });
+
+$('#setTooltip').click(function(){
+  if($(this).is(':checked')){
+    $('#tooltip').removeClass('hide');
+    $('.sidebar__info').hide();
+    $('.sidebar__info__footer').hide();
+  }else{
+    $('#tooltip').addClass('hide');
+    $('.sidebar__info').show();
+    $('.sidebar__info__footer').show();
+  }
+});
