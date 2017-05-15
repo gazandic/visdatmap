@@ -117,11 +117,13 @@ function update(source) {
 // Toggle children on click.
 function click(d) {
   if (d.children) {
-	d._children = d.children;
-	d.children = null;
+		d._children = d.children;
+		d.children = null;
+		alert(d.population);
+		alert(d.childSum);
   } else {
-	d.children = d._children;
-	d._children = null;
+		d.children = d._children;
+		d._children = null;
   }
   update(d);
 }
