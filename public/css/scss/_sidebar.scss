@@ -32,17 +32,19 @@ body {
   }
 
   &__info{
+    display: none;
     position: relative;
     width: 100%;
     padding: 15px;
     background-color: $white;
     opacity: 0.95;
+    margin-top: $sidebar-top-margin-bottom;
 
-    -webkit-transition: max-height 1s ease-in-out;
-    -moz-transition: max-height 1s ease-in-out;
-    -ms-transition: max-height 1s ease-in-out;
-    -o-transition: max-height 1s ease-in-out;
-    transition: max-height 1s ease-in-out;
+    // -webkit-transition: max-height 1s ease-in-out;
+    // -moz-transition: max-height 1s ease-in-out;
+    // -ms-transition: max-height 1s ease-in-out;
+    // -o-transition: max-height 1s ease-in-out;
+    // transition: max-height 1s ease-in-out;
 
     &__title{
       @include heading-dark($h8, $hbold);
@@ -50,7 +52,7 @@ body {
 
     &__subtitle{
       display: flex;
-      align-items: center;
+      align-items: flex-start;
 
       @include heading-color($h9, $hreg, #999);
 
@@ -69,13 +71,16 @@ body {
         font-size: 18px;
       }
     }
+
+    &__footer{
+      display: none;
+    }
   }
 
   &__top{
     position: relative;
     width: 100%;
     height: $sidebar-top-height;
-    margin-top: $sidebar-top-margin-bottom;
     background-color: $white;
     opacity: 0.95;
     z-index: 3;
@@ -122,6 +127,12 @@ body {
           color: #ddd;
         }
       }
+    }
+  }
+
+  #searchbtn{
+    .active i{
+      color: $indigo;
     }
   }
 

@@ -99,14 +99,19 @@ var map = L.map('map',{
       }
     }
     if (name!=''){
-      // $('#tooltip').html('<i class="material-icons">language</i>'+liname.length).addClass('active');
       if(liname.length>1){
         $('.sidebar__info__footer').html('and '+(liname.length-1)+' more languages').removeClass('hide');
+        $('.tooltip__info__footer').html('and '+(liname.length-1)+' more languages').removeClass('hide');
       }
-      $('#sidebarInfo').find('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location);
-      $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population);
-      $('#sidebarInfo').find('.sidebar__info__title').html(name);
+      $('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location);
+      $('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population);
+      $('.sidebar__info__title').html(name);
+      $('.tooltip__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location);
+      $('.tooltip__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population);
+      $('.tooltip__info__title').html(name);
+      $('#tooltip').addClass('active');
     }else{
+      $('#tooltip').removeClass('active');
       $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">info &nbsp</i>Hover map to get information.');
       $('#sidebarInfo').find('.sidebar__info__text').html('');
       $('#sidebarInfo').find('.sidebar__info__title').html('');
@@ -168,9 +173,9 @@ var map = L.map('map',{
   var geojson;
 
   function resetHighlight(e) {
-    // console.log(e.target.options.color);
-    // $('#tooltip').removeClass('active');
+    $('#tooltip').removeClass('active');
     $('.sidebar__info__footer').addClass('hide');
+    $('.tooltip__info__footer').addClass('hide');
     if(e.target.options.color!=clickedBorderColor){
       geojson.resetStyle(e.target);
     }

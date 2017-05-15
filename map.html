@@ -27,23 +27,24 @@
     <h1 class="title">Bahasa Sunda</h1>
     <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime in, sit, id dicta quas doloribus consequuntur. Facilis, necessitatibus vitae veniam modi, sit corporis unde, quasi eum a repellendus sint suscipit!</div>
   </div> -->
-  <div id="tooltip">
-    100
-  </div>
-	<div class="sidebar">
-    <div id="sidebarInfo" class="sidebar__info">
-      <div class="sidebar__info__title">
+  <div id="tooltip" class="tooltip">
+    <div id="tooltipInfo" class="tooltip__info">
+      <div class="tooltip__info__title">
+        Test
       </div>
-      <div class="sidebar__info__subtitle">
+      <div class="tooltip__info__subtitle">
         <i class="material-icons">info</i> &nbsp Hover map to get information.
       </div>
-      <div class="sidebar__info__text">
+      <div class="tooltip__info__text">
+        test
       </div>
     </div>
-    <div class="sidebar__closebar sidebar__info__footer hide">
+    <div class="tooltip__info__footer hide">
       and 3 more languages
     </div>
-    <div class="sidebar__top hide">
+  </div>
+	<div class="sidebar">
+    <div class="sidebar__top">
      <div class="sidebar__top__button">
       <div id="homebtn" class="sidebar__icon">
         <div class="sidebar__icon__inner active">
@@ -80,7 +81,7 @@
       </div>
      </div>
     </div>
-    <div id="searchbar" class="sidebar__search hide">
+    <div id="searchbar" class="sidebar__search">
       <input id="provider-file" placeholder="Search Bahasa"/>
     </div>
     <!-- <div class="sidebar__content bg"></div> -->
@@ -156,6 +157,18 @@
     </div>
     <div id="setMinSidebar" class="sidebar__closebar">
       <i class="material-icons">keyboard_arrow_down</i>
+    </div>
+    <div id="sidebarInfo" class="sidebar__info">
+      <div class="sidebar__info__title">
+      </div>
+      <div class="sidebar__info__subtitle">
+        <i class="material-icons">info</i> &nbsp Hover map to get information.
+      </div>
+      <div class="sidebar__info__text">
+      </div>
+    </div>
+    <div class="sidebar__closebar sidebar__info__footer hide">
+      and 3 more languages
     </div>
   </div>
 	<div id='map'></div>
