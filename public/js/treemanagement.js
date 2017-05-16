@@ -58,18 +58,26 @@
 
 	function except(str) {
 		res = str.split(",");
-		root.children.forEach(expand);
+		// root.children.forEach(expand);
 		function collapseV2(d) {
-				if (d.children) {
-					// alert(d.name);
-					if (!isInArray(res, d.name)) {
-						d._children = d.children;
-						d._children.forEach(collapseV2);
-						d.children = null;
-					} else {
+					if (d.children && isInArray(res, d.name)) {
 						d.children.forEach(collapseV2);
 					}
-				}
+					else if (d._children && isInArray(res, d.name)) {
+						d.children = d._children;
+						d.children.forEach(collapseV2);
+						d._children = null;
+					}
+					else {
+						if (d.children) {
+							d._children = d.children;
+							d._children.forEach(collapseV2);
+							d.children = null;
+						}
+						else if (d._children){
+							d._children.forEach(collapseV2);
+						}
+					}
 		};
 		root.children.forEach(collapseV2);
 	};
@@ -191,6 +199,7 @@
 				searchControl._handleKeypress({ keyCode: 13 });
 				var treeString = bahasa[s]['classification'];
 				updateTreeString(treeString);
+				searchControl.searchText("");
 			}
 		}
 	}
