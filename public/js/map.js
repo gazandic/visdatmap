@@ -83,9 +83,6 @@ var map = L.map('map',{
 
             alt_name += bahasa[liname[i]]['alt_name']
           }
-          if (bahasa[liname[i]]['autonym']){
-            autonym += bahasa[liname[i]]['autonym']
-          }
           if (bahasa[liname[i]]['dialects']){
             dialects += bahasa[liname[i]]['dialects']
           }
