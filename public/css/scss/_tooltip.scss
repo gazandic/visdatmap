@@ -34,9 +34,17 @@
       }
 
       &__text{
+        padding-top: 5px;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         @include heading-color($h8, $hthin, #bbb);
+      }
+
+      &__text2{
+        padding-top: 10px;
+        display: flex;
+        align-items: flex-start;
+        @include heading-color($h8, $hthin, #333);
       }
     }
 
@@ -47,8 +55,8 @@
       padding: 5px;
       align-items: center;
       background-color: $indigo;
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
 
       @include heading-color($h9, $hreg, $white);
 

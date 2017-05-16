@@ -103,7 +103,7 @@ var map = L.map('map',{
       }
     }
     $('#homebar').find('.sidebar__content__head__title').html('Bahasa '+name);
-    $('#homebar').find('.sidebar__content__head__title2').html('Bahasa '+alt_name);
+    $('#homebar').find('.sidebar__content__head__title2').html(alt_name);
     $('#homebar').find('.sidebar__content__subtitle__population').html('<i class="material-icons">person &nbsp</i>'+population);
     $('#homebar').find('.sidebar__content__subtitle__location').html('<i class="material-icons">location_on &nbsp</i>'+location);
     $('#homebar').find('.sidebar__content__subtitle__writing').html('<i class="material-icons">create &nbsp</i>'+writing);
@@ -117,8 +117,9 @@ var map = L.map('map',{
     var name = ''
     var population = ''
     var location = ''
-    status = '';
+    var status = '';
     var liname;
+    var classification;
     if (props) {
       name = props.name;
       if (props.name in indexCode) {
@@ -126,12 +127,20 @@ var map = L.map('map',{
         name = '';
         population = '';
         location = ''
+        alt_name = ''
+        classification =''
         for (var i in liname) {
           name += bahasa[liname[i]]['name'];
           population += bahasa[liname[i]]['pop_numbers'];
           location += bahasa[liname[i]]['location'];
           if (bahasa[liname[i]]['status']){
             status += bahasa[liname[i]]['status']
+          }
+          if (bahasa[liname[i]]['alt_name']){
+            alt_name += bahasa[liname[i]]['alt_name']
+          }
+          if (bahasa[liname[i]]['classification']){
+            classification += bahasa[liname[i]]['classification']
           }
           break;
         }
@@ -150,6 +159,8 @@ var map = L.map('map',{
       $('.tooltip__info__population #populationval').html(numberWithCommas(population));
       $('.tooltip__info__content__title').html(name.toUpperCase());
       $('#tooltipStatus').html('<i class="material-icons header--9">info_outline &nbsp</i> '+status.slice(status.indexOf("(")+1, status.indexOf(".")).replace(')',''));
+      $('#tooltiptitle2').html(alt_name);
+      $('#tooltipclass').html('<i class="material-icons header--9">timeline &nbsp</i> '+classification.slice(0, classification.indexOf(",")));
       $('#tooltip').addClass('active');
       populationColor(status);
     }else{

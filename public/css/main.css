@@ -2433,11 +2433,20 @@ body {
         color: #000000;
         margin: 0; }
       .tooltip__info__content__text {
+        padding-top: 5px;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         font-size: 12px;
         font-weight: 300;
         color: #bbb;
+        margin: 0; }
+      .tooltip__info__content__text2 {
+        padding-top: 10px;
+        display: flex;
+        align-items: flex-start;
+        font-size: 12px;
+        font-weight: 300;
+        color: #333;
         margin: 0; }
     .tooltip__info__population {
       display: flex;
@@ -2446,8 +2455,8 @@ body {
       padding: 5px;
       align-items: center;
       background-color: #3F51B5;
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
       font-size: 10px;
       font-weight: 400;
       color: #FFFFFF;
