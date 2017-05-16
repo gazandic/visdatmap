@@ -44,7 +44,7 @@ var map = L.map('map',{
     this.update();
     return this._div;
   };
-
+  var treeString = ""
   info.onclick = function(target){
     var props = target.feature.properties;
 
@@ -70,6 +70,8 @@ var map = L.map('map',{
           name += bahasa[liname[i]]['name'];
           population += bahasa[liname[i]]['population'];
           location += bahasa[liname[i]]['location'];
+          treeString = bahasa[liname[i]]['classification'];
+        	updateTreeString(treeString);
           break;
         }
       }
