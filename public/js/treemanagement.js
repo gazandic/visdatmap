@@ -34,6 +34,7 @@
 	function isInArray(list, data) {
 	    return list.indexOf(data) > -1;
 	}
+
 	var res;
 	function collapse(d) {
 			if (d.children) {
@@ -60,6 +61,12 @@
 		res = str.split(",");
 		// root.children.forEach(expand);
 		function collapseV2(d) {
+					if (d.children === undefined && d._children === undefined) {
+						if (d.name in bahasa) {
+							d._name = d.name;
+							d.name = bahasa[d.name]['name'];
+						}
+					}
 					if (d.children && isInArray(res, d.name)) {
 						d.children.forEach(collapseV2);
 					}
@@ -192,7 +199,10 @@
 			update(d);
 	  }
 		else if (d.children === undefined && d._children === undefined) {
-			s = d.name
+			s = d._name
+			// if (!s in bahasa) {
+			// 	s = d._name
+			// }
 			if (s in indexReverse) {
 				var name = indexReverse[s]['_id'];
 				searchControl.searchText(name);
