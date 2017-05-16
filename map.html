@@ -318,7 +318,7 @@ var options = {
       var name = indexReverse[value]['_id'];
       searchControl.searchText(name);
       setTimeout(searchControl._handleKeypress({ keyCode: 13 }), 1000);
-      var treeString = $("#provider-file").getSelectedItemData().classification;
+      var treeString = $("#provider-file").getSelectedItemData().classification+','+$("#provider-file").getSelectedItemData().name;
       updateTreeString(treeString);
       searchControl.searchText("");
     }

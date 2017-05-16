@@ -71,7 +71,7 @@ var map = L.map('map',{
           name += bahasa[liname[i]]['name'];
           population += bahasa[liname[i]]['population'];
           location += bahasa[liname[i]]['location'];
-          treeString = bahasa[liname[i]]['classification'];
+          treeString = bahasa[liname[i]]['classification']+','+bahasa[liname[i]]['name'];
         	updateTreeString(treeString);
           break;
         }
