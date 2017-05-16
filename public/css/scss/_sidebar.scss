@@ -62,7 +62,7 @@ body {
     }
 
     &__text{
-      display: flex;
+      display: none;
       align-items: flex-start;
       width: 100%;
 
@@ -97,7 +97,7 @@ body {
         background-color: $white;
 
         i{
-          @include heading-light($h6, $hthin);
+          @include heading-color($h6, $hthin, #BBB);
         }
 
         &:hover{
@@ -183,6 +183,7 @@ body {
       i{
         color: #3D5AFE;
         font-weight: $hbold;
+        text-shadow: 0 0 20px #3D5AFE;
       }
     }
   }
@@ -233,6 +234,10 @@ body {
 
       &__title{
         @include heading-color($h5, $hbold, $black);
+
+        &2{
+          @include heading-color($h8, $hreg, #999);
+        }
       }
     }
 
@@ -241,19 +246,13 @@ body {
       padding-left: $sidebar-content-head-padding-left;
       padding-right: $sidebar-content-head-padding-left;
 
-      @include heading-color($h8, $hreg, #999);
+      @include heading-color($h8, $hreg, #333);
 
       i{
         font-size: 18px;
       }
 
-      &__population{
-        padding: 5px 0;
-        display: flex;
-        align-items: flex-start;
-      }
-
-      &__location{
+      div{
         padding: 5px 0;
         display: flex;
         align-items: flex-start;

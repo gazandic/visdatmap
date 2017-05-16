@@ -75,6 +75,7 @@ var map = L.map('map',{
         dialects = '';
         writing = '';
         status = '';
+        classification = '';
         for (var i in liname) {
           name += bahasa[liname[i]]['name'];
           population += bahasa[liname[i]]['population'];
@@ -92,15 +93,21 @@ var map = L.map('map',{
           if (bahasa[liname[i]]['status']){
             status += bahasa[liname[i]]['status']
           }
+          if (bahasa[liname[i]]['classification']){
+            classification += bahasa[liname[i]]['classification']
+          }
           treeString = bahasa[liname[i]]['classification']+','+bahasa[liname[i]]['name'];
         	updateTreeString(treeString);
           break;
         }
       }
     }
-    $('#homebar').find('.sidebar__content__head__title').html(name);
+    $('#homebar').find('.sidebar__content__head__title').html('Bahasa '+name);
+    $('#homebar').find('.sidebar__content__head__title2').html('Bahasa '+alt_name);
     $('#homebar').find('.sidebar__content__subtitle__population').html('<i class="material-icons">person &nbsp</i>'+population);
     $('#homebar').find('.sidebar__content__subtitle__location').html('<i class="material-icons">location_on &nbsp</i>'+location);
+    $('#homebar').find('.sidebar__content__subtitle__writing').html('<i class="material-icons">create &nbsp</i>'+writing);
+    $('#homebar').find('.sidebar__content__subtitle__classification').html('<i class="material-icons">timeline &nbsp</i>'+classification);
     if($('.sidebar__content').hasClass('hide')){
       toggleBar();
     }
@@ -110,6 +117,7 @@ var map = L.map('map',{
     var name = ''
     var population = ''
     var location = ''
+    status = '';
     var liname;
     if (props) {
       name = props.name;
@@ -120,8 +128,11 @@ var map = L.map('map',{
         location = ''
         for (var i in liname) {
           name += bahasa[liname[i]]['name'];
-          population += bahasa[liname[i]]['population'];
+          population += bahasa[liname[i]]['pop_numbers'];
           location += bahasa[liname[i]]['location'];
+          if (bahasa[liname[i]]['status']){
+            status += bahasa[liname[i]]['status']
+          }
           break;
         }
       }
@@ -131,13 +142,16 @@ var map = L.map('map',{
         $('.sidebar__info__footer').html('and '+(liname.length-1)+' more languages').removeClass('hide');
         $('.tooltip__info__footer').html('and '+(liname.length-1)+' more languages').removeClass('hide');
       }
+      // Sidebar
       $('.sidebar__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location);
-      $('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population);
+      $('.sidebar__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population+' People');
       $('.sidebar__info__title').html(name);
-      $('.tooltip__info__text').html('<i class="material-icons">location_on &nbsp</i> '+location);
-      $('.tooltip__info__subtitle').html('<i class="material-icons">person &nbsp</i> '+population);
-      $('.tooltip__info__title').html(name);
+      // Tooltip
+      $('.tooltip__info__population #populationval').html(numberWithCommas(population));
+      $('.tooltip__info__content__title').html(name.toUpperCase());
+      $('#tooltipStatus').html('<i class="material-icons header--9">info_outline &nbsp</i> '+status.slice(status.indexOf("(")+1, status.indexOf(".")).replace(')',''));
       $('#tooltip').addClass('active');
+      populationColor(status);
     }else{
       $('#tooltip').removeClass('active');
       $('#sidebarInfo').find('.sidebar__info__subtitle').html('<i class="material-icons">info &nbsp</i>Hover map to get information.');

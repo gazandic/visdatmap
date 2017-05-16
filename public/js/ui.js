@@ -9,6 +9,29 @@ window.onmousemove = function(e){
   }
 };
 
+function populationColor(status){
+  var finalColor = '#000';
+  if(status.includes('10')){
+    finalColor = '#000';
+  }else if(status.includes('9')||status.includes('8')){
+    finalColor = '#F44336';
+  }else if(status.includes('7')||status.includes('6')){
+    finalColor = '#EF6C00';
+  }else if(status.includes('5')||status.includes('4')){
+    finalColor = '#F9A825';
+  }else if(status.includes('3')||status.includes('2')){
+    finalColor = '#43A047';
+  }else{
+    finalColor = '#3F51B5';
+  }
+
+  $('.tooltip__info__population').css('background-color', finalColor);
+}
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 function hideAllBar(){
   $('#homebar').removeClass('active');
   $('#langbar').removeClass('active');

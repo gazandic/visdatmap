@@ -4,13 +4,14 @@
   opacity: 0.95;
   // padding: 5px;
   text-align: left;
-  width: 250px;
+  width: 300px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-flow: column;
   position: fixed;
   overflow: hidden;
   z-index: 1;
+  -webkit-animation: opacity 1s;
 
   i{
     font-size: 12px;
@@ -21,46 +22,68 @@
   }
 
   &__info{
-    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 
-    &__title{
-      margin-bottom: 5px;
+    &__content{
+      padding: 5px 10px;
 
-      @include heading-color($h8, $hbold, $black);
-    }
+      &__title{
+        @include heading-color($h6, $hbold, $black);
+      }
 
-    &__subtitle{
-      display: flex;
-      align-items: flex-start;
-      margin-bottom: 5px;
-
-      @include heading-color($h9, $hreg, #999);
-
-      i {
-        font-size: 18px;
+      &__text{
+        display: flex;
+        align-items: center;
+        @include heading-color($h8, $hthin, #bbb);
       }
     }
 
-    &__text{
+    &__population{
       display: flex;
-      align-items: flex-start;
-      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      padding: 5px;
+      align-items: center;
+      background-color: $indigo;
+      width: 100px;
+      height: 100px;
 
-      @include heading-dark($h9, $hreg);
+      @include heading-color($h9, $hreg, $white);
 
       i {
-        font-size: 18px;
+        font-size: 32px;
+
+        &.mini{
+          font-size: $h9;
+        }
+      }
+
+      #populationval{
+        @include heading-color($h6, $hbold, $white);
+      }
+
+      #tooltipStatus{
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        i{
+          font-size: 12px;
+        }
       }
     }
 
     &__footer{
-      border-top: 1px solid #F5F5F5;
+      // border-top: 1px solid #e5e5e5;
+      background-color: #F0F0F0;
       opacity: 0.95;
       padding: 5px;
       width: 100%;
       text-align: center;
 
-      @include heading-color($h9, $hthin, #999);
+      @include heading-color($h9, $hthin, #777);
     }
   }
 }

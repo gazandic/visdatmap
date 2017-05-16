@@ -48,3 +48,8 @@ body{
     0% { -webkit-filter: opacity(0);}
     100% { -webkit-filter: opacity(1);}
 }
+
+@-webkit-keyframes height {
+    0% { -webkit-filter: height(50px);}
+    100% { -webkit-filter: height(auto);}
+}
