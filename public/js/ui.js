@@ -61,11 +61,16 @@ $('#setbtn').click(function(){
   $(this).children().addClass('active');
 });
 
+$('#treebtn').click(function(){
+  $('.tree').toggle();
+  $('.body').toggleClass('frame--blur');
+});
+
 $('#searchbtn').click(function(){
   $('#searchbtn').children().toggleClass('active');
   $('#searchbar').toggleClass('active');
   if($(this).children().hasClass('active')){
-    $('#searchbar').find('#provider-file').focus();
+    $('#searchbar').find('#provider-file').focus().select();
   }
 });
 

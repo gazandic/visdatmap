@@ -21,7 +21,7 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
 	<style type="text/css">
 		body {
-			overflow: hidden;
+			/*overflow: hidden;*/
 		}
 		.node {
 	    cursor: pointer;
@@ -63,7 +63,7 @@
 	  }
 
 		#tree-container {
-				overflow: auto;
+				/*overflow: auto;*/
 		}
 
 		::-webkit-scrollbar {
@@ -91,28 +91,110 @@
 	</style>
 </head>
 <body>
-	<h1 class="logo"> Peta<span>Bahasa</span></h1>
-  <!-- <div class="title-box">
-    <h1 class="title">Bahasa Sunda</h1>
-    <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime in, sit, id dicta quas doloribus consequuntur. Facilis, necessitatibus vitae veniam modi, sit corporis unde, quasi eum a repellendus sint suscipit!</div>
-  </div> -->
-  <div id="tooltip" class="tooltip">
-    <div id="tooltipInfo" class="tooltip__info">
-      <div class="tooltip__info__title">
-        Test
+  <div class="body">
+    <div id="tooltip" class="tooltip">
+      <div id="tooltipInfo" class="tooltip__info">
+        <div class="tooltip__info__title">
+          Test
+        </div>
+        <div class="tooltip__info__subtitle">
+          <i class="material-icons">info</i> &nbsp Hover map to get information.
+        </div>
+        <div class="tooltip__info__text">
+          test
+        </div>
       </div>
-      <div class="tooltip__info__subtitle">
-        <i class="material-icons">info</i> &nbsp Hover map to get information.
-      </div>
-      <div class="tooltip__info__text">
-        test
+      <div class="tooltip__info__footer hide">
+        and 3 more languages
       </div>
     </div>
-    <div class="tooltip__info__footer hide">
-      and 3 more languages
-    </div>
+  	<div id='map'></div>
+    <!-- <div class="bottombar">
+      <h1 class="bottombar__title">
+        Daftar Bahasa
+      </h1>
+      <div class="row">
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Sunda</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Jawa</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Batak</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Madura</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Jambi</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Aceh</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Bali</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Minang</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Papua</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Ambon</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Sulawesi</h1>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="bahasabox">
+            <img src="image/colorsky.gif" class="bahasabox__img">
+            <h1 class="bahasabox__title">Dayak</h1>
+          </div>
+        </div>
+      </div>
+    </div> -->
   </div>
-	<div class="sidebar">
+  <div class="tree frame--viginate frame--z1">
+    <h1 class="tree__title">Language Tree</h1>
+    <div id="tree-container" class="tree__container"></div>
+  </div>
+  <h1 class="logo"> Peta<span>Bahasa</span></h1>
+  <div class="sidebar">
     <div class="sidebar__top">
      <div class="sidebar__top__button">
       <div id="homebtn" class="sidebar__icon">
@@ -129,9 +211,9 @@
       </div>
      </div>
      <div class="sidebar__top__button">
-      <div id="statbtn" class="sidebar__icon">
+      <div id="treebtn" class="sidebar__icon">
         <div class="sidebar__icon__inner">
-          <i class="material-icons">equalizer</i>
+          <i class="material-icons">timeline</i>
         </div>
       </div>
      </div>
@@ -172,49 +254,10 @@
       <div class="sidebar__content__head">
         <h1 class="sidebar__content__head__title">Languages</h1>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="bahasabox">
-            <img src="image/colorsky.gif" class="bahasabox__img">
-            <h1 class="bahasabox__title">Sunda</h1>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="bahasabox">
-            <img src="image/colorsky.gif" class="bahasabox__img">
-            <h1 class="bahasabox__title">Jawa</h1>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="bahasabox">
-            <img src="image/colorsky.gif" class="bahasabox__img">
-            <h1 class="bahasabox__title">Batak</h1>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="bahasabox">
-            <img src="image/colorsky.gif" class="bahasabox__img">
-            <h1 class="bahasabox__title">Madura</h1>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="bahasabox">
-            <img src="image/colorsky.gif" class="bahasabox__img">
-            <h1 class="bahasabox__title">Jambi</h1>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="bahasabox">
-            <img src="image/colorsky.gif" class="bahasabox__img">
-            <h1 class="bahasabox__title">Aceh</h1>
-          </div>
-        </div>
-      </div>
     </div>
     <div id="statbar" class="sidebar__content hide">
       <div class="sidebar__content__head">
         <h1 class="sidebar__content__head__title">Classification Tree</h1>
-					<div id="tree-container"></div>
       </div>
     </div>
     <div id="setbar" class="sidebar__content hide">
@@ -222,7 +265,7 @@
         <h1 class="sidebar__content__head__title">Settings</h1>
       </div>
       <div class="sidebar__content__text">
-        <p>Show city label <input id="setCityLabel" class="checkbox checkbox--right" type="checkbox"></p>
+        <p>Show map label <input id="setCityLabel" class="checkbox checkbox--right" type="checkbox"></p>
         <p>Show tooltip <input id="setTooltip" class="checkbox checkbox--right" type="checkbox" checked></p>
       </div>
     </div>
@@ -242,87 +285,6 @@
       and 3 more languages
     </div>
   </div>
-	<div id='map'></div>
-  <!-- <div class="bottombar">
-    <h1 class="bottombar__title">
-      Daftar Bahasa
-    </h1>
-    <div class="row">
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Sunda</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Jawa</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Batak</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Madura</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Jambi</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Aceh</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Bali</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Minang</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Papua</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Ambon</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Sulawesi</h1>
-        </div>
-      </div>
-      <div class="col-md-1">
-        <div class="bahasabox">
-          <img src="image/colorsky.gif" class="bahasabox__img">
-          <h1 class="bahasabox__title">Dayak</h1>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
 
 	<script type="text/javascript" src="js/indexCode.js"></script>
 	<script type="text/javascript" src="js/indexReverse.js"></script>
