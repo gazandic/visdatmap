@@ -2167,10 +2167,12 @@ body {
     .sidebar__info__footer {
       display: none; }
   .sidebar__top {
+    background-color: #333;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     position: relative;
     width: 100%;
     height: 45px;
-    background-color: #FFFFFF;
     opacity: 0.95;
     z-index: 3; }
     .sidebar__top__button {
@@ -2178,6 +2180,33 @@ body {
       width: 20%;
       height: 100%;
       margin-right: -4px; }
+      .sidebar__top__button .sidebar__icon {
+        background-color: #FFFFFF; }
+        .sidebar__top__button .sidebar__icon i {
+          font-size: 16px;
+          font-weight: 300;
+          color: #DDDDDD;
+          margin: 0; }
+        .sidebar__top__button .sidebar__icon:hover {
+          cursor: pointer;
+          background-color: #EEE; }
+        .sidebar__top__button .sidebar__icon#homebtn {
+          border-top-left-radius: 5px; }
+          .sidebar__top__button .sidebar__icon#homebtn.close {
+            border-bottom-left-radius: 5px; }
+        .sidebar__top__button .sidebar__icon#setbtn {
+          border-top-right-radius: 5px; }
+          .sidebar__top__button .sidebar__icon#setbtn.close {
+            border-bottom-right-radius: 5px; }
+        .sidebar__top__button .sidebar__icon#treebtn, .sidebar__top__button .sidebar__icon#searchbtn {
+          background-color: transparent; }
+          .sidebar__top__button .sidebar__icon#treebtn:hover, .sidebar__top__button .sidebar__icon#searchbtn:hover {
+            background-color: #222; }
+          .sidebar__top__button .sidebar__icon#treebtn i, .sidebar__top__button .sidebar__icon#searchbtn i {
+            font-size: 16px;
+            font-weight: 300;
+            color: #000;
+            margin: 0; }
   .sidebar__search {
     display: none;
     position: relative;
@@ -2206,26 +2235,19 @@ body {
         .sidebar__search .easy-autocomplete input:-moz-placeholder {
           /* Firefox 18- */
           color: #ddd; }
-  .sidebar #searchbtn .active i {
-    color: #3F51B5; }
+  .sidebar #searchbtn .active i, .sidebar #treebtn .active i {
+    color: #3D5AFE;
+    font-weight: 700; }
   .sidebar__icon {
     display: table;
     height: 100%;
     width: 100%; }
-    .sidebar__icon :hover {
-      cursor: pointer;
-      background-color: #EEE; }
     .sidebar__icon__inner {
       display: table-cell;
       vertical-align: middle;
       text-align: center;
       height: 100%;
       width: 100%; }
-      .sidebar__icon__inner i {
-        font-size: 16px;
-        font-weight: 300;
-        color: #DDDDDD;
-        margin: 0; }
     .sidebar__icon .active i {
       font-size: 16px;
       font-weight: 700;
@@ -2379,7 +2401,6 @@ body {
   display: none;
   background-color: #FFFFFF;
   opacity: 0.95;
-  padding: 5px;
   text-align: left;
   width: 250px;
   align-items: flex-start;
@@ -2393,7 +2414,7 @@ body {
   .tooltip.active {
     display: flex; }
   .tooltip__info {
-    padding: 5px; }
+    padding: 10px; }
     .tooltip__info__title {
       margin-bottom: 5px;
       font-size: 12px;

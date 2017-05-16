@@ -15,8 +15,19 @@ function hideAllBar(){
   $('#statbar').removeClass('active');
   $('#setbar').removeClass('active');
   hideActiveButton();
+  checkClose();
   if($('.sidebar__content').hasClass('hide')){
     toggleBar();
+  }
+}
+
+function checkClose(){
+  if($('.sidebar__content').hasClass('hide')&&(!($('.sidebar__search').hasClass('active')))){
+    $('#homebtn').addClass('close');
+    $('#setbtn').addClass('close');
+  }else{
+    $('#homebtn').removeClass('close');
+    $('#setbtn').removeClass('close');
   }
 }
 
@@ -32,8 +43,12 @@ function toggleBar(){
   $('.sidebar__content').toggleClass('hide');
   if($(target).find('i').html().includes('up')){
     $(target).find('i').html('keyboard_arrow_down').parent().hide();
+    $('#homebtn').addClass('close');
+    $('#setbtn').addClass('close');
   }else{
     $(target).find('i').html('keyboard_arrow_up').parent().show();
+    $('#homebtn').removeClass('close');
+    $('#setbtn').removeClass('close');
   }
 }
 
@@ -62,16 +77,18 @@ $('#setbtn').click(function(){
 });
 
 $('#treebtn').click(function(){
+  $(this).children().toggleClass('active');
   $('.tree').toggle();
   $('.body').toggleClass('frame--blur');
 });
 
 $('#searchbtn').click(function(){
-  $('#searchbtn').children().toggleClass('active');
+  $(this).children().toggleClass('active');
   $('#searchbar').toggleClass('active');
   if($(this).children().hasClass('active')){
     $('#searchbar').find('#provider-file').focus().select();
   }
+  checkClose();
 });
 
 $('#setCityLabel').click(function(){
@@ -85,6 +102,7 @@ $('#setCityLabel').click(function(){
 
 $('#setMinSidebar').click(function(){
   toggleBar();
+  checkClose();
 });
 
 $('#setTooltip').click(function(){
