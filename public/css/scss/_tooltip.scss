@@ -12,6 +12,11 @@
   overflow: hidden;
   z-index: 1;
   -webkit-animation: opacity 1s;
+  border-radius: 5px;
+
+  -webkit-box-shadow: outset 0px 0px 15px 0px rgba(#000, 0.75);
+  -moz-box-shadow: outset 0px 0px 15px 0px rgba(#000, 0.75);
+  box-shadow: outset 0px 0px 15px 0px rgba(#000, 0.75);
 
   i{
     font-size: 12px;

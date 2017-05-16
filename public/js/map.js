@@ -108,6 +108,7 @@ var map = L.map('map',{
     $('#homebar').find('.sidebar__content__subtitle__location').html('<i class="material-icons">location_on &nbsp</i>'+location);
     $('#homebar').find('.sidebar__content__subtitle__writing').html('<i class="material-icons">create &nbsp</i>'+writing);
     $('#homebar').find('.sidebar__content__subtitle__classification').html('<i class="material-icons">timeline &nbsp</i>'+classification);
+    $('.sidebar__content__head__title3').css('background-color',$('.tooltip__info__population').css('background-color')).html(status);
     if($('.sidebar__content').hasClass('hide')){
       toggleBar();
     }

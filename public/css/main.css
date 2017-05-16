@@ -2283,6 +2283,15 @@ body {
           font-weight: 400;
           color: #999;
           margin: 0; }
+        .sidebar__content__head__title3 {
+          background-color: #000;
+          padding: 5px;
+          border-radius: 5px;
+          font-size: 12px;
+          font-weight: 400;
+          color: #FFF;
+          margin: 0;
+          margin-top: 5px; }
     .sidebar__content__subtitle {
       padding-top: 5px;
       padding-left: 18px;
@@ -2416,7 +2425,11 @@ body {
   position: fixed;
   overflow: hidden;
   z-index: 1;
-  -webkit-animation: opacity 1s; }
+  -webkit-animation: opacity 1s;
+  border-radius: 5px;
+  -webkit-box-shadow: outset 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: outset 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: outset 0px 0px 15px 0px rgba(0, 0, 0, 0.75); }
   .tooltip i {
     font-size: 12px; }
   .tooltip.active {
