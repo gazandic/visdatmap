@@ -60,17 +60,41 @@ var map = L.map('map',{
     var name = '';
     var population = '';
     var location = '';
+    var alt_name = '';
+    var dialects = '';
+    var writing = '';
+    var status = '';
     if (props) {
       name = props.name;
       if (props.name in indexCode) {
         var liname = indexCode[props.name]['data'];
         name = '';
         population = '';
-        location = ''
+        location = '';
+        alt_name = '';
+        dialects = '';
+        writing = '';
+        status = '';
         for (var i in liname) {
           name += bahasa[liname[i]]['name'];
           population += bahasa[liname[i]]['population'];
           location += bahasa[liname[i]]['location'];
+          if (bahasa[liname[i]]['alt_name']){
+            alt_name += bahasa[liname[i]]['alt_name']
+          }
+          if (bahasa[liname[i]]['autonym']){
+            autonym += bahasa[liname[i]]['autonym']
+          }
+          if (bahasa[liname[i]]['dialects']){
+            dialects += bahasa[liname[i]]['dialects']
+          }
+          if (bahasa[liname[i]]['writing']){
+            writing += bahasa[liname[i]]['writing']
+          }
+          if (bahasa[liname[i]]['status']){
+            status += bahasa[liname[i]]['status']
+          }
+
           treeString = bahasa[liname[i]]['classification'];
         	updateTreeString(treeString);
           break;
