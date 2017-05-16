@@ -1,0 +1,28 @@
+.tree{
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  padding: 0 30% 0 5%;
+  -webkit-animation: opacity 1s;
+
+  &__container{
+    overflow: auto;
+    z-index: 2;
+    position: relative;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__title{
+    padding: 15px;
+    text-align: center;
+    @include heading-color($h5, $hreg, $white);
+  }
+}

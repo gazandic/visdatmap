@@ -22,7 +22,7 @@ body {
   position: absolute;
   right: 0;
   width: $sidebar-width;
-  z-index: 2;
+  z-index: 5;
   padding: $sidebar-padding;
 
   &__background{
