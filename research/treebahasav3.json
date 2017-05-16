@@ -1,0 +1,3003 @@
+[
+ {
+  "key": "language",
+  "values": [
+   {
+    "key": "Austronesian",
+    "values": [
+     {
+      "key": " Malayo-Polynesian",
+      "values": [
+       {
+        "key": " Sangiric",
+        "values": [
+         {
+          "key": " Southern",
+          "values": [
+           {
+            "key": "bnq",
+            "value": 3000
+           }
+          ],
+          "value": 3000
+         },
+         {
+          "key": " Northern",
+          "values": [
+           {
+            "key": "sxn",
+            "value": 200000
+           }
+          ],
+          "value": 200000
+         }
+        ],
+        "value": 203000
+       },
+       {
+        "key": " North Borneo",
+        "values": [
+         {
+          "key": " Rejang-Sajau",
+          "values": [
+           {
+            "key": "bdb",
+            "value": 15000
+           }
+          ],
+          "value": 15000
+         },
+         {
+          "key": " Sabahan",
+          "values": [
+           {
+            "key": " Murutic",
+            "values": [
+             {
+              "key": " Murut",
+              "values": [
+               {
+                "key": "slg",
+                "value": 640
+               }
+              ],
+              "value": 640
+             },
+             {
+              "key": " Southern",
+              "values": [
+               {
+                "key": "sbr",
+                "value": 3180
+               }
+              ],
+              "value": 3180
+             },
+             {
+              "key": " Tidung",
+              "values": [
+               {
+                "key": "itd",
+                "value": 27000
+               }
+              ],
+              "value": 27000
+             }
+            ],
+            "value": 30820
+           }
+          ],
+          "value": 30820
+         },
+         {
+          "key": " North Sarawakan",
+          "values": [
+           {
+            "key": " Dayic",
+            "values": [
+             {
+              "key": " Kelabitic",
+              "values": [
+               {
+                "key": "kzi",
+                "value": 4000
+               }
+              ],
+              "value": 4000
+             }
+            ],
+            "value": 4000
+           },
+           {
+            "key": " Kayan-Kenyah",
+            "values": [
+             {
+              "key": " Kayanic",
+              "values": [
+               {
+                "key": " Kayan Proper",
+                "values": [
+                 {
+                  "key": "bhv",
+                  "value": 19000
+                 }
+                ],
+                "value": 19000
+               },
+               {
+                "key": " Muller-Schwaner \u2018Punan\u2019",
+                "values": [
+                 {
+                  "key": "pni",
+                  "value": 2630
+                 }
+                ],
+                "value": 2630
+               },
+               {
+                "key": " Modang",
+                "values": [
+                 {
+                  "key": "mxd",
+                  "value": 15300
+                 }
+                ],
+                "value": 15300
+               }
+              ],
+              "value": 36930
+             },
+             {
+              "key": " Kenyah",
+              "values": [
+               {
+                "key": "xkl",
+                "value": 12000
+               }
+              ],
+              "value": 12000
+             }
+            ],
+            "value": 48930
+           },
+           {
+            "key": " Punan Tubu",
+            "values": [
+             {
+              "key": "puj",
+              "value": 2000
+             }
+            ],
+            "value": 2000
+           }
+          ],
+          "value": 54930
+         },
+         {
+          "key": " Melanau-Kajang",
+          "values": [
+           {
+            "key": " Kajang",
+            "values": [
+             {
+              "key": "bkn",
+              "value": 570
+             }
+            ],
+            "value": 570
+           }
+          ],
+          "value": 570
+         }
+        ],
+        "value": 101320
+       },
+       {
+        "key": " Minahasan",
+        "values": [
+         {
+          "key": " North",
+          "values": [
+           {
+            "key": " Northeast",
+            "values": [
+             {
+              "key": "tom",
+              "value": 60000
+             }
+            ],
+            "value": 60000
+           }
+          ],
+          "value": 60000
+         }
+        ],
+        "value": 60000
+       },
+       {
+        "key": " Celebic",
+        "values": [
+         {
+          "key": " Eastern",
+          "values": [
+           {
+            "key": " Southeastern",
+            "values": [
+             {
+              "key": " Bungku-Tolaki",
+              "values": [
+               {
+                "key": " Eastern",
+                "values": [
+                 {
+                  "key": " Southwest",
+                  "values": [
+                   {
+                    "key": "mqn",
+                    "value": 37000
+                   }
+                  ],
+                  "value": 37000
+                 },
+                 {
+                  "key": " East Coast",
+                  "values": [
+                   {
+                    "key": "bsu",
+                    "value": 200
+                   }
+                  ],
+                  "value": 200
+                 }
+                ],
+                "value": 37200
+               },
+               {
+                "key": " Western",
+                "values": [
+                 {
+                  "key": " Interior",
+                  "values": [
+                   {
+                    "key": "mzq",
+                    "value": 14000
+                   }
+                  ],
+                  "value": 14000
+                 },
+                 {
+                  "key": " West Coast",
+                  "values": [
+                   {
+                    "key": "vko",
+                    "value": 1500
+                   }
+                  ],
+                  "value": 1500
+                 }
+                ],
+                "value": 15500
+               }
+              ],
+              "value": 52700
+             },
+             {
+              "key": " Muna-Buton",
+              "values": [
+               {
+                "key": " Tukangbesi-Bonerate",
+                "values": [
+                 {
+                  "key": "bna",
+                  "value": 9500
+                 }
+                ],
+                "value": 9500
+               },
+               {
+                "key": " Nuclear Muna-Buton",
+                "values": [
+                 {
+                  "key": " Buton",
+                  "values": [
+                   {
+                    "key": " West Buton",
+                    "values": [
+                     {
+                      "key": "cia",
+                      "value": 79000
+                     }
+                    ],
+                    "value": 79000
+                   },
+                   {
+                    "key": " East Buton",
+                    "values": [
+                     {
+                      "key": "xks",
+                      "value": 3400
+                     }
+                    ],
+                    "value": 3400
+                   }
+                  ],
+                  "value": 82400
+                 },
+                 {
+                  "key": " Munan",
+                  "values": [
+                   {
+                    "key": "bup",
+                    "value": 2300
+                   }
+                  ],
+                  "value": 2300
+                 }
+                ],
+                "value": 84700
+               }
+              ],
+              "value": 94200
+             }
+            ],
+            "value": 146900
+           },
+           {
+            "key": " Saluan-Banggai",
+            "values": [
+             {
+              "key": " Eastern",
+              "values": [
+               {
+                "key": "blz",
+                "value": 31000
+               }
+              ],
+              "value": 31000
+             },
+             {
+              "key": " Western",
+              "values": [
+               {
+                "key": "bzb",
+                "value": 1700
+               }
+              ],
+              "value": 1700
+             }
+            ],
+            "value": 32700
+           }
+          ],
+          "value": 179600
+         },
+         {
+          "key": " Tomini-Tolitoli",
+          "values": [
+           {
+            "key": " Tolitoli",
+            "values": [
+             {
+              "key": "bzl",
+              "value": 2700
+             }
+            ],
+            "value": 2700
+           },
+           {
+            "key": " Tomini",
+            "values": [
+             {
+              "key": " Southern",
+              "values": [
+               {
+                "key": "bls",
+                "value": 3200
+               }
+              ],
+              "value": 3200
+             },
+             {
+              "key": " Northern",
+              "values": [
+               {
+                "key": "dok",
+                "value": 13000
+               }
+              ],
+              "value": 13000
+             }
+            ],
+            "value": 16200
+           }
+          ],
+          "value": 18900
+         },
+         {
+          "key": " Wotu-Wolio",
+          "values": [
+           {
+            "key": " Wolio-Kamaru",
+            "values": [
+             {
+              "key": "kgx",
+              "value": 3500
+             }
+            ],
+            "value": 3500
+           },
+           {
+            "key": " Kalao",
+            "values": [
+             {
+              "key": "kly",
+              "value": 500
+             }
+            ],
+            "value": 500
+           }
+          ],
+          "value": 4000
+         },
+         {
+          "key": " Kaili-Pamona",
+          "values": [
+           {
+            "key": " Southern",
+            "values": [
+             {
+              "key": " Badaic",
+              "values": [
+               {
+                "key": "bhz",
+                "value": 6800
+               }
+              ],
+              "value": 6800
+             }
+            ],
+            "value": 6800
+           },
+           {
+            "key": " Northern",
+            "values": [
+             {
+              "key": " Kaili",
+              "values": [
+               {
+                "key": "brs",
+                "value": 250
+               }
+              ],
+              "value": 250
+             },
+             {
+              "key": " Pamona",
+              "values": [
+               {
+                "key": "pmf",
+                "value": 137000
+               }
+              ],
+              "value": 137000
+             }
+            ],
+            "value": 137250
+           }
+          ],
+          "value": 144050
+         }
+        ],
+        "value": 346550
+       },
+       {
+        "key": " Sundanese",
+        "values": [
+         {
+          "key": "bac",
+          "value": 20000
+         }
+        ],
+        "value": 20000
+       },
+       {
+        "key": " Lampung",
+        "values": [
+         {
+          "key": "kge",
+          "value": 470000
+         }
+        ],
+        "value": 470000
+       },
+       {
+        "key": " Rejang",
+        "values": [
+         {
+          "key": "rej",
+          "value": 350000
+         }
+        ],
+        "value": 350000
+       },
+       {
+        "key": " Land Dayak",
+        "values": [
+         {
+          "key": " Bidayuh",
+          "values": [
+           {
+            "key": " Core",
+            "values": [
+             {
+              "key": " Central",
+              "values": [
+               {
+                "key": "bth",
+                "value": 63900
+               }
+              ],
+              "value": 63900
+             }
+            ],
+            "value": 63900
+           },
+           {
+            "key": " Eastern",
+            "values": [
+             {
+              "key": "sdo",
+              "value": 49100
+             }
+            ],
+            "value": 49100
+           }
+          ],
+          "value": 113000
+         },
+         {
+          "key": " Bakati\u2019",
+          "values": [
+           {
+            "key": "bei",
+            "value": 4000
+           }
+          ],
+          "value": 4000
+         },
+         {
+          "key": " Southern",
+          "values": [
+           {
+            "key": "djo",
+            "value": 37000
+           }
+          ],
+          "value": 37000
+         }
+        ],
+        "value": 154000
+       },
+       {
+        "key": " Nasal",
+        "values": [
+         {
+          "key": "nsy",
+          "value": 3000
+         }
+        ],
+        "value": 3000
+       },
+       {
+        "key": " Bali-Sasak-Sumbawa",
+        "values": [
+         {
+          "key": "ban",
+          "value": 3330000
+         }
+        ],
+        "value": 3330000
+       },
+       {
+        "key": " Unclassified",
+        "values": [
+         {
+          "key": "blj",
+          "value": 30000
+         }
+        ],
+        "value": 30000
+       },
+       {
+        "key": " Greater Central Philippine",
+        "values": [
+         {
+          "key": " Central Philippine",
+          "values": [
+           {
+            "key": " Bisayan",
+            "values": [
+             {
+              "key": " South",
+              "values": [
+               {
+                "key": " Butuan-Tausug",
+                "values": [
+                 {
+                  "key": "tsg",
+                  "value": 900000
+                 }
+                ],
+                "value": 900000
+               }
+              ],
+              "value": 900000
+             }
+            ],
+            "value": 900000
+           }
+          ],
+          "value": 900000
+         },
+         {
+          "key": " Gorontalo-Mongondow",
+          "values": [
+           {
+            "key": " Mongondowic",
+            "values": [
+             {
+              "key": "mog",
+              "value": 230000
+             }
+            ],
+            "value": 230000
+           },
+           {
+            "key": " Gorontalic",
+            "values": [
+             {
+              "key": "bne",
+              "value": 11200
+             }
+            ],
+            "value": 11200
+           }
+          ],
+          "value": 241200
+         }
+        ],
+        "value": 1141200
+       },
+       {
+        "key": " Northwest Sumatra-Barrier Islands",
+        "values": [
+         {
+          "key": " Batak",
+          "values": [
+           {
+            "key": " Simalungan",
+            "values": [
+             {
+              "key": "bts",
+              "value": 1200000
+             }
+            ],
+            "value": 1200000
+           },
+           {
+            "key": " Southern",
+            "values": [
+             {
+              "key": "akb",
+              "value": 750000
+             }
+            ],
+            "value": 750000
+           },
+           {
+            "key": " Northern",
+            "values": [
+             {
+              "key": "btz",
+              "value": 195000
+             }
+            ],
+            "value": 195000
+           }
+          ],
+          "value": 2145000
+         },
+         {
+          "key": " Nias",
+          "values": [
+           {
+            "key": "nia",
+            "value": 770000
+           }
+          ],
+          "value": 770000
+         }
+        ],
+        "value": 2915000
+       },
+       {
+        "key": " Madurese",
+        "values": [
+         {
+          "key": "kkv",
+          "value": 110000
+         }
+        ],
+        "value": 110000
+       },
+       {
+        "key": " Javanese",
+        "values": [
+         {
+          "key": "jav",
+          "value": 84300000
+         }
+        ],
+        "value": 84300000
+       },
+       {
+        "key": " South Sulawesi",
+        "values": [
+         {
+          "key": " Bugis",
+          "values": [
+           {
+            "key": "bug",
+            "value": 5500000
+           }
+          ],
+          "value": 5500000
+         },
+         {
+          "key": " Seko",
+          "values": [
+           {
+            "key": " Panasuan",
+            "values": [
+             {
+              "key": "bdx",
+              "value": 70
+             }
+            ],
+            "value": 70
+           }
+          ],
+          "value": 70
+         },
+         {
+          "key": " Makassar",
+          "values": [
+           {
+            "key": "bnu",
+            "value": 25000
+           }
+          ],
+          "value": 25000
+         },
+         {
+          "key": " Lemolang",
+          "values": [
+           {
+            "key": "ley",
+            "value": 2000
+           }
+          ],
+          "value": 2000
+         },
+         {
+          "key": " Northern",
+          "values": [
+           {
+            "key": " Masenrempulu",
+            "values": [
+             {
+              "key": "mvp",
+              "value": 127000
+             }
+            ],
+            "value": 127000
+           },
+           {
+            "key": " Toraja-Sa\u2019dan",
+            "values": [
+             {
+              "key": "kli",
+              "value": 20000
+             }
+            ],
+            "value": 20000
+           },
+           {
+            "key": " Mandar",
+            "values": [
+             {
+              "key": "mdr",
+              "value": 475000
+             }
+            ],
+            "value": 475000
+           },
+           {
+            "key": " Mamuju",
+            "values": [
+             {
+              "key": "mqx",
+              "value": 60000
+             }
+            ],
+            "value": 60000
+           },
+           {
+            "key": " Pitu Ulunna Salu",
+            "values": [
+             {
+              "key": "atq",
+              "value": 12000
+             }
+            ],
+            "value": 12000
+           }
+          ],
+          "value": 694000
+         }
+        ],
+        "value": 6221070
+       },
+       {
+        "key": " Central-Eastern Malayo-Polynesian",
+        "values": [
+         {
+          "key": " Aru",
+          "values": [
+           {
+            "key": "baj",
+            "value": 4450
+           }
+          ],
+          "value": 4450
+         },
+         {
+          "key": " North Bomberai",
+          "values": [
+           {
+            "key": "agf",
+            "value": 150
+           }
+          ],
+          "value": 150
+         },
+         {
+          "key": " Teor-Kur",
+          "values": [
+           {
+            "key": "kuv",
+            "value": 3180
+           }
+          ],
+          "value": 3180
+         },
+         {
+          "key": " Bima-Lembata",
+          "values": [
+           {
+            "key": "adr",
+            "value": 98000
+           }
+          ],
+          "value": 98000
+         },
+         {
+          "key": " Timor-Babar",
+          "values": [
+           {
+            "key": " Nuclear Timor",
+            "values": [
+             {
+              "key": " Uab Meto",
+              "values": [
+               {
+                "key": "aaz",
+                "value": 70000
+               }
+              ],
+              "value": 70000
+             },
+             {
+              "key": " Rote",
+              "values": [
+               {
+                "key": "bpz",
+                "value": 7000
+               }
+              ],
+              "value": 7000
+             }
+            ],
+            "value": 77000
+           },
+           {
+            "key": " Southwest Maluku",
+            "values": [
+             {
+              "key": " Teun-Nila-Serua",
+              "values": [
+               {
+                "key": " Teun",
+                "values": [
+                 {
+                  "key": "tve",
+                  "value": 1
+                 }
+                ],
+                "value": 1
+               },
+               {
+                "key": " Nila-Serua",
+                "values": [
+                 {
+                  "key": "nil",
+                  "value": 1
+                 }
+                ],
+                "value": 1
+               }
+              ],
+              "value": 2
+             },
+             {
+              "key": " Luang",
+              "values": [
+               {
+                "key": "lti",
+                "value": 7500
+               }
+              ],
+              "value": 7500
+             },
+             {
+              "key": " Wetar",
+              "values": [
+               {
+                "key": "apx",
+                "value": 150
+               }
+              ],
+              "value": 150
+             },
+             {
+              "key": " East Damar",
+              "values": [
+               {
+                "key": "dmr",
+                "value": 2800
+               }
+              ],
+              "value": 2800
+             },
+             {
+              "key": " Kisar-Roma",
+              "values": [
+               {
+                "key": "kje",
+                "value": 20000
+               }
+              ],
+              "value": 20000
+             }
+            ],
+            "value": 30452
+           }
+          ],
+          "value": 107452
+         },
+         {
+          "key": " West Damar",
+          "values": [
+           {
+            "key": "drn",
+            "value": 800
+           }
+          ],
+          "value": 800
+         },
+         {
+          "key": " Hukumina",
+          "values": [
+           {
+            "key": "huw",
+            "value": 1
+           }
+          ],
+          "value": 1
+         },
+         {
+          "key": " Southeast Maluku",
+          "values": [
+           {
+            "key": " Kei-Tanimbar",
+            "values": [
+             {
+              "key": " Yamdena",
+              "values": [
+               {
+                "key": "jmd",
+                "value": 25000
+               }
+              ],
+              "value": 25000
+             },
+             {
+              "key": " Kei-Fordata",
+              "values": [
+               {
+                "key": "frd",
+                "value": 50000
+               }
+              ],
+              "value": 50000
+             }
+            ],
+            "value": 75000
+           },
+           {
+            "key": " Southern",
+            "values": [
+             {
+              "key": "slu",
+              "value": 8000
+             }
+            ],
+            "value": 8000
+           }
+          ],
+          "value": 83000
+         },
+         {
+          "key": " South Bomberai",
+          "values": [
+           {
+            "key": "kwh",
+            "value": 600
+           }
+          ],
+          "value": 600
+         },
+         {
+          "key": " Unclassified",
+          "values": [
+           {
+            "key": "nbn",
+            "value": 500
+           }
+          ],
+          "value": 500
+         },
+         {
+          "key": " Central Maluku",
+          "values": [
+           {
+            "key": " Buru",
+            "values": [
+             {
+              "key": "mhs",
+              "value": 45000
+             }
+            ],
+            "value": 45000
+           },
+           {
+            "key": " East",
+            "values": [
+             {
+              "key": " Seram",
+              "values": [
+               {
+                "key": " Manusela-Seti",
+                "values": [
+                 {
+                  "key": "bgy",
+                  "value": 350
+                 }
+                ],
+                "value": 350
+               },
+               {
+                "key": " Bobot",
+                "values": [
+                 {
+                  "key": "bty",
+                  "value": 4500
+                 }
+                ],
+                "value": 4500
+               },
+               {
+                "key": " East Seram",
+                "values": [
+                 {
+                  "key": "hti",
+                  "value": 1
+                 }
+                ],
+                "value": 1
+               },
+               {
+                "key": " Nunusaku",
+                "values": [
+                 {
+                  "key": " Kayeli",
+                  "values": [
+                   {
+                    "key": "kzl",
+                    "value": 1
+                   }
+                  ],
+                  "value": 1
+                 },
+                 {
+                  "key": " Three Rivers",
+                  "values": [
+                   {
+                    "key": " Wemale",
+                    "values": [
+                     {
+                      "key": "weo",
+                      "value": 6000
+                     }
+                    ],
+                    "value": 6000
+                   },
+                   {
+                    "key": " Amalumute",
+                    "values": [
+                     {
+                      "key": " Northwest Seram",
+                      "values": [
+                       {
+                        "key": " Ulat Inai",
+                        "values": [
+                         {
+                          "key": "alp",
+                          "value": 17200
+                         }
+                        ],
+                        "value": 17200
+                       },
+                       {
+                        "key": " Hulung",
+                        "values": [
+                         {
+                          "key": "huk",
+                          "value": 1
+                         }
+                        ],
+                        "value": 1
+                       },
+                       {
+                        "key": " Loun",
+                        "values": [
+                         {
+                          "key": "lox",
+                          "value": 1
+                         }
+                        ],
+                        "value": 1
+                       }
+                      ],
+                      "value": 17202
+                     }
+                    ],
+                    "value": 17202
+                   }
+                  ],
+                  "value": 23202
+                 },
+                 {
+                  "key": " Piru Bay",
+                  "values": [
+                   {
+                    "key": " West",
+                    "values": [
+                     {
+                      "key": " Asilulu",
+                      "values": [
+                       {
+                        "key": "asl",
+                        "value": 8760
+                       }
+                      ],
+                      "value": 8760
+                     },
+                     {
+                      "key": " Hoamoal",
+                      "values": [
+                       {
+                        "key": "bzn",
+                        "value": 3240
+                       }
+                      ],
+                      "value": 3240
+                     }
+                    ],
+                    "value": 12000
+                   },
+                   {
+                    "key": " East",
+                    "values": [
+                     {
+                      "key": " Seram Straits",
+                      "values": [
+                       {
+                        "key": " Uliase",
+                        "values": [
+                         {
+                          "key": " Hatuhaha",
+                          "values": [
+                           {
+                            "key": " Elpaputi",
+                            "values": [
+                             {
+                              "key": "amq",
+                              "value": 50
+                             }
+                            ],
+                            "value": 50
+                           },
+                           {
+                            "key": " Saparua",
+                            "values": [
+                             {
+                              "key": "ltu",
+                              "value": 2130
+                             }
+                            ],
+                            "value": 2130
+                           }
+                          ],
+                          "value": 2180
+                         },
+                         {
+                          "key": " Kamarian",
+                          "values": [
+                           {
+                            "key": "kzx",
+                            "value": 1
+                           }
+                          ],
+                          "value": 1
+                         }
+                        ],
+                        "value": 2181
+                       },
+                       {
+                        "key": " Ambon",
+                        "values": [
+                         {
+                          "key": "htu",
+                          "value": 16000
+                         }
+                        ],
+                        "value": 16000
+                       },
+                       {
+                        "key": " Solehua",
+                        "values": [
+                         {
+                          "key": "plh",
+                          "value": 50
+                         }
+                        ],
+                        "value": 50
+                       }
+                      ],
+                      "value": 18231
+                     }
+                    ],
+                    "value": 18231
+                   }
+                  ],
+                  "value": 30231
+                 }
+                ],
+                "value": 53434
+               },
+               {
+                "key": " Sawai-Nuaulu",
+                "values": [
+                 {
+                  "key": "nni",
+                  "value": 500
+                 }
+                ],
+                "value": 500
+               },
+               {
+                "key": " Masiwang",
+                "values": [
+                 {
+                  "key": "bnf",
+                  "value": 1000
+                 }
+                ],
+                "value": 1000
+               }
+              ],
+              "value": 59785
+             },
+             {
+              "key": " Banda-Geser",
+              "values": [
+               {
+                "key": "bnd",
+                "value": 3000
+               }
+              ],
+              "value": 3000
+             }
+            ],
+            "value": 62785
+           },
+           {
+            "key": " Sula",
+            "values": [
+             {
+              "key": " Taliabo",
+              "values": [
+               {
+                "key": "kzd",
+                "value": 350
+               }
+              ],
+              "value": 350
+             }
+            ],
+            "value": 350
+           },
+           {
+            "key": " Ambelau",
+            "values": [
+             {
+              "key": "amv",
+              "value": 5700
+             }
+            ],
+            "value": 5700
+           }
+          ],
+          "value": 113835
+         },
+         {
+          "key": " Babar",
+          "values": [
+           {
+            "key": " South",
+            "values": [
+             {
+              "key": " Southwest Babar",
+              "values": [
+               {
+                "key": "emw",
+                "value": 250
+               }
+              ],
+              "value": 250
+             },
+             {
+              "key": " Masela-South Babar",
+              "values": [
+               {
+                "key": "vbb",
+                "value": 4460
+               }
+              ],
+              "value": 4460
+             }
+            ],
+            "value": 4710
+           },
+           {
+            "key": " North",
+            "values": [
+             {
+              "key": "bcd",
+              "value": 1000
+             }
+            ],
+            "value": 1000
+           }
+          ],
+          "value": 5710
+         },
+         {
+          "key": " Sumba-Hawu",
+          "values": [
+           {
+            "key": " Hawu-Dhao",
+            "values": [
+             {
+              "key": "nfa",
+              "value": 5000
+             }
+            ],
+            "value": 5000
+           },
+           {
+            "key": " Sumba",
+            "values": [
+             {
+              "key": "akg",
+              "value": 16000
+             }
+            ],
+            "value": 16000
+           }
+          ],
+          "value": 21000
+         },
+         {
+          "key": " Eastern Malayo-Polynesian",
+          "values": [
+           {
+            "key": " South Halmahera-West New Guinea",
+            "values": [
+             {
+              "key": " South Halmahera",
+              "values": [
+               {
+                "key": " Southeast",
+                "values": [
+                 {
+                  "key": "bzq",
+                  "value": 2520
+                 }
+                ],
+                "value": 2520
+               },
+               {
+                "key": " East Makian-Gane",
+                "values": [
+                 {
+                  "key": "gzn",
+                  "value": 2900
+                 }
+                ],
+                "value": 2900
+               }
+              ],
+              "value": 5420
+             },
+             {
+              "key": " West New Guinea",
+              "values": [
+               {
+                "key": " Cenderawasih Bay",
+                "values": [
+                 {
+                  "key": " Yeretuar",
+                  "values": [
+                   {
+                    "key": "gop",
+                    "value": 350
+                   }
+                  ],
+                  "value": 350
+                 },
+                 {
+                  "key": " Yapen",
+                  "values": [
+                   {
+                    "key": " East",
+                    "values": [
+                     {
+                      "key": "kjr",
+                      "value": 2180
+                     }
+                    ],
+                    "value": 2180
+                   },
+                   {
+                    "key": " Central-Western",
+                    "values": [
+                     {
+                      "key": "amk",
+                      "value": 10100
+                     }
+                    ],
+                    "value": 10100
+                   }
+                  ],
+                  "value": 12280
+                 },
+                 {
+                  "key": " Yaur",
+                  "values": [
+                   {
+                    "key": "jau",
+                    "value": 350
+                   }
+                  ],
+                  "value": 350
+                 },
+                 {
+                  "key": " Mor",
+                  "values": [
+                   {
+                    "key": "mhz",
+                    "value": 700
+                   }
+                  ],
+                  "value": 700
+                 },
+                 {
+                  "key": " Biakic",
+                  "values": [
+                   {
+                    "key": "bhw",
+                    "value": 70000
+                   }
+                  ],
+                  "value": 70000
+                 },
+                 {
+                  "key": " Tandia",
+                  "values": [
+                   {
+                    "key": "tni",
+                    "value": 1
+                   }
+                  ],
+                  "value": 1
+                 },
+                 {
+                  "key": " Iresim",
+                  "values": [
+                   {
+                    "key": "ire",
+                    "value": 70
+                   }
+                  ],
+                  "value": 70
+                 },
+                 {
+                  "key": " Waropen",
+                  "values": [
+                   {
+                    "key": "wrp",
+                    "value": 6000
+                   }
+                  ],
+                  "value": 6000
+                 },
+                 {
+                  "key": " Raja Ampat",
+                  "values": [
+                   {
+                    "key": "wgo",
+                    "value": 1000
+                   }
+                  ],
+                  "value": 1000
+                 }
+                ],
+                "value": 90751
+               },
+               {
+                "key": " Bomberai",
+                "values": [
+                 {
+                  "key": "bed",
+                  "value": 180
+                 }
+                ],
+                "value": 180
+               }
+              ],
+              "value": 90931
+             }
+            ],
+            "value": 96351
+           },
+           {
+            "key": " Oceanic",
+            "values": [
+             {
+              "key": " Western Oceanic",
+              "values": [
+               {
+                "key": " North New Guinea",
+                "values": [
+                 {
+                  "key": " Sarmi-Jayapura Bay",
+                  "values": [
+                   {
+                    "key": " Jayapura Bay",
+                    "values": [
+                     {
+                      "key": "kzu",
+                      "value": 50
+                     }
+                    ],
+                    "value": 50
+                   },
+                   {
+                    "key": " Sarmi",
+                    "values": [
+                     {
+                      "key": "auq",
+                      "value": 320
+                     }
+                    ],
+                    "value": 320
+                   }
+                  ],
+                  "value": 370
+                 }
+                ],
+                "value": 370
+               }
+              ],
+              "value": 370
+             },
+             {
+              "key": " Central-Eastern Oceanic",
+              "values": [
+               {
+                "key": " Remote Oceanic",
+                "values": [
+                 {
+                  "key": " Micronesian",
+                  "values": [
+                   {
+                    "key": " Micronesian Proper",
+                    "values": [
+                     {
+                      "key": " Pohnpeic-Chuukic",
+                      "values": [
+                       {
+                        "key": " Chuukic",
+                        "values": [
+                         {
+                          "key": "mpy",
+                          "value": 1
+                         }
+                        ],
+                        "value": 1
+                       }
+                      ],
+                      "value": 1
+                     }
+                    ],
+                    "value": 1
+                   }
+                  ],
+                  "value": 1
+                 }
+                ],
+                "value": 1
+               }
+              ],
+              "value": 1
+             }
+            ],
+            "value": 371
+           }
+          ],
+          "value": 96722
+         }
+        ],
+        "value": 535400
+       },
+       {
+        "key": " Malayo-Chamic",
+        "values": [
+         {
+          "key": " Malayic",
+          "values": [
+           {
+            "key": " Malay",
+            "values": [
+             {
+              "key": "mfb",
+              "value": 340000
+             }
+            ],
+            "value": 340000
+           },
+           {
+            "key": " Ibanic",
+            "values": [
+             {
+              "key": "iba",
+              "value": 1452000
+             }
+            ],
+            "value": 1452000
+           }
+          ],
+          "value": 1792000
+         },
+         {
+          "key": " Chamic",
+          "values": [
+           {
+            "key": " Acehnese",
+            "values": [
+             {
+              "key": "ace",
+              "value": 3500000
+             }
+            ],
+            "value": 3500000
+           }
+          ],
+          "value": 3500000
+         }
+        ],
+        "value": 5292000
+       },
+       {
+        "key": " Greater Barito",
+        "values": [
+         {
+          "key": " West",
+          "values": [
+           {
+            "key": " South",
+            "values": [
+             {
+              "key": "bkr",
+              "value": 100000
+             }
+            ],
+            "value": 100000
+           },
+           {
+            "key": " North",
+            "values": [
+             {
+              "key": "kkx",
+              "value": 8000
+             }
+            ],
+            "value": 8000
+           }
+          ],
+          "value": 108000
+         },
+         {
+          "key": " East",
+          "values": [
+           {
+            "key": " Central-South",
+            "values": [
+             {
+              "key": " Central",
+              "values": [
+               {
+                "key": "dun",
+                "value": 20000
+               }
+              ],
+              "value": 20000
+             },
+             {
+              "key": " South",
+              "values": [
+               {
+                "key": "duq",
+                "value": 4500
+               }
+              ],
+              "value": 4500
+             }
+            ],
+            "value": 24500
+           },
+           {
+            "key": " North",
+            "values": [
+             {
+              "key": "lbx",
+              "value": 100000
+             }
+            ],
+            "value": 100000
+           }
+          ],
+          "value": 124500
+         },
+         {
+          "key": " Barito-Mahakam",
+          "values": [
+           {
+            "key": "apg",
+            "value": 30000
+           }
+          ],
+          "value": 30000
+         },
+         {
+          "key": " Sama-Bajaw",
+          "values": [
+           {
+            "key": " Sulu-Borneo",
+            "values": [
+             {
+              "key": " Borneo Coast Bajaw",
+              "values": [
+               {
+                "key": "bdl",
+                "value": 150000
+               }
+              ],
+              "value": 150000
+             }
+            ],
+            "value": 150000
+           }
+          ],
+          "value": 150000
+         }
+        ],
+        "value": 412500
+       }
+      ],
+      "value": 105995040
+     }
+    ],
+    "value": 105995040
+   },
+   {
+    "key": "East Bird\u2019s Head-Sentani",
+    "values": [
+     {
+      "key": " Sentani",
+      "values": [
+       {
+        "key": " Sentani Proper",
+        "values": [
+         {
+          "key": "nxx",
+          "value": 1630
+         }
+        ],
+        "value": 1630
+       },
+       {
+        "key": " Demta",
+        "values": [
+         {
+          "key": "dmy",
+          "value": 1300
+         }
+        ],
+        "value": 1300
+       }
+      ],
+      "value": 2930
+     },
+     {
+      "key": " East Bird\u2019s Head",
+      "values": [
+       {
+        "key": " Meax",
+        "values": [
+         {
+          "key": "mej",
+          "value": 14800
+         }
+        ],
+        "value": 14800
+       },
+       {
+        "key": " Mantion",
+        "values": [
+         {
+          "key": "mnx",
+          "value": 12000
+         }
+        ],
+        "value": 12000
+       }
+      ],
+      "value": 26800
+     },
+     {
+      "key": " Burmeso",
+      "values": [
+       {
+        "key": "bzu",
+        "value": 250
+       }
+      ],
+      "value": 250
+     }
+    ],
+    "value": 29980
+   },
+   {
+    "key": "Somahai",
+    "values": [
+     {
+      "key": "mmb",
+      "value": 200
+     }
+    ],
+    "value": 200
+   },
+   {
+    "key": "Language isolate",
+    "values": [
+     {
+      "key": "bsa",
+      "value": 300
+     }
+    ],
+    "value": 300
+   },
+   {
+    "key": "Lakes Plain",
+    "values": [
+     {
+      "key": " Tariku",
+      "values": [
+       {
+        "key": " West",
+        "values": [
+         {
+          "key": "fau",
+          "value": 1400
+         }
+        ],
+        "value": 1400
+       },
+       {
+        "key": " East",
+        "values": [
+         {
+          "key": "bqq",
+          "value": 250
+         }
+        ],
+        "value": 250
+       },
+       {
+        "key": " Central",
+        "values": [
+         {
+          "key": "dbf",
+          "value": 1500
+         }
+        ],
+        "value": 1500
+       },
+       {
+        "key": " Duvle",
+        "values": [
+         {
+          "key": "duv",
+          "value": 930
+         }
+        ],
+        "value": 930
+       }
+      ],
+      "value": 4080
+     },
+     {
+      "key": " East",
+      "values": [
+       {
+        "key": "tbp",
+        "value": 300
+       }
+      ],
+      "value": 300
+     },
+     {
+      "key": " Awera",
+      "values": [
+       {
+        "key": "awr",
+        "value": 70
+       }
+      ],
+      "value": 70
+     },
+     {
+      "key": " Rasawa-Saponi",
+      "values": [
+       {
+        "key": "rac",
+        "value": 200
+       }
+      ],
+      "value": 200
+     }
+    ],
+    "value": 4650
+   },
+   {
+    "key": "Unclassified",
+    "values": [
+     {
+      "key": "eno",
+      "value": 1500
+     }
+    ],
+    "value": 1500
+   },
+   {
+    "key": "East Geelvink Bay",
+    "values": [
+     {
+      "key": "bpo",
+      "value": 2000
+     }
+    ],
+    "value": 2000
+   },
+   {
+    "key": "South-Central Papuan",
+    "values": [
+     {
+      "key": " Morehead-Upper Maro",
+      "values": [
+       {
+        "key": " Tonda",
+        "values": [
+         {
+          "key": "khd",
+          "value": 10
+         }
+        ],
+        "value": 10
+       },
+       {
+        "key": " Yey",
+        "values": [
+         {
+          "key": "jei",
+          "value": 2390
+         }
+        ],
+        "value": 2390
+       }
+      ],
+      "value": 2400
+     },
+     {
+      "key": " Yelmek-Maklew",
+      "values": [
+       {
+        "key": "mgf",
+        "value": 120
+       }
+      ],
+      "value": 120
+     }
+    ],
+    "value": 2520
+   },
+   {
+    "key": "Trans-New Guinea",
+    "values": [
+     {
+      "key": " Asmat-Kamoro",
+      "values": [
+       {
+        "key": " Asmat",
+        "values": [
+         {
+          "key": "asc",
+          "value": 9000
+         }
+        ],
+        "value": 9000
+       },
+       {
+        "key": " Diuwe",
+        "values": [
+         {
+          "key": "diy",
+          "value": 100
+         }
+        ],
+        "value": 100
+       },
+       {
+        "key": " Sabakor",
+        "values": [
+         {
+          "key": "asi",
+          "value": 1000
+         }
+        ],
+        "value": 1000
+       },
+       {
+        "key": " Kamoro",
+        "values": [
+         {
+          "key": "kgq",
+          "value": 8000
+         }
+        ],
+        "value": 8000
+       },
+       {
+        "key": " Sempan",
+        "values": [
+         {
+          "key": "xse",
+          "value": 1000
+         }
+        ],
+        "value": 1000
+       }
+      ],
+      "value": 19100
+     },
+     {
+      "key": " Kayagar",
+      "values": [
+       {
+        "key": "aqm",
+        "value": 1000
+       }
+      ],
+      "value": 1000
+     },
+     {
+      "key": " West",
+      "values": [
+       {
+        "key": " Dani",
+        "values": [
+         {
+          "key": " Wano",
+          "values": [
+           {
+            "key": "wno",
+            "value": 1000
+           }
+          ],
+          "value": 1000
+         },
+         {
+          "key": " Dani Proper",
+          "values": [
+           {
+            "key": "dni",
+            "value": 20000
+           }
+          ],
+          "value": 20000
+         },
+         {
+          "key": " Ngalik",
+          "values": [
+           {
+            "key": "ndx",
+            "value": 10000
+           }
+          ],
+          "value": 10000
+         }
+        ],
+        "value": 31000
+       },
+       {
+        "key": " Wissel Lakes",
+        "values": [
+         {
+          "key": "auu",
+          "value": 350
+         }
+        ],
+        "value": 350
+       },
+       {
+        "key": " West Bomberai",
+        "values": [
+         {
+          "key": " Karas",
+          "values": [
+           {
+            "key": "kgv",
+            "value": 240
+           }
+          ],
+          "value": 240
+         },
+         {
+          "key": " West Bomberai Proper",
+          "values": [
+           {
+            "key": "bdw",
+            "value": 1100
+           }
+          ],
+          "value": 1100
+         }
+        ],
+        "value": 1340
+       },
+       {
+        "key": " Timor-Alor-Pantar",
+        "values": [
+         {
+          "key": " Tanglapui",
+          "values": [
+           {
+            "key": "tpg",
+            "value": 5000
+           }
+          ],
+          "value": 5000
+         },
+         {
+          "key": " Timor",
+          "values": [
+           {
+            "key": "bfn",
+            "value": 55000
+           }
+          ],
+          "value": 55000
+         },
+         {
+          "key": " Alor-Pantar",
+          "values": [
+           {
+            "key": " Alor",
+            "values": [
+             {
+              "key": "abz",
+              "value": 16000
+             }
+            ],
+            "value": 16000
+           },
+           {
+            "key": " Pantar",
+            "values": [
+             {
+              "key": "beu",
+              "value": 11000
+             }
+            ],
+            "value": 11000
+           }
+          ],
+          "value": 27000
+         }
+        ],
+        "value": 87000
+       }
+      ],
+      "value": 119690
+     },
+     {
+      "key": " Mek",
+      "values": [
+       {
+        "key": " Eastern",
+        "values": [
+         {
+          "key": "kpq",
+          "value": 8000
+         }
+        ],
+        "value": 8000
+       },
+       {
+        "key": " Western",
+        "values": [
+         {
+          "key": "xte",
+          "value": 9970
+         }
+        ],
+        "value": 9970
+       }
+      ],
+      "value": 17970
+     },
+     {
+      "key": " Kolopom",
+      "values": [
+       {
+        "key": "kig",
+        "value": 3000
+       }
+      ],
+      "value": 3000
+     },
+     {
+      "key": " Mombum",
+      "values": [
+       {
+        "key": "kdw",
+        "value": 1200
+       }
+      ],
+      "value": 1200
+     },
+     {
+      "key": " Ok-Awyu",
+      "values": [
+       {
+        "key": " Awyu-Dumut",
+        "values": [
+         {
+          "key": " Sawi",
+          "values": [
+           {
+            "key": "saw",
+            "value": 3500
+           }
+          ],
+          "value": 3500
+         },
+         {
+          "key": " Dumut",
+          "values": [
+           {
+            "key": "ktt",
+            "value": 900
+           }
+          ],
+          "value": 900
+         },
+         {
+          "key": " Korowai",
+          "values": [
+           {
+            "key": "khe",
+            "value": 3500
+           }
+          ],
+          "value": 3500
+         },
+         {
+          "key": " Awyu",
+          "values": [
+           {
+            "key": "ahh",
+            "value": 3000
+           }
+          ],
+          "value": 3000
+         }
+        ],
+        "value": 10900
+       },
+       {
+        "key": " Ok",
+        "values": [
+         {
+          "key": " Mountain",
+          "values": [
+           {
+            "key": "nkj",
+            "value": 700
+           }
+          ],
+          "value": 700
+         },
+         {
+          "key": " Lowland",
+          "values": [
+           {
+            "key": "iwo",
+            "value": 6900
+           }
+          ],
+          "value": 6900
+         },
+         {
+          "key": " Western",
+          "values": [
+           {
+            "key": "aip",
+            "value": 40
+           }
+          ],
+          "value": 40
+         },
+         {
+          "key": " Tangko",
+          "values": [
+           {
+            "key": "tkx",
+            "value": 100
+           }
+          ],
+          "value": 100
+         },
+         {
+          "key": " Ngalum",
+          "values": [
+           {
+            "key": "kzv",
+            "value": 300
+           }
+          ],
+          "value": 300
+         }
+        ],
+        "value": 8040
+       }
+      ],
+      "value": 18940
+     },
+     {
+      "key": " Marind",
+      "values": [
+       {
+        "key": " Nuclear Marind",
+        "values": [
+         {
+          "key": "mrz",
+          "value": 7000
+         }
+        ],
+        "value": 7000
+       },
+       {
+        "key": " Yaqay",
+        "values": [
+         {
+          "key": "bgv",
+          "value": 300
+         }
+        ],
+        "value": 300
+       }
+      ],
+      "value": 7300
+     },
+     {
+      "key": " Moraori",
+      "values": [
+       {
+        "key": "mok",
+        "value": 50
+       }
+      ],
+      "value": 50
+     },
+     {
+      "key": " Dem",
+      "values": [
+       {
+        "key": "dem",
+        "value": 1000
+       }
+      ],
+      "value": 1000
+     },
+     {
+      "key": " Mor",
+      "values": [
+       {
+        "key": "moq",
+        "value": 30
+       }
+      ],
+      "value": 30
+     },
+     {
+      "key": " Damal",
+      "values": [
+       {
+        "key": "uhn",
+        "value": 14000
+       }
+      ],
+      "value": 14000
+     },
+     {
+      "key": " South Bird\u2019s Head",
+      "values": [
+       {
+        "key": " Inanwatan",
+        "values": [
+         {
+          "key": "dbn",
+          "value": 30
+         }
+        ],
+        "value": 30
+       },
+       {
+        "key": " South Bird\u2019s Head Proper",
+        "values": [
+         {
+          "key": " Eastern",
+          "values": [
+           {
+            "key": "jbj",
+            "value": 1000
+           }
+          ],
+          "value": 1000
+         },
+         {
+          "key": " Western",
+          "values": [
+           {
+            "key": "uka",
+            "value": 600
+           }
+          ],
+          "value": 600
+         },
+         {
+          "key": " Central",
+          "values": [
+           {
+            "key": "xod",
+            "value": 3700
+           }
+          ],
+          "value": 3700
+         }
+        ],
+        "value": 5300
+       },
+       {
+        "key": " Konda-Yahadian",
+        "values": [
+         {
+          "key": "knd",
+          "value": 500
+         }
+        ],
+        "value": 500
+       }
+      ],
+      "value": 5830
+     },
+     {
+      "key": " Tanah Merah",
+      "values": [
+       {
+        "key": "tcm",
+        "value": 500
+       }
+      ],
+      "value": 500
+     }
+    ],
+    "value": 209610
+   },
+   {
+    "key": "Mairasi",
+    "values": [
+     {
+      "key": "zrs",
+      "value": 3300
+     }
+    ],
+    "value": 3300
+   },
+   {
+    "key": "Creole",
+    "values": [
+     {
+      "key": " Portuguese based",
+      "values": [
+       {
+        "key": "tmg",
+        "value": 1
+       }
+      ],
+      "value": 1
+     },
+     {
+      "key": " Malay based",
+      "values": [
+       {
+        "key": "bew",
+        "value": 5000000
+       }
+      ],
+      "value": 5000000
+     },
+     {
+      "key": " Dutch based",
+      "values": [
+       {
+        "key": "jvd",
+        "value": 1
+       }
+      ],
+      "value": 1
+     }
+    ],
+    "value": 5000002
+   },
+   {
+    "key": "Tor-Kwerba",
+    "values": [
+     {
+      "key": " Orya-Tor",
+      "values": [
+       {
+        "key": " Orya",
+        "values": [
+         {
+          "key": "ury",
+          "value": 1600
+         }
+        ],
+        "value": 1600
+       },
+       {
+        "key": " Sause",
+        "values": [
+         {
+          "key": "sao",
+          "value": 250
+         }
+        ],
+        "value": 250
+       },
+       {
+        "key": " Tor",
+        "values": [
+         {
+          "key": "bnv",
+          "value": 200
+         }
+        ],
+        "value": 200
+       }
+      ],
+      "value": 2050
+     },
+     {
+      "key": " Greater Kwerba",
+      "values": [
+       {
+        "key": " Isirawa",
+        "values": [
+         {
+          "key": "srl",
+          "value": 1800
+         }
+        ],
+        "value": 1800
+       },
+       {
+        "key": " Kwerba",
+        "values": [
+         {
+          "key": " West Coast",
+          "values": [
+           {
+            "key": "air",
+            "value": 1000
+           }
+          ],
+          "value": 1000
+         },
+         {
+          "key": " Nuclear",
+          "values": [
+           {
+            "key": "bqb",
+            "value": 300
+           }
+          ],
+          "value": 300
+         }
+        ],
+        "value": 1300
+       },
+       {
+        "key": " Mawes",
+        "values": [
+         {
+          "key": "mgk",
+          "value": 850
+         }
+        ],
+        "value": 850
+       }
+      ],
+      "value": 3950
+     }
+    ],
+    "value": 6000
+   },
+   {
+    "key": "Bayono-Awbono",
+    "values": [
+     {
+      "key": "awh",
+      "value": 100
+     }
+    ],
+    "value": 100
+   },
+   {
+    "key": "Maybrat",
+    "values": [
+     {
+      "key": "kgw",
+      "value": 5000
+     }
+    ],
+    "value": 5000
+   },
+   {
+    "key": "Nimboran",
+    "values": [
+     {
+      "key": "grs",
+      "value": 2500
+     }
+    ],
+    "value": 2500
+   },
+   {
+    "key": "Pauwasi",
+    "values": [
+     {
+      "key": " Eastern",
+      "values": [
+       {
+        "key": "enr",
+        "value": 2000
+       }
+      ],
+      "value": 2000
+     },
+     {
+      "key": " Western",
+      "values": [
+       {
+        "key": "dmu",
+        "value": 220
+       }
+      ],
+      "value": 220
+     }
+    ],
+    "value": 2220
+   },
+   {
+    "key": "Kaure",
+    "values": [
+     {
+      "key": " Kaure Proper",
+      "values": [
+       {
+        "key": "bpp",
+        "value": 450
+       }
+      ],
+      "value": 450
+     },
+     {
+      "key": " Kapore",
+      "values": [
+       {
+        "key": "khp",
+        "value": 200
+       }
+      ],
+      "value": 200
+     }
+    ],
+    "value": 650
+   },
+   {
+    "key": "Sign language",
+    "values": [
+     {
+      "key": "inl",
+      "value": 8000
+     }
+    ],
+    "value": 8000
+   },
+   {
+    "key": "Pidgin",
+    "values": [
+     {
+      "key": " Iha based",
+      "values": [
+       {
+        "key": "ihb",
+        "value": 1
+       }
+      ],
+      "value": 1
+     },
+     {
+      "key": " Onin based",
+      "values": [
+       {
+        "key": "onx",
+        "value": 1
+       }
+      ],
+      "value": 1
+     }
+    ],
+    "value": 2
+   },
+   {
+    "key": "Lower Mamberamo",
+    "values": [
+     {
+      "key": "wsa",
+      "value": 620
+     }
+    ],
+    "value": 620
+   },
+   {
+    "key": "Senagi",
+    "values": [
+     {
+      "key": "kbv",
+      "value": 1000
+     }
+    ],
+    "value": 1000
+   },
+   {
+    "key": "West Papuan",
+    "values": [
+     {
+      "key": " West Bird\u2019s Head",
+      "values": [
+       {
+        "key": "kzz",
+        "value": 3290
+       }
+      ],
+      "value": 3290
+     },
+     {
+      "key": " North Halmahera",
+      "values": [
+       {
+        "key": " Sahu",
+        "values": [
+         {
+          "key": "gak",
+          "value": 1500
+         }
+        ],
+        "value": 1500
+       },
+       {
+        "key": " Ternate-Tidore",
+        "values": [
+         {
+          "key": "tft",
+          "value": 62000
+         }
+        ],
+        "value": 62000
+       },
+       {
+        "key": " West Makian",
+        "values": [
+         {
+          "key": "mqs",
+          "value": 12000
+         }
+        ],
+        "value": 12000
+       },
+       {
+        "key": " Galela-Loloda",
+        "values": [
+         {
+          "key": "gbi",
+          "value": 79000
+         }
+        ],
+        "value": 79000
+       }
+      ],
+      "value": 154500
+     },
+     {
+      "key": " Yapen",
+      "values": [
+       {
+        "key": "swr",
+        "value": 300
+       }
+      ],
+      "value": 300
+     }
+    ],
+    "value": 158090
+   },
+   {
+    "key": "Sino-Tibetan",
+    "values": [
+     {
+      "key": " Chinese",
+      "values": [
+       {
+        "key": "hak",
+        "value": 43500000
+       }
+      ],
+      "value": 43500000
+     }
+    ],
+    "value": 43500000
+   },
+   {
+    "key": "Skou",
+    "values": [
+     {
+      "key": " Skou-Serra-Piore",
+      "values": [
+       {
+        "key": " Nuclear Skou",
+        "values": [
+         {
+          "key": " Skou",
+          "values": [
+           {
+            "key": "skv",
+            "value": 700
+           }
+          ],
+          "value": 700
+         }
+        ],
+        "value": 700
+       }
+      ],
+      "value": 700
+     }
+    ],
+    "value": 700
+   },
+   {
+    "key": "Border",
+    "values": [
+     {
+      "key": " Waris",
+      "values": [
+       {
+        "key": "jet",
+        "value": 500
+       }
+      ],
+      "value": 500
+     },
+     {
+      "key": " Taikat",
+      "values": [
+       {
+        "key": "auw",
+        "value": 350
+       }
+      ],
+      "value": 350
+     }
+    ],
+    "value": 850
+   }
+  ]
+ }
+]
