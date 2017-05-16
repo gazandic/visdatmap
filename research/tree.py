@@ -7,9 +7,14 @@ def makeTree(database, parent, depth):
     if len(likey) == 0:
         print(database)
     if "pop_numbers" in likey or "code" in likey:
+        print(database)
+        if not database["pop_numbers"]:
+            population = 0
+        else:
+            population = int(database['pop_numbers'])
         return [{
             'name' : database['code'],
-            'population' : int(database['pop_numbers']),
+            'population' : population,
             'childSum' : 1,
             'depth' : depth
         }]
@@ -43,6 +48,6 @@ with open('treebahasa.json') as json_data:
     data['parent'] = 'null'
     data['children'] = makeTree(database, parent, 0)
     finaldata.append(data)
-    with open('treebahasav2.json', 'w') as bahasajson:
-        # bahasajson.write('var languageTree = ')
+    with open('treebahasav2.js', 'w') as bahasajson:
+        bahasajson.write('var languageTree = ')
         json.dump(finaldata, bahasajson)

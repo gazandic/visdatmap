@@ -40,7 +40,9 @@ with open('bahasa.json') as json_data:
     database = json.load(json_data)
     for data in database:
         stri = data['classification']
+        stri2 = data['name']
         li = stri.split(",")
+        li.append(stri2)
         lis = []
         n = len(li) - 1
         before = ''

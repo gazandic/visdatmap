@@ -80,6 +80,7 @@ var map = L.map('map',{
           population += bahasa[liname[i]]['population'];
           location += bahasa[liname[i]]['location'];
           if (bahasa[liname[i]]['alt_name']){
+
             alt_name += bahasa[liname[i]]['alt_name']
           }
           if (bahasa[liname[i]]['autonym']){
@@ -94,8 +95,7 @@ var map = L.map('map',{
           if (bahasa[liname[i]]['status']){
             status += bahasa[liname[i]]['status']
           }
-
-          treeString = bahasa[liname[i]]['classification'];
+          treeString = bahasa[liname[i]]['classification']+','+bahasa[liname[i]]['name'];
         	updateTreeString(treeString);
           break;
         }

@@ -199,7 +199,8 @@
 			update(d);
 	  }
 		else if (d.children === undefined && d._children === undefined) {
-			s = d._name
+			s = d._name;
+			console.log(s);
 			// if (!s in bahasa) {
 			// 	s = d._name
 			// }
@@ -207,7 +208,7 @@
 				var name = indexReverse[s]['_id'];
 				searchControl.searchText(name);
 				searchControl._handleKeypress({ keyCode: 13 });
-				var treeString = bahasa[s]['classification'];
+				var treeString = bahasa[s]['classification']+','+bahasa[s]['name'];
 				updateTreeString(treeString);
 				searchControl.searchText("");
 			}
