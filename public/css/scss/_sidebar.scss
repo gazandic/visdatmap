@@ -129,7 +129,7 @@ body {
           }
 
           i{
-            @include heading-color($h6, $hthin, #000);
+            @include heading-color($h6, $hthin, #bbb);
           }
         }
       }

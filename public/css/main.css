@@ -1928,7 +1928,7 @@ hr {
   right: 0;
   width: 300px;
   height: 300px;
-  background: #29d;
+  background: #333333;
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   -webkit-transform: translateX(100%) translateY(-100%) rotate(45deg);
@@ -2277,7 +2277,7 @@ body {
           .sidebar__top__button .sidebar__icon#treebtn i, .sidebar__top__button .sidebar__icon#searchbtn i {
             font-size: 16px;
             font-weight: 300;
-            color: #000;
+            color: #bbb;
             margin: 0; }
   .sidebar__search {
     display: none;
@@ -2424,7 +2424,7 @@ body {
 .logo {
   font-size: 18px;
   font-weight: 300;
-  color: #FB8E28;
+  color: #333333;
   margin: 0;
   position: absolute;
   top: 0;
@@ -2433,7 +2433,7 @@ body {
   margin-left: 10px;
   padding: 1px 10px 4px 10px;
   z-index: 10;
-  background-color: #FFFFFF;
+  background-color: #333333;
   opacity: 0.9;
   border-radius: 3px;
   -webkit-text-fill-color: transparent;
@@ -2605,7 +2605,7 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #333;
     margin: 0; }
 
 .leaflet-map-pane {
