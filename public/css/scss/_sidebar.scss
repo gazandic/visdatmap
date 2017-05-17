@@ -268,15 +268,39 @@ body {
     }
 
     &__text{
-      padding-top: $sidebar-content-head-padding-top;
-      padding-left: $sidebar-content-head-padding-left;
-      padding-right: $sidebar-content-head-padding-left;
-      padding-bottom: $sidebar-content-head-padding-top;
+      padding: 0 10px;
+      border-top: 1px solid #F5F5F5;
+      text-align: right;
 
       @include heading-color($h8, $hreg, #999);
 
       i{
         font-size: 18px;
+      }
+
+      &__left{
+        display: inline-block;
+        padding: 8px;
+        padding-bottom: 9px;
+        font-size: 9px;
+        float: left;
+        border-radius: 5px;
+        background-color: #F5F5F5;
+        margin-top: 4px;
+
+        i{
+          padding: 10px;
+
+          &:hover{
+            cursor: pointer;
+            background-color: #F5F5F5;
+          }
+        }
+      }
+
+      &__right{
+        padding: 10px 0;
+        display: inline-block;
       }
     }
   }

@@ -46,8 +46,15 @@ var map = L.map('map',{
     return this._div;
   };
   var treeString = ""
+  var props;
+  var countprops = 0;
+  var savetarget;
   info.onclick = function(target){
-    var props = target.feature.properties;
+    if (props==target.feature.properties){
+      countprops++;
+    }
+    props = target.feature.properties;
+    savetarget = target;
 
     target.setStyle({
       weight: 5,
@@ -77,24 +84,25 @@ var map = L.map('map',{
         status = '';
         classification = '';
         for (var i in liname) {
-          name += bahasa[liname[i]]['name'];
-          population += bahasa[liname[i]]['population'];
-          location += bahasa[liname[i]]['location'];
+          countprops = countprops%liname.length;
+          i = countprops;
+          name = bahasa[liname[i]]['name'];
+          population = bahasa[liname[i]]['population'];
+          location = bahasa[liname[i]]['location'];
           if (bahasa[liname[i]]['alt_name']){
-
-            alt_name += bahasa[liname[i]]['alt_name']
+            alt_name = bahasa[liname[i]]['alt_name']
           }
           if (bahasa[liname[i]]['dialects']){
-            dialects += bahasa[liname[i]]['dialects']
+            dialects = bahasa[liname[i]]['dialects']
           }
           if (bahasa[liname[i]]['writing']){
-            writing += bahasa[liname[i]]['writing']
+            writing = bahasa[liname[i]]['writing']
           }
           if (bahasa[liname[i]]['status']){
-            status += bahasa[liname[i]]['status']
+            status = bahasa[liname[i]]['status']
           }
           if (bahasa[liname[i]]['classification']){
-            classification += bahasa[liname[i]]['classification']
+            classification = bahasa[liname[i]]['classification']
           }
           treeString = bahasa[liname[i]]['classification']+','+bahasa[liname[i]]['name'];
         	updateTreeString(treeString);
@@ -109,6 +117,12 @@ var map = L.map('map',{
     $('#homebar').find('.sidebar__content__subtitle__writing').html('<i class="material-icons">create &nbsp</i>'+writing);
     $('#homebar').find('.sidebar__content__subtitle__classification').html('<i class="material-icons">timeline &nbsp</i>'+classification);
     $('.sidebar__content__head__title3').css('background-color',$('.tooltip__info__population').css('background-color')).html(status);
+    if(liname.length>1){
+      $('.sidebar__content__text__right').html('Languages '+(countprops+1)+'/'+(liname.length));
+      $('.sidebar__content__text').show();
+    }else{
+      $('.sidebar__content__text').hide();
+    }
     if($('.sidebar__content').hasClass('hide')){
       toggleBar();
     }

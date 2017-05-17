@@ -2307,16 +2307,32 @@ body {
         display: flex;
         align-items: flex-start; }
     .sidebar__content__text {
-      padding-top: 18px;
-      padding-left: 18px;
-      padding-right: 18px;
-      padding-bottom: 18px;
+      padding: 0 10px;
+      border-top: 1px solid #F5F5F5;
+      text-align: right;
       font-size: 12px;
       font-weight: 400;
       color: #999;
       margin: 0; }
       .sidebar__content__text i {
         font-size: 18px; }
+      .sidebar__content__text__left {
+        display: inline-block;
+        padding: 8px;
+        padding-bottom: 9px;
+        font-size: 9px;
+        float: left;
+        border-radius: 5px;
+        background-color: #F5F5F5;
+        margin-top: 4px; }
+        .sidebar__content__text__left i {
+          padding: 10px; }
+          .sidebar__content__text__left i:hover {
+            cursor: pointer;
+            background-color: #F5F5F5; }
+      .sidebar__content__text__right {
+        padding: 10px 0;
+        display: inline-block; }
   .sidebar__closebar {
     position: relative;
     width: 100%;
