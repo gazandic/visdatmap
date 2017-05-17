@@ -2806,8 +2806,15 @@ body {
     opacity: 0.95;
     display: none;
     padding-bottom: 10px; }
+    .sidebar__content.legend .col-md-4 {
+      font-size: 12px;
+      font-weight: 400;
+      color: #333333;
+      margin: 0; }
     .sidebar__content.active {
       display: block; }
+    .sidebar__content .legendpng {
+      width: 100%; }
     .sidebar__content__head {
       padding-top: 18px;
       padding-left: 18px;
@@ -2848,7 +2855,7 @@ body {
         padding: 5px 0;
         display: flex;
         align-items: flex-start; }
-    .sidebar__content__text {
+    .sidebar__content__text, .sidebar__content__text__settings {
       padding: 0 10px;
       border-top: 1px solid #F5F5F5;
       text-align: right;
@@ -2856,9 +2863,11 @@ body {
       font-weight: 400;
       color: #999;
       margin: 0; }
-      .sidebar__content__text i {
+      .sidebar__content__text i, .sidebar__content__text__settings i {
         font-size: 18px; }
-      .sidebar__content__text__left {
+      .sidebar__content__text p, .sidebar__content__text__settings p {
+        text-align: left; }
+      .sidebar__content__text__left, .sidebar__content__text__settings__left {
         display: inline-block;
         padding: 8px;
         padding-bottom: 9px;
@@ -2867,12 +2876,12 @@ body {
         border-radius: 5px;
         background-color: #F5F5F5;
         margin-top: 4px; }
-        .sidebar__content__text__left i {
+        .sidebar__content__text__left i, .sidebar__content__text__settings__left i {
           padding: 10px; }
-          .sidebar__content__text__left i:hover {
+          .sidebar__content__text__left i:hover, .sidebar__content__text__settings__left i:hover {
             cursor: pointer;
             background-color: #F5F5F5; }
-      .sidebar__content__text__right {
+      .sidebar__content__text__right, .sidebar__content__text__settings__right {
         padding: 10px 0;
         display: inline-block; }
   .sidebar__closebar {

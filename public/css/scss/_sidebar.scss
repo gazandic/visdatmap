@@ -235,8 +235,19 @@ body {
     display: none;
     padding-bottom: 10px;
 
+    &.legend{
+
+      .col-md-4{
+        @include heading-dark($h8, $hreg);
+      }
+    }
+
     &.active{
       display: block;
+    }
+
+    .legendpng{
+      width: 100%;
     }
 
     &__head{
@@ -283,7 +294,7 @@ body {
       }
     }
 
-    &__text{
+    &__text, &__text__settings{
       padding: 0 10px;
       border-top: 1px solid #F5F5F5;
       text-align: right;
@@ -292,6 +303,10 @@ body {
 
       i{
         font-size: 18px;
+      }
+
+      p{
+        text-align: left;
       }
 
       &__left{
