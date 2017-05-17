@@ -235,13 +235,6 @@ body {
     display: none;
     padding-bottom: 10px;
 
-    &.legend{
-
-      .col-md-4{
-        @include heading-dark($h8, $hreg);
-      }
-    }
-
     &.active{
       display: block;
     }
@@ -282,6 +275,10 @@ body {
       padding-right: $sidebar-content-head-padding-left;
 
       @include heading-color($h8, $hreg, #333);
+
+      span{
+        font-weight: $hbold;
+      }
 
       i{
         font-size: 18px;

@@ -2806,11 +2806,6 @@ body {
     opacity: 0.95;
     display: none;
     padding-bottom: 10px; }
-    .sidebar__content.legend .col-md-4 {
-      font-size: 12px;
-      font-weight: 400;
-      color: #333333;
-      margin: 0; }
     .sidebar__content.active {
       display: block; }
     .sidebar__content .legendpng {
@@ -2849,6 +2844,8 @@ body {
       font-weight: 400;
       color: #333;
       margin: 0; }
+      .sidebar__content__subtitle span {
+        font-weight: 700; }
       .sidebar__content__subtitle i {
         font-size: 18px; }
       .sidebar__content__subtitle div {

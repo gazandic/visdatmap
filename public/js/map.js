@@ -112,11 +112,11 @@ var map = L.map('map',{
     }
     $('#homebar').find('.sidebar__content__head__title').html('Bahasa '+name);
     $('#homebar').find('.sidebar__content__head__title2').html(alt_name);
-    $('#homebar').find('.sidebar__content__subtitle__population').html('<i class="material-icons">person &nbsp</i>'+population);
-    $('#homebar').find('.sidebar__content__subtitle__location').html('<i class="material-icons">location_on &nbsp</i>'+location);
-    $('#homebar').find('.sidebar__content__subtitle__writing').html('<i class="material-icons">create &nbsp</i>'+writing);
-    $('#homebar').find('.sidebar__content__subtitle__classification').html('<i class="material-icons">timeline &nbsp</i>'+classification);
-    $('.sidebar__content__head__title3').css('background-color',$('.tooltip__info__population').css('background-color')).html(status);
+    $('#homebar').find('.sidebar__content__subtitle__population').html('<i class="material-icons">person &nbsp</i>Population: '+population);
+    $('#homebar').find('.sidebar__content__subtitle__location').html('<i class="material-icons">location_on &nbsp</i>Location: '+location);
+    $('#homebar').find('.sidebar__content__subtitle__writing').html('<i class="material-icons">create &nbsp</i>Writing: '+writing);
+    $('#homebar').find('.sidebar__content__subtitle__classification').html('<i class="material-icons">timeline &nbsp</i>Classification: '+classification);
+    $('.sidebar__content__head__title3').css('background-color',$('.tooltip__info__population').css('background-color')).html('Status: '+status);
     if(liname.length>1){
       $('.sidebar__content__text__right').html('Languages '+(countprops+1)+'/'+(liname.length));
       $('.sidebar__content__text').show();
