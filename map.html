@@ -127,13 +127,13 @@
     <h1 class="tree__title">Language Tree</h1>
     <div id="tree-container" class="tree__container"></div>
   </div>
-  <h1 class="logo"> Peta<span>Bahasa</span></h1>
-  <div class="sidebar">
+  <h1 class="logo" data-intro='Hello, Peta Bahasa merupakan peta interaktif yang dapat kamu gunakan dalam mengeksplorasi bahasa-bahasa daerah yang ada di Indonesia.'> Peta<span>Bahasa</span></h1>
+  <div class="sidebar" data-intro="Ini adalah sidebar. <br> Sidebar digunakan sebagai kontrol navigasi kamu di dalam web.">
     <div class="sidebar__top">
       <div class="sidebar__top__button">
         <div id="homebtn" class="sidebar__icon close">
           <div class="sidebar__icon__inner active">
-            <i class="material-icons">details</i>
+            <i class="material-icons" data-intro='Details<br>Merupakan bar untuk melihat detail suatu bahasa. Klik wilayah di dalam peta untuk dapat melihat detail suatu bahasa dalam suatu wilayah.'>details</i>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@
       <div class="sidebar__top__button">
         <div id="setbtn" class="sidebar__icon close">
           <div class="sidebar__icon__inner">
-            <i class="material-icons">settings</i>
+            <i class="material-icons" data-intro='Settings<br>Merupakan bar yang dapat kamu gunakan untuk mengatur beberapa konfigurasi di dalam peta.'>settings</i>
           </div>
         </div>
       </div>
@@ -155,14 +155,14 @@
       <div class="sidebar__top__button">
         <div id="treebtn" class="sidebar__icon">
           <div class="sidebar__icon__inner">
-            <i class="material-icons">timeline</i>
+            <i class="material-icons" data-intro='Language Tree<br>Merupakan toggle untuk membuka halaman language tree dimana kamu dapat melihat turunan atau nenek moyang dari suatu bahasa.'>timeline</i>
           </div>
         </div>
       </div>
       <div class="sidebar__top__button">
         <div id="searchbtn" class="sidebar__icon">
           <div class="sidebar__icon__inner">
-            <i class="material-icons">search</i>
+            <i class="material-icons" data-intro='Search<br>Kamu dapat melakukan pencarian nama suatu bahasa disini.'>search</i>
           </div>
         </div>
       </div>
@@ -214,6 +214,9 @@
       <div class="sidebar__content__text">
         <p>Show map label <input id="setCityLabel" class="checkbox checkbox--right" type="checkbox"></p>
         <p>Show tooltip <input id="setTooltip" class="checkbox checkbox--right" type="checkbox" checked></p>
+        <div id='setTutorial' class="btn">
+          Show Tutorial
+        </div>
       </div>
     </div>
     <div id="setMinSidebar" class="sidebar__closebar sidebar__minbtn">
@@ -243,6 +246,7 @@
   <script type="text/javascript" src="js/anime.min.js"></script>
   <script type="text/javascript" src="js/ui.js"></script>
   <script type="text/javascript" src="js/map.js"></script>
+  <script type="text/javascript" src="js/intro.js"></script>
   <script>
   var treeJson;
   $.getJSON("js/treebahasa.json", function(json) {

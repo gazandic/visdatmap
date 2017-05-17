@@ -18,6 +18,21 @@ body {
   margin: 15px 0;
 }
 
+.btn{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: $indigo;
+  color: $white;
+  border: 1px solid $indigo;
+
+  &:hover{
+  cursor: pointer;
+    background-color: $white;
+    color: $indigo;
+  }
+}
+
 .sidebar{
   position: absolute;
   right: 0;
@@ -218,6 +233,7 @@ body {
     border-top: 1px solid #F5F5F5;
     opacity: 0.95;
     display: none;
+    padding-bottom: 10px;
 
     &.active{
       display: block;

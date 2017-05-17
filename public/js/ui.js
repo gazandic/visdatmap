@@ -139,3 +139,7 @@ $('#setTooltip').click(function(){
     $('.sidebar__info__footer').show();
   }
 });
+
+$('#setTutorial').click(function(){
+  introJs().start();
+});
