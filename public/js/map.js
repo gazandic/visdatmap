@@ -273,7 +273,7 @@ var map = L.map('map',{
     onEachFeature: onEachFeature
   }).addTo(map);
 
-  map.attributionControl.addAttribution('From image data &copy; <a href="http://muturzikin.com/">Muturzikin</a>');
+  map.attributionControl.addAttribution('From image data &copy; <a href="http://muturzikin.com/">Muturzikin</a>, Language data &copy; <a href="https://www.ethnologue.com/"> Ethnologue</a> ');
 
   var searchControl = new L.Control.Search({
 		layer: geojson,
