@@ -273,7 +273,7 @@ var map = L.map('map',{
     onEachFeature: onEachFeature
   }).addTo(map);
 
-  map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
+  map.attributionControl.addAttribution('From image data &copy; <a href="http://muturzikin.com/">Muturzikin</a>');
 
   var searchControl = new L.Control.Search({
 		layer: geojson,
